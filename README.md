@@ -20,3 +20,6 @@ Cloudflare (Workers static assets), project `esim-compare`, live at https://esim
 - Build command: `python3 scripts/build.py`
 - Deploy command: `npx wrangler deploy` (reads `wrangler.jsonc`)
 - Only `public/` is served. Never point the assets directory at the repo root: that would publish `.git/` and the source files.
+
+## Weekly price check
+`.github/workflows/price-check.yml` runs every Monday (06:00 UTC) and can be started by hand from the repo's Actions tab. It runs `scripts/check_prices.py`, which looks for each plan's price on the provider's page. If something is missing or a page can't be read, it opens (or comments on) a GitHub issue labelled `price-check`. It never edits `plans.csv`: update the prices yourself and push. Prices that shops render with JavaScript (e.g. Airalo, AirHub) can't be read this way and are reported as "check by hand".
