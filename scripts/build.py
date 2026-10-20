@@ -61,10 +61,10 @@ def main():
         "providers": providers,
         "plans": rows,
     }
-    (ROOT / "data.json").write_text(
+    (ROOT / "public" / "data.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8"
     )
-    print(f"Wrote {len(rows)} plans to data.json")
+    print(f"Wrote {len(rows)} plans to public/data.json")
 
 
 if __name__ == "__main__":
