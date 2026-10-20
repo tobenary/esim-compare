@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>השוואת מחירי eSIM</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --text: #1a1d23; --muted: #667085; --line: #e3e6ec;
+    --accent: #0b6bcb; --accent-bg: #e6f0fb; --good: #0a7d3c; --good-bg: #e3f6ea; --warn-bg: #fff4d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12141a; --card: #1b1e26; --text: #eceef3; --muted: #9aa3b2; --line: #2c313c;
+      --accent: #5aa5f5; --accent-bg: #1e3350; --good: #4cd08a; --good-bg: #153424; --warn-bg: #3a3118;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 1.5rem; margin: 8px 0 4px; }
+  .sub { color: var(--muted); font-size: .9rem; margin-bottom: 12px; }
+  .banner { background: var(--warn-bg); border-radius: 10px; padding: 10px 14px; margin-bottom: 8px; font-size: .92rem; }
+  .coupon { display: inline-flex; gap: 8px; align-items: center; background: var(--card); border: 1px dashed var(--accent);
+    border-radius: 8px; padding: 2px 10px; font-family: ui-monospace, monospace; cursor: pointer; }
+  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 12px 0; }
+  .group { margin-bottom: 10px; }
+  .group h3 { font-size: .85rem; color: var(--muted); margin: 0 0 6px; font-weight: 600; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px;
+    padding: 5px 12px; font: inherit; font-size: .9rem; cursor: pointer; }
+  .chip .n { color: var(--muted); font-size: .8rem; margin-inline-start: 4px; }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip[aria-pressed="true"] .n { color: #dbe9fb; }
+  .chip.zero { opacity: .4; }
+  .row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
+  label.toggle { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; font-size: .92rem; }
+  select, input[type=range] { font: inherit; }
+  select { padding: 4px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
+  .bar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+  .reset { background: none; border: none; color: var(--accent); cursor: pointer; font: inherit; }
+  .list { display: grid; gap: 10px; }
+  .plan { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px;
+    display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; }
+  .plan .prov { font-weight: 700; }
+  .plan .spec { color: var(--muted); font-size: .92rem; }
+  .plan .price { text-align: end; }
+  .plan .eur { font-size: 1.35rem; font-weight: 700; }
+  .plan .orig { color: var(--muted); font-size: .8rem; }
+  .plan .meta { grid-column: 1 / -1; font-size: .88rem; }
+  .plan .note { color: var(--muted); }
+  .badge { display: inline-block; font-size: .75rem; padding: 1px 8px; border-radius: 999px; margin-inline-start: 6px;
+    background: var(--good-bg); color: var(--good); font-weight: 600; }
+  .plan a.buy { grid-column: 1 / -1; justify-self: start; color: var(--accent); text-decoration: none; font-size: .9rem; }
+  .plan a.buy:hover { text-decoration: underline; }
+  .empty { text-align: center; color: var(--muted); padding: 30px 0; }
+  .foot { color: var(--muted); font-size: .8rem; margin: 20px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>השוואת מחירי eSIM</h1>
+  <div class="sub" id="updated"></div>
+
+  <div id="coupons"></div>
+  <div class="banner">⚠️ אחרי רכישה בדקו שלא הופעל חידוש מנוי אוטומטי (subscription), ובטלו אותו במסך הפרופיל אם לא רוצים חידוש.</div>
+
+  <div class="panel" id="filters">
+    <div class="group"><h3>ימים</h3><div class="chips" id="f-days"></div></div>
+    <div class="group"><h3>נפח (GB)</h3><div class="chips" id="f-gb"></div></div>
+    <div class="group"><h3>ספק</h3><div class="chips" id="f-prov"></div></div>
+    <div class="group" id="g-region" hidden><h3>אזור</h3><div class="chips" id="f-region"></div></div>
+    <div class="row">
+      <label class="toggle"><input type="checkbox" id="unl" checked> כלול חבילות ללא הגבלה (ימים / נפח)</label>
+      <label class="toggle">מחיר מקסימלי: <b id="maxv"></b> €
+        <input type="range" id="max" min="0" max="100" step="1"></label>
+      <label class="toggle">מיון:
+        <select id="sort">
+          <option value="price">מחיר (הזול ראשון)</option>
+          <option value="perGb">מחיר לגיגה</option>
+          <option value="days">ימים (הרבה ראשון)</option>
+        </select></label>
+    </div>
+  </div>
+
+  <div class="bar"><div id="count"></div><button class="reset" id="reset">נקה סינון</button></div>
+  <div class="list" id="list"></div>
+  <div class="foot">חלק מהקישורים באתר הם קישורי שותפים (referral): אם תרכשו דרכם ייתכן שאקבל הטבה, ללא עלות נוספת עבורכם.<br>המחירים הומרו ליורו לפי שערים משוערים (<span id="rates"></span>). המחיר המקורי מופיע ליד כל חבילה. ייתכנו הבדלים בפועל — בדקו באתר הספק לפני הרכישה.</div>
+</div>
+
+<script>
+const GB_BUCKETS = [
+  { id: "le1", label: "עד 1", test: g => g <= 1 },
+  { id: "2-5", label: "2–5", test: g => g > 1 && g <= 5 },
+  { id: "6-10", label: "6–10", test: g => g > 5 && g <= 10 },
+  { id: "11-30", label: "11–30", test: g => g > 10 && g <= 30 },
+  { id: "31+", label: "31+", test: g => g > 30 },
+];
+const SYMBOL = { EUR: "€", USD: "$", ILS: "₪" };
+
+const state = { days: new Set(), gb: new Set(), prov: new Set(), region: new Set(), unl: true, max: null, sort: "price" };
+let plans = [], providers = {}, maxPrice = 100;
+
+const $ = id => document.getElementById(id);
+const el = (tag, props = {}, ...kids) => {
+  const n = Object.assign(document.createElement(tag), props);
+  kids.forEach(k => n.append(k));
+  return n;
+};
+
+// Days: value "u" = no-expiry / unlimited-validity plans. Data: unlimitedData plans.
+const dayKey = p => (p.unlimitedDays ? "u" : String(p.days));
+const gbBucket = p => (p.unlimitedData ? null : GB_BUCKETS.find(b => b.test(p.gb)).id);
+
+// A group matches when nothing is selected, or the plan's value is selected.
+// Unlimited plans always pass a group's filter when the toggle is on.
+function matches(p, skip) {
+  if (!state.unl && (p.unlimitedDays || p.unlimitedData)) return false;
+  if (skip !== "days" && state.days.size && !(state.unl && p.unlimitedDays) && !state.days.has(dayKey(p))) return false;
+  if (skip !== "gb" && state.gb.size && !(state.unl && p.unlimitedData) && !state.gb.has(gbBucket(p))) return false;
+  if (skip !== "prov" && state.prov.size && !state.prov.has(p.provider)) return false;
+  if (skip !== "region" && state.region.size && !state.region.has(p.region)) return false;
+  if (p.priceEur > state.max) return false;
+  return true;
+}
+
+function perGb(p) { return p.unlimitedData ? Infinity : p.priceEur / p.gb; }
+
+function renderChips(containerId, group, options, valueOf) {
+  const box = $(containerId);
+  box.replaceChildren();
+  const base = plans.filter(p => matches(p, group));
+  options.forEach(o => {
+    const n = base.filter(p => valueOf(p) === o.value).length;
+    const chip = el("button", { className: "chip" + (n ? "" : " zero"), type: "button" },
+      o.label, el("span", { className: "n", textContent: n }));
+    chip.setAttribute("aria-pressed", state[group].has(o.value));
+    chip.onclick = () => { toggle(state[group], o.value); update(); };
+    box.append(chip);
+  });
+}
+
+const toggle = (set, v) => (set.has(v) ? set.delete(v) : set.add(v));
+const uniq = arr => [...new Set(arr)];
+
+function update() {
+  const dayVals = uniq(plans.filter(p => !p.unlimitedDays).map(p => p.days)).sort((a, b) => a - b);
+  renderChips("f-days", "days",
+    [...dayVals.map(d => ({ value: String(d), label: d + " ימים" })), { value: "u", label: "ללא תפוגה" }], dayKey);
+  renderChips("f-gb", "gb", GB_BUCKETS.map(b => ({ value: b.id, label: b.label + " GB" })), gbBucket);
+  renderChips("f-prov", "prov", uniq(plans.map(p => p.provider)).map(v => ({ value: v, label: v })), p => p.provider);
+  const regions = uniq(plans.map(p => p.region));
+  $("g-region").hidden = regions.length < 2;
+  renderChips("f-region", "region", regions.map(v => ({ value: v, label: v })), p => p.region);
+
+  const out = plans.filter(p => matches(p));
+  const sorters = {
+    price: (a, b) => a.priceEur - b.priceEur,
+    perGb: (a, b) => perGb(a) - perGb(b) || a.priceEur - b.priceEur,
+    days: (a, b) => (b.days ?? 1e9) - (a.days ?? 1e9) || a.priceEur - b.priceEur,
+  };
+  out.sort(sorters[state.sort]);
+
+  const cheapest = Math.min(...out.map(p => p.priceEur));
+  const bestGb = Math.min(...out.map(perGb));
+  $("count").textContent = `${out.length} חבילות מתוך ${plans.length}`;
+  $("maxv").textContent = state.max;
+  const list = $("list");
+  list.replaceChildren();
+  if (!out.length) list.append(el("div", { className: "empty", textContent: "אין חבילות שמתאימות לסינון" }));
+  out.forEach(p => {
+    const spec = `${p.daysLabel}${p.unlimitedDays ? "" : " ימים"} · ${p.unlimitedData ? "גלישה ללא הגבלה" : p.gb + " GB"} · ${p.region}`;
+    const name = el("div", { className: "prov", textContent: p.provider });
+    if (p.priceEur === cheapest) name.append(el("span", { className: "badge", textContent: "הכי זול" }));
+    if (isFinite(bestGb) && perGb(p) === bestGb) name.append(el("span", { className: "badge", textContent: "משתלם לגיגה" }));
+    const card = el("div", { className: "plan" },
+      el("div", {}, name, el("div", { className: "spec", textContent: spec })),
+      el("div", { className: "price" },
+        el("div", { className: "eur", textContent: "€" + p.priceEur.toFixed(2) }),
+        p.currency !== "EUR" ? el("div", { className: "orig", textContent: `מקור: ${SYMBOL[p.currency]}${p.price}` }) : ""));
+    if (p.perks || p.notes) {
+      const meta = el("div", { className: "meta" });
+      if (p.perks) meta.append(el("div", { textContent: "✔ " + p.perks }));
+      if (p.notes) meta.append(el("div", { className: "note", textContent: p.notes }));
+      card.append(meta);
+    }
+    card.append(el("a", { className: "buy", href: (providers[p.provider] || {}).referralUrl || (providers[p.provider] || {}).url, target: "_blank", rel: "noopener", textContent: "לאתר הספק ←" }));
+    list.append(card);
+  });
+  syncUrl();
+}
+
+// ---- URL state, so a filtered view can be shared ----
+function syncUrl() {
+  const q = new URLSearchParams();
+  ["days", "gb", "prov", "region"].forEach(k => state[k].size && q.set(k, [...state[k]].join("|")));
+  if (!state.unl) q.set("unl", "0");
+  if (state.max < maxPrice) q.set("max", state.max);
+  if (state.sort !== "price") q.set("sort", state.sort);
+  history.replaceState(null, "", q.toString() ? "?" + q : location.pathname);
+}
+function readUrl() {
+  const q = new URLSearchParams(location.search);
+  ["days", "gb", "prov", "region"].forEach(k => q.get(k) && q.get(k).split("|").forEach(v => state[k].add(v)));
+  state.unl = q.get("unl") !== "0";
+  state.max = q.has("max") ? Number(q.get("max")) : maxPrice;
+  state.sort = q.get("sort") || "price";
+}
+
+function renderCoupons() {
+  const box = $("coupons");
+  Object.entries(providers).filter(([, v]) => v.coupon).forEach(([name, v]) => {
+    const hint = el("small", { textContent: "📋" });
+    const code = el("span", { className: "coupon", title: "לחצו להעתקה" }, v.coupon + " ", hint);
+    code.onclick = async () => {
+      try { await navigator.clipboard.writeText(v.coupon); hint.textContent = "✅ הועתק"; }
+      catch { hint.textContent = "העתיקו ידנית"; }
+      setTimeout(() => (hint.textContent = "📋"), 1500);
+    };
+    box.append(el("div", { className: "banner" },
+      `${v.note ? v.note + ": " : ""}${name} — קוד קופון${v.couponNote ? " (" + v.couponNote + ")" : ""}: `, code));
+  });
+}
+
+async function init() {
+  const data = await (await fetch("data.json")).json();
+  plans = data.plans;
+  providers = data.providers;
+  renderCoupons();
+  maxPrice = Math.ceil(Math.max(...plans.map(p => p.priceEur)));
+  readUrl();
+  const slider = $("max");
+  slider.max = maxPrice;
+  slider.value = state.max = Math.min(state.max, maxPrice);
+  $("unl").checked = state.unl;
+  $("sort").value = state.sort;
+  $("updated").textContent = "עודכן לאחרונה: " + data.updated;
+  $("rates").textContent = Object.entries(data.rates).filter(([c]) => c !== "EUR").map(([c, r]) => `1 ${c} ≈ €${r}`).join(", ");
+  slider.oninput = () => { state.max = Number(slider.value); update(); };
+  $("unl").onchange = e => { state.unl = e.target.checked; update(); };
+  $("sort").onchange = e => { state.sort = e.target.value; update(); };
+  $("reset").onclick = () => {
+    ["days", "gb", "prov", "region"].forEach(k => state[k].clear());
+    state.unl = true; state.max = maxPrice; state.sort = "price";
+    slider.value = maxPrice; $("unl").checked = true; $("sort").value = "price";
+    update();
+  };
+  update();
+}
+init().catch(e => { $("list").textContent = "שגיאה בטעינת הנתונים: " + e.message; });
+</script>
+</body>
+</html>

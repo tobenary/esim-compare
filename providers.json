@@ -1,0 +1,46 @@
+{
+ "providers": {
+  "World8": {
+   "url": "https://world8.co.il/%d7%9e%d7%97%d7%99%d7%a8%d7%95%d7%9f/",
+   "referralUrl": null,
+   "coupon": null,
+   "couponNote": null,
+   "note": null
+  },
+  "BNESIM": {
+   "url": "https://shop.bnesim.com/",
+   "referralUrl": null,
+   "coupon": "8GXV4D9Q",
+   "couponNote": "3€ הנחה על כל מוצרי BNESIM",
+   "note": "מומלצת לאירופה"
+  },
+  "Airalo": {
+   "url": "https://www.airalo.com/he/europe-esim",
+   "referralUrl": null,
+   "coupon": null,
+   "couponNote": null,
+   "note": null
+  },
+  "WeSIM": {
+   "url": "https://wesim.co.il/product-category/esim-%d7%9c%d7%90%d7%99%d7%a8%d7%95%d7%a4%d7%94/",
+   "referralUrl": null,
+   "coupon": null,
+   "couponNote": null,
+   "note": null
+  },
+  "Harel Multi-Travel": {
+   "url": "https://harel-group.multi-travel.com/",
+   "referralUrl": null,
+   "coupon": null,
+   "couponNote": null,
+   "note": null
+  },
+  "AirHub": {
+   "url": "https://www.airhubapp.com/esim/europe",
+   "referralUrl": null,
+   "coupon": null,
+   "couponNote": null,
+   "note": null
+  }
+ }
+}
