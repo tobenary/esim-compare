@@ -6,8 +6,8 @@ Do not put passwords, API keys, or payment/tax details in this file: the repo is
 
 | Shop | Type | Status | Link / code |
 |---|---|---|---|
-| Voye Global | Referral link | Have link | see below |
-| GigSky | Customer referral (refer-a-friend) | Have code and link | see below |
+| Voye Global | Referral link | Live on the site (24 plans added with GigSky) | see below |
+| GigSky | Customer referral (refer-a-friend) | Live on the site, prices from GigSky blog (Jul 2026), verify | see below |
 | eSIM Go | Partner portal | Link/code not found yet | see below |
 
 ## Voye Global
