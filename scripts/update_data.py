@@ -10,6 +10,7 @@ Usage: python3 scripts/update_data.py
 """
 import csv
 import json
+import os
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -72,7 +73,10 @@ def main():
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     report, failed = [], False
+    only = {x.strip() for x in os.environ.get("ONLY", "").split(",") if x.strip()}  # e.g. ONLY=Airalo for a quick test
     for name, scrape in scrapers.SCRAPERS.items():
+        if only and name not in only:
+            continue
         prov = data["providers"].setdefault(name, {"status": "manual", "fetchedAt": None, "error": None, "plans": []})
         old = prov["plans"]
         try:

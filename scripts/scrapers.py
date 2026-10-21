@@ -282,7 +282,12 @@ def airalo():
                 page.wait_for_timeout(1000)
                 rows += AIRALO_ROW.findall(page.inner_text("body"))
             except Exception as e:  # noqa: BLE001 - a missing or slow page is skipped, not fatal
-                last_error = f"{slug}: {str(e).splitlines()[0][:120]}"
+                body = ""
+                try:
+                    body = re.sub(r"\s+", " ", page.inner_text("body"))[:350]
+                except Exception:  # noqa: BLE001
+                    pass
+                last_error = f"{slug}: {str(e).splitlines()[0][:100]} | page text: {body}"
                 continue
             seen, got = set(), []
             for days, data, price, cur in rows:

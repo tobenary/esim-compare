@@ -3,7 +3,12 @@ name: Daily data update
 on:
   schedule:
     - cron: "30 4 * * *" # every day 04:30 UTC
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Only run these shops (comma separated, e.g. Airalo). Empty = all."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -22,6 +27,8 @@ jobs:
         run: python3 -m pip install --quiet playwright
       - name: Refresh prices from the shops' websites
         id: update
+        env:
+          ONLY: ${{ inputs.only }}
         run: |
           set +e
           python3 scripts/update_data.py
