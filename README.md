@@ -2,24 +2,29 @@
 
 Static site: `public/index.html` reads `public/data.json` and filters it in the browser. No backend.
 
-## Data (the only files you edit)
-- `providers.json`: one entry per shop: `url`, `referralUrl` (your affiliate link, used for the Buy button when set), `coupon`, `couponNote`, `note`.
-- `plans.csv`: one row per plan. `provider` must match a key in `providers.json`. `region` is a region id or an ISO country code from `destinations.json` (e.g. `europe`, `asia`, `global`, `US`, `TH`). Optional `url` deep-links the Buy button when the shop has no referral link. Currencies: EUR, USD, ILS. Use `999` in `gb` for unlimited data, and `Unlimited` in `days` for no-expiry plans.
-- `public/data.json` is generated (not committed): `python3 scripts/build.py` (also stamps the "updated" date). Conversion rates live in `RATES_TO_EUR` in that script.
+## Data: updated automatically every day
+Prices are no longer edited by hand. `.github/workflows/daily-update.yml` runs every day at 04:30 UTC (or on demand from the Actions tab):
+1. `scripts/update_data.py` reads each shop's website with the scrapers in `scripts/scrapers.py` (static pages via curl, JavaScript pages via headless Chrome) and rewrites `data/plans.json`. Exchange rates come from the ECB (frankfurter.dev) the same way.
+2. If `data/plans.json` changed, the workflow commits it. The push makes Cloudflare rebuild and redeploy the site.
+3. If a shop's scraper fails or finds far fewer plans than before, its previous prices are kept (marked "not updated automatically" on the site) and the workflow opens/updates a GitHub issue labelled `data-update`.
+
+Shops with a scraper: Voye Global, Yesim, WeSIM, eSIM.io, AirHub, Harel Multi-Travel. Shops without one (BNESIM, Airalo, GigSky, World8) keep their last known prices and are tagged on the site until a scraper is written.
+
+Files you can still edit:
+- `providers.json`: one entry per shop: `url`, `referralUrl` (your affiliate link, used for the Buy button when set), `coupon`, `couponNote`, `note`, and optional `popup` (coupon dialog before visiting).
+- `destinations.json`: regions and the countries each region covers (used by the destination picker).
+- `data/plans.json` is generated; don't edit it by hand, the next run overwrites it for shops with a scraper. `public/data.json` is built from it by `python3 scripts/build.py`.
 
 ## Adding a shop
 1. Add an entry to `providers.json`.
-2. Add its rows to `plans.csv`.
-3. Commit/push. Cloudflare Pages runs the build and redeploys.
+2. Write a scraper function in `scripts/scrapers.py` that returns plan dicts, and register it in `SCRAPERS`.
+3. Run `python3 scripts/update_data.py`, check `report.md`, commit and push.
 
 ## Preview locally
 `python3 scripts/build.py && python3 -m http.server 8000 -d public`, then open http://localhost:8000
 
 ## Deploy
 Cloudflare (Workers static assets), project `esim-compare`, live at https://esim-compare.tomer-ben-arye.workers.dev
-- Build command: `python3 scripts/build.py`
+- Build command: `python3 scripts/build.py` (reads `data/plans.json`)
 - Deploy command: `npx wrangler deploy` (reads `wrangler.jsonc`)
 - Only `public/` is served. Never point the assets directory at the repo root: that would publish `.git/` and the source files.
-
-## Weekly price check
-`.github/workflows/price-check.yml` runs every Monday (06:00 UTC) and can be started by hand from the repo's Actions tab. It runs `scripts/check_prices.py`, which looks for each plan's price on the provider's page. If something is missing or a page can't be read, it opens (or comments on) a GitHub issue labelled `price-check`. It never edits `plans.csv`: update the prices yourself and push. Prices that shops render with JavaScript (e.g. Airalo, AirHub) can't be read this way and are reported as "check by hand".

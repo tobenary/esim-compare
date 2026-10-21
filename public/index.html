@@ -121,7 +121,7 @@
 
   <div class="bar"><div id="count"></div><button class="reset" id="reset">נקה סינון</button></div>
   <div class="list" id="list"></div>
-  <div class="foot">חלק מהקישורים באתר הם קישורי שותפים (referral): אם תרכשו דרכם ייתכן שאקבל הטבה, ללא עלות נוספת עבורכם.<br>המחירים הומרו ליורו לפי שערים משוערים (<span id="rates"></span>). המחיר המקורי מופיע ליד כל חבילה. ייתכנו הבדלים בפועל — בדקו באתר הספק לפני הרכישה.</div>
+  <div class="foot">חלק מהקישורים באתר הם קישורי שותפים (referral): אם תרכשו דרכם ייתכן שאקבל הטבה, ללא עלות נוספת עבורכם.<br>המחירים נאספים אוטומטית מאתרי החברות מדי יום (חלק מהחברות מסומנות כלא מתעדכנות אוטומטית) והומרו ליורו לפי שער יומי (<span id="rates"></span>). המחיר המקורי מופיע ליד כל חבילה. ייתכנו הבדלים בפועל — בדקו באתר הספק לפני הרכישה.</div>
 </div>
 
 <dialog id="popup" aria-labelledby="popup-title">
@@ -271,6 +271,7 @@ function update() {
     if (p.priceEur === cheapest) name.append(el("span", { className: "badge", textContent: "הכי זול" }));
     if (isFinite(bestGb) && perGb(p) === bestGb) name.append(el("span", { className: "badge", textContent: "משתלם לגיגה" }));
     if (isRegionalPlan(p) && p.region !== state.dest) name.append(el("span", { className: "tag", textContent: "חבילה אזורית - ודאו שהמדינה כלולה" }));
+    if (p.stale) name.append(el("span", { className: "tag", textContent: "מחיר לא מתעדכן אוטומטית - ודאו באתר" }));
     const card = el("div", { className: "plan" },
       el("div", {}, name, el("div", { className: "spec", textContent: spec })),
       el("div", { className: "price" },

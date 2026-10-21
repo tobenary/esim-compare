@@ -1,0 +1,5371 @@
+{
+ "rates": {
+  "EUR": 1.0,
+  "USD": 0.8901,
+  "ILS": 0.288
+ },
+ "ratesAsOf": "2026-10-21",
+ "providers": {
+  "World8": {
+   "status": "manual",
+   "fetchedAt": null,
+   "error": null,
+   "plans": [
+    {
+     "days": "4 שנים",
+     "region": "global",
+     "gb": 1.0,
+     "price": 50.0,
+     "currency": "ILS",
+     "perks": "תוספת 10 גיגה לאירופה בעוד 50 שח תקף ל 30 יום",
+     "notes": "לא שווה",
+     "url": ""
+    }
+   ]
+  },
+  "BNESIM": {
+   "status": "manual",
+   "fetchedAt": null,
+   "error": null,
+   "plans": [
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 1.0,
+     "price": 2.49,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 3.0,
+     "price": 4.49,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 5.99,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 10.0,
+     "price": 8.99,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 20.0,
+     "price": 14.99,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "",
+     "url": ""
+    },
+    {
+     "days": "10",
+     "region": "europe",
+     "gb": 999.0,
+     "price": 29.0,
+     "currency": "EUR",
+     "perks": "",
+     "notes": "",
+     "url": ""
+    },
+    {
+     "days": "Unlimited",
+     "region": "europe",
+     "gb": 1.0,
+     "price": 2.99,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "חד פעמי לפלאפון אחד! אבל ניתן לשלם דולר וקצת לרכישת סים חדש עם מה שנשאר דרך התמיכה",
+     "url": ""
+    },
+    {
+     "days": "Unlimited",
+     "region": "europe",
+     "gb": 3.0,
+     "price": 5.49,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "חד פעמי לפלאפון אחד! אבל ניתן לשלם דולר וקצת לרכישת סים חדש עם מה שנשאר דרך התמיכה",
+     "url": ""
+    },
+    {
+     "days": "Unlimited",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 7.49,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "חד פעמי לפלאפון אחד! אבל ניתן לשלם דולר וקצת לרכישת סים חדש עם מה שנשאר דרך התמיכה",
+     "url": ""
+    },
+    {
+     "days": "Unlimited",
+     "region": "europe",
+     "gb": 10.0,
+     "price": 10.99,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "חד פעמי לפלאפון אחד! אבל ניתן לשלם דולר וקצת לרכישת סים חדש עם מה שנשאר דרך התמיכה",
+     "url": ""
+    },
+    {
+     "days": "Unlimited",
+     "region": "europe",
+     "gb": 20.0,
+     "price": 18.99,
+     "currency": "EUR",
+     "perks": "בסיום החבילה טקסט (בלבד) בוואטסאפ חינם",
+     "notes": "חד פעמי לפלאפון אחד! אבל ניתן לשלם דולר וקצת לרכישת סים חדש עם מה שנשאר דרך התמיכה",
+     "url": ""
+    }
+   ]
+  },
+  "Airalo": {
+   "status": "manual",
+   "fetchedAt": null,
+   "error": null,
+   "plans": [
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 1.0,
+     "price": 4.5,
+     "currency": "EUR",
+     "perks": "בד״כ יציאה לסקי היא 8 ימים - לקחת בחשבון",
+     "notes": "הכי יקר בשוק עם כל ההנחות שהוא מפרסם",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 3.0,
+     "price": 11.5,
+     "currency": "EUR",
+     "perks": "",
+     "notes": "הכי יקר בשוק עם כל ההנחות שהוא מפרסם",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 18.0,
+     "currency": "EUR",
+     "perks": "",
+     "notes": "הכי יקר בשוק עם כל ההנחות שהוא מפרסם",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 10.0,
+     "price": 33.0,
+     "currency": "EUR",
+     "perks": "",
+     "notes": "הכי יקר בשוק עם כל ההנחות שהוא מפרסם",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 20.0,
+     "price": 43.5,
+     "currency": "EUR",
+     "perks": "",
+     "notes": "הכי יקר בשוק עם כל ההנחות שהוא מפרסם",
+     "url": ""
+    }
+   ]
+  },
+  "WeSIM": {
+   "status": "ok",
+   "fetchedAt": "2026-10-21T14:20Z",
+   "error": null,
+   "plans": [
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 1.0,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/esim-%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94/"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 2.0,
+     "price": 6.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/esim-%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 3.0,
+     "price": 9.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/esim-%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 11.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/esim-%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 10.0,
+     "price": 18.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/esim-%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/esim-%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 50.0,
+     "price": 55.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/esim-%D7%9C%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%94/"
+    },
+    {
+     "days": "7",
+     "region": "global",
+     "gb": 1.0,
+     "price": 16.1,
+     "currency": "USD",
+     "perks": "מעל 200 מדינות",
+     "notes": "",
+     "url": "https://wesim.co.il/%D7%A1%D7%99%D7%9D-%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99-global-sim/"
+    },
+    {
+     "days": "15",
+     "region": "global",
+     "gb": 2.0,
+     "price": 31.1,
+     "currency": "USD",
+     "perks": "מעל 200 מדינות",
+     "notes": "",
+     "url": "https://wesim.co.il/%D7%A1%D7%99%D7%9D-%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99-global-sim/"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 3.0,
+     "price": 43.6,
+     "currency": "USD",
+     "perks": "מעל 200 מדינות",
+     "notes": "",
+     "url": "https://wesim.co.il/%D7%A1%D7%99%D7%9D-%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99-global-sim/"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 5.0,
+     "price": 71.9,
+     "currency": "USD",
+     "perks": "מעל 200 מדינות",
+     "notes": "",
+     "url": "https://wesim.co.il/%D7%A1%D7%99%D7%9D-%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99-global-sim/"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 10.0,
+     "price": 131.9,
+     "currency": "USD",
+     "perks": "מעל 200 מדינות",
+     "notes": "",
+     "url": "https://wesim.co.il/%D7%A1%D7%99%D7%9D-%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99-global-sim/"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 20.0,
+     "price": 237.1,
+     "currency": "USD",
+     "perks": "מעל 200 מדינות",
+     "notes": "",
+     "url": "https://wesim.co.il/%D7%A1%D7%99%D7%9D-%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99-global-sim/"
+    },
+    {
+     "days": "7",
+     "region": "AU",
+     "gb": 1.0,
+     "price": 7.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/australia/"
+    },
+    {
+     "days": "15",
+     "region": "AU",
+     "gb": 2.0,
+     "price": 12.4,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/australia/"
+    },
+    {
+     "days": "30",
+     "region": "AU",
+     "gb": 3.0,
+     "price": 16.6,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/australia/"
+    },
+    {
+     "days": "30",
+     "region": "AU",
+     "gb": 5.0,
+     "price": 26.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/australia/"
+    },
+    {
+     "days": "30",
+     "region": "AU",
+     "gb": 10.0,
+     "price": 46.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/australia/"
+    },
+    {
+     "days": "30",
+     "region": "AU",
+     "gb": 20.0,
+     "price": 82.1,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/australia/"
+    },
+    {
+     "days": "7",
+     "region": "BG",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/bulgaria/"
+    },
+    {
+     "days": "15",
+     "region": "BG",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/bulgaria/"
+    },
+    {
+     "days": "30",
+     "region": "BG",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/bulgaria/"
+    },
+    {
+     "days": "30",
+     "region": "BG",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/bulgaria/"
+    },
+    {
+     "days": "30",
+     "region": "BG",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/bulgaria/"
+    },
+    {
+     "days": "30",
+     "region": "BG",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/bulgaria/"
+    },
+    {
+     "days": "7",
+     "region": "EG",
+     "gb": 1.0,
+     "price": 7.1,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/egypt/"
+    },
+    {
+     "days": "15",
+     "region": "EG",
+     "gb": 2.0,
+     "price": 13.1,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/egypt/"
+    },
+    {
+     "days": "30",
+     "region": "EG",
+     "gb": 3.0,
+     "price": 18.1,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/egypt/"
+    },
+    {
+     "days": "30",
+     "region": "EG",
+     "gb": 5.0,
+     "price": 29.4,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/egypt/"
+    },
+    {
+     "days": "30",
+     "region": "EG",
+     "gb": 10.0,
+     "price": 53.4,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/egypt/"
+    },
+    {
+     "days": "30",
+     "region": "EG",
+     "gb": 20.0,
+     "price": 95.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/egypt/"
+    },
+    {
+     "days": "7",
+     "region": "FI",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/finland/"
+    },
+    {
+     "days": "15",
+     "region": "FI",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/finland/"
+    },
+    {
+     "days": "30",
+     "region": "FI",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/finland/"
+    },
+    {
+     "days": "30",
+     "region": "FI",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/finland/"
+    },
+    {
+     "days": "30",
+     "region": "FI",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/finland/"
+    },
+    {
+     "days": "30",
+     "region": "FI",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/finland/"
+    },
+    {
+     "days": "7",
+     "region": "GE",
+     "gb": 1.0,
+     "price": 7.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/georgia/"
+    },
+    {
+     "days": "15",
+     "region": "GE",
+     "gb": 2.0,
+     "price": 13.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/georgia/"
+    },
+    {
+     "days": "30",
+     "region": "GE",
+     "gb": 3.0,
+     "price": 18.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/georgia/"
+    },
+    {
+     "days": "30",
+     "region": "GE",
+     "gb": 5.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/georgia/"
+    },
+    {
+     "days": "30",
+     "region": "GE",
+     "gb": 10.0,
+     "price": 55.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/georgia/"
+    },
+    {
+     "days": "30",
+     "region": "GE",
+     "gb": 20.0,
+     "price": 95.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/georgia/"
+    },
+    {
+     "days": "7",
+     "region": "HU",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/hungary/"
+    },
+    {
+     "days": "15",
+     "region": "HU",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/hungary/"
+    },
+    {
+     "days": "30",
+     "region": "HU",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/hungary/"
+    },
+    {
+     "days": "30",
+     "region": "HU",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/hungary/"
+    },
+    {
+     "days": "30",
+     "region": "HU",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/hungary/"
+    },
+    {
+     "days": "30",
+     "region": "HU",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/hungary/"
+    },
+    {
+     "days": "7",
+     "region": "IS",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/iceland/"
+    },
+    {
+     "days": "15",
+     "region": "IS",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/iceland/"
+    },
+    {
+     "days": "30",
+     "region": "IS",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/iceland/"
+    },
+    {
+     "days": "30",
+     "region": "IS",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/iceland/"
+    },
+    {
+     "days": "30",
+     "region": "IS",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/iceland/"
+    },
+    {
+     "days": "30",
+     "region": "IS",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/iceland/"
+    },
+    {
+     "days": "7",
+     "region": "IN",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/india/"
+    },
+    {
+     "days": "15",
+     "region": "IN",
+     "gb": 2.0,
+     "price": 7.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/india/"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/india/"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 5.0,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/india/"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 10.0,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/india/"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 20.0,
+     "price": 39.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/india/"
+    },
+    {
+     "days": "7",
+     "region": "JP",
+     "gb": 1.0,
+     "price": 5.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/japan/"
+    },
+    {
+     "days": "15",
+     "region": "JP",
+     "gb": 2.0,
+     "price": 7.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/japan/"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/japan/"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 5.0,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/japan/"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 10.0,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/japan/"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 20.0,
+     "price": 39.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/japan/"
+    },
+    {
+     "days": "7",
+     "region": "NL",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/netherlands/"
+    },
+    {
+     "days": "15",
+     "region": "NL",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/netherlands/"
+    },
+    {
+     "days": "30",
+     "region": "NL",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/netherlands/"
+    },
+    {
+     "days": "30",
+     "region": "NL",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/netherlands/"
+    },
+    {
+     "days": "30",
+     "region": "NL",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/netherlands/"
+    },
+    {
+     "days": "30",
+     "region": "NL",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/netherlands/"
+    },
+    {
+     "days": "7",
+     "region": "NZ",
+     "gb": 1.0,
+     "price": 6.7,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/new-zealand/"
+    },
+    {
+     "days": "15",
+     "region": "NZ",
+     "gb": 2.0,
+     "price": 12.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/new-zealand/"
+    },
+    {
+     "days": "30",
+     "region": "NZ",
+     "gb": 3.0,
+     "price": 16.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/new-zealand/"
+    },
+    {
+     "days": "30",
+     "region": "NZ",
+     "gb": 5.0,
+     "price": 27.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/new-zealand/"
+    },
+    {
+     "days": "30",
+     "region": "NZ",
+     "gb": 10.0,
+     "price": 49.8,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/new-zealand/"
+    },
+    {
+     "days": "30",
+     "region": "NZ",
+     "gb": 20.0,
+     "price": 88.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/new-zealand/"
+    },
+    {
+     "days": "7",
+     "region": "PL",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/poland/"
+    },
+    {
+     "days": "15",
+     "region": "PL",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/poland/"
+    },
+    {
+     "days": "30",
+     "region": "PL",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/poland/"
+    },
+    {
+     "days": "30",
+     "region": "PL",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/poland/"
+    },
+    {
+     "days": "30",
+     "region": "PL",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/poland/"
+    },
+    {
+     "days": "30",
+     "region": "PL",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/poland/"
+    },
+    {
+     "days": "7",
+     "region": "RU",
+     "gb": 1.0,
+     "price": 5.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/russian-federation/"
+    },
+    {
+     "days": "15",
+     "region": "RU",
+     "gb": 2.0,
+     "price": 9.4,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/russian-federation/"
+    },
+    {
+     "days": "30",
+     "region": "RU",
+     "gb": 3.0,
+     "price": 12.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/russian-federation/"
+    },
+    {
+     "days": "30",
+     "region": "RU",
+     "gb": 5.0,
+     "price": 20.7,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/russian-federation/"
+    },
+    {
+     "days": "30",
+     "region": "RU",
+     "gb": 10.0,
+     "price": 37.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/russian-federation/"
+    },
+    {
+     "days": "30",
+     "region": "RU",
+     "gb": 20.0,
+     "price": 66.4,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/russian-federation/"
+    },
+    {
+     "days": "7",
+     "region": "TH",
+     "gb": 1.0,
+     "price": 4.6,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/thailand/"
+    },
+    {
+     "days": "15",
+     "region": "TH",
+     "gb": 2.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/thailand/"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 3.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/thailand/"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 5.0,
+     "price": 17.4,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/thailand/"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 10.0,
+     "price": 31.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/thailand/"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 20.0,
+     "price": 55.6,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/thailand/"
+    },
+    {
+     "days": "7",
+     "region": "TR",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/turkey/"
+    },
+    {
+     "days": "15",
+     "region": "TR",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/turkey/"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/turkey/"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/turkey/"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/turkey/"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/turkey/"
+    },
+    {
+     "days": "7",
+     "region": "AE",
+     "gb": 1.0,
+     "price": 4.1,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-arab-emirates/"
+    },
+    {
+     "days": "15",
+     "region": "AE",
+     "gb": 2.0,
+     "price": 7.1,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-arab-emirates/"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 3.0,
+     "price": 9.6,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-arab-emirates/"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 5.0,
+     "price": 15.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-arab-emirates/"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 10.0,
+     "price": 27.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-arab-emirates/"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 20.0,
+     "price": 48.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-arab-emirates/"
+    },
+    {
+     "days": "7",
+     "region": "US",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-states-of-america/"
+    },
+    {
+     "days": "15",
+     "region": "US",
+     "gb": 2.0,
+     "price": 6.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-states-of-america/"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 3.0,
+     "price": 9.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-states-of-america/"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 5.0,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-states-of-america/"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 10.0,
+     "price": 19.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-states-of-america/"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 20.0,
+     "price": 37.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-states-of-america/"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 50.0,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-states-of-america/"
+    },
+    {
+     "days": "7",
+     "region": "VN",
+     "gb": 1.0,
+     "price": 5.7,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/vietnam/"
+    },
+    {
+     "days": "15",
+     "region": "VN",
+     "gb": 2.0,
+     "price": 10.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/vietnam/"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 3.0,
+     "price": 14.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/vietnam/"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 5.0,
+     "price": 22.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/vietnam/"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 10.0,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/vietnam/"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 20.0,
+     "price": 62.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/vietnam/"
+    },
+    {
+     "days": "7",
+     "region": "GR",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/greece/"
+    },
+    {
+     "days": "15",
+     "region": "GR",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/greece/"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/greece/"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 5.0,
+     "price": 9.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/greece/"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 10.0,
+     "price": 14.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/greece/"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 20.0,
+     "price": 25.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/greece/"
+    },
+    {
+     "days": "7",
+     "region": "CY",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/cyprus/"
+    },
+    {
+     "days": "15",
+     "region": "CY",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/cyprus/"
+    },
+    {
+     "days": "30",
+     "region": "CY",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/cyprus/"
+    },
+    {
+     "days": "30",
+     "region": "CY",
+     "gb": 5.0,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/cyprus/"
+    },
+    {
+     "days": "30",
+     "region": "CY",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/cyprus/"
+    },
+    {
+     "days": "30",
+     "region": "CY",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/cyprus/"
+    },
+    {
+     "days": "7",
+     "region": "IT",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/italy/"
+    },
+    {
+     "days": "15",
+     "region": "IT",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/italy/"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/italy/"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 5.0,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/italy/"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/italy/"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/italy/"
+    },
+    {
+     "days": "7",
+     "region": "FR",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/france/"
+    },
+    {
+     "days": "15",
+     "region": "FR",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/france/"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/france/"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/france/"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/france/"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/france/"
+    },
+    {
+     "days": "7",
+     "region": "CA",
+     "gb": 1.0,
+     "price": 5.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/canada/"
+    },
+    {
+     "days": "15",
+     "region": "CA",
+     "gb": 2.0,
+     "price": 9.4,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/canada/"
+    },
+    {
+     "days": "30",
+     "region": "CA",
+     "gb": 3.0,
+     "price": 13.4,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/canada/"
+    },
+    {
+     "days": "30",
+     "region": "CA",
+     "gb": 5.0,
+     "price": 21.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/canada/"
+    },
+    {
+     "days": "30",
+     "region": "CA",
+     "gb": 10.0,
+     "price": 39.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/canada/"
+    },
+    {
+     "days": "30",
+     "region": "CA",
+     "gb": 20.0,
+     "price": 68.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/canada/"
+    },
+    {
+     "days": "7",
+     "region": "GB",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-kingdom/"
+    },
+    {
+     "days": "15",
+     "region": "GB",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-kingdom/"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-kingdom/"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-kingdom/"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-kingdom/"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/united-kingdom/"
+    },
+    {
+     "days": "7",
+     "region": "PT",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/portugal/"
+    },
+    {
+     "days": "15",
+     "region": "PT",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/portugal/"
+    },
+    {
+     "days": "30",
+     "region": "PT",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/portugal/"
+    },
+    {
+     "days": "30",
+     "region": "PT",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/portugal/"
+    },
+    {
+     "days": "30",
+     "region": "PT",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/portugal/"
+    },
+    {
+     "days": "30",
+     "region": "PT",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/portugal/"
+    },
+    {
+     "days": "7",
+     "region": "DE",
+     "gb": 1.0,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/germany/"
+    },
+    {
+     "days": "15",
+     "region": "DE",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/germany/"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 3.0,
+     "price": 8.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/germany/"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 5.0,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/germany/"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 10.0,
+     "price": 17.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/germany/"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 20.0,
+     "price": 29.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://wesim.co.il/product-category/germany/"
+    }
+   ]
+  },
+  "Harel Multi-Travel": {
+   "status": "ok",
+   "fetchedAt": "2026-10-21T14:20Z",
+   "error": null,
+   "plans": [
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 2.0,
+     "price": 5.9,
+     "currency": "USD",
+     "perks": "מחיר אחרי מבצע של 20%",
+     "notes": "",
+     "url": "https://harel-group.multi-travel.com/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 3.0,
+     "price": 7.2,
+     "currency": "USD",
+     "perks": "מחיר אחרי מבצע של 20%",
+     "notes": "",
+     "url": "https://harel-group.multi-travel.com/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 12.8,
+     "currency": "USD",
+     "perks": "מחיר אחרי מבצע של 20%",
+     "notes": "",
+     "url": "https://harel-group.multi-travel.com/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 10.0,
+     "price": 24.0,
+     "currency": "USD",
+     "perks": "מחיר אחרי מבצע של 20%",
+     "notes": "",
+     "url": "https://harel-group.multi-travel.com/"
+    }
+   ]
+  },
+  "AirHub": {
+   "status": "ok",
+   "fetchedAt": "2026-10-21T14:20Z",
+   "error": null,
+   "plans": [
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 1,
+     "price": 2.73,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 4,
+     "price": 6.16,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 7,
+     "price": 9.68,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 12,
+     "price": 12.32,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 20,
+     "price": 15.84,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 50,
+     "price": 29.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 100,
+     "price": 39.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 150,
+     "price": 43.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 300,
+     "price": 79.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "1",
+     "region": "europe",
+     "gb": 999,
+     "price": 3.4,
+     "currency": "USD",
+     "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    }
+   ]
+  },
+  "Voye Global": {
+   "status": "ok",
+   "fetchedAt": "2026-10-21T14:20Z",
+   "error": null,
+   "plans": [
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 5,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 8,
+     "price": 20.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 10,
+     "price": 23.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "60",
+     "region": "europe",
+     "gb": 20,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "3",
+     "region": "europe",
+     "gb": 999,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "3 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "3",
+     "region": "europe",
+     "gb": 999,
+     "price": 14.0,
+     "currency": "USD",
+     "perks": "5 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "5",
+     "region": "europe",
+     "gb": 999,
+     "price": 17.0,
+     "currency": "USD",
+     "perks": "3 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 999,
+     "price": 23.0,
+     "currency": "USD",
+     "perks": "3 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "5",
+     "region": "europe",
+     "gb": 999,
+     "price": 24.0,
+     "currency": "USD",
+     "perks": "5 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "10",
+     "region": "europe",
+     "gb": 999,
+     "price": 30.0,
+     "currency": "USD",
+     "perks": "3 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 999,
+     "price": 33.0,
+     "currency": "USD",
+     "perks": "5 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "10",
+     "region": "europe",
+     "gb": 999,
+     "price": 42.0,
+     "currency": "USD",
+     "perks": "5 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 999,
+     "price": 43.0,
+     "currency": "USD",
+     "perks": "3 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "20",
+     "region": "europe",
+     "gb": 999,
+     "price": 55.0,
+     "currency": "USD",
+     "perks": "3 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 999,
+     "price": 61.0,
+     "currency": "USD",
+     "perks": "5 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 999,
+     "price": 63.0,
+     "currency": "USD",
+     "perks": "3 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "20",
+     "region": "europe",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "5 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 999,
+     "price": 79.0,
+     "currency": "USD",
+     "perks": "5 GB ליום במהירות גבוהה, אחר כך מואט",
+     "notes": "",
+     "url": "https://voyeglobal.com/esim/europe/"
+    }
+   ]
+  },
+  "GigSky": {
+   "status": "manual",
+   "fetchedAt": null,
+   "error": null,
+   "plans": [
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 1.0,
+     "price": 6.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "מחיר לפי הבלוג של GigSky (יולי 2026); עמוד המחירים נטען דינמית, כדאי לאמת באתר",
+     "url": ""
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 3.0,
+     "price": 14.24,
+     "currency": "USD",
+     "perks": "",
+     "notes": "מחיר לפי הבלוג של GigSky (יולי 2026); עמוד המחירים נטען דינמית, כדאי לאמת באתר",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 21.84,
+     "currency": "USD",
+     "perks": "",
+     "notes": "מחיר לפי הבלוג של GigSky (יולי 2026); עמוד המחירים נטען דינמית, כדאי לאמת באתר",
+     "url": ""
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 10.0,
+     "price": 37.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "מחיר לפי הבלוג של GigSky (יולי 2026); עמוד המחירים נטען דינמית, כדאי לאמת באתר",
+     "url": ""
+    },
+    {
+     "days": "90",
+     "region": "europe",
+     "gb": 50.0,
+     "price": 102.59,
+     "currency": "USD",
+     "perks": "",
+     "notes": "מחיר לפי הבלוג של GigSky (יולי 2026); עמוד המחירים נטען דינמית, כדאי לאמת באתר",
+     "url": ""
+    },
+    {
+     "days": "180",
+     "region": "europe",
+     "gb": 100.0,
+     "price": 153.89,
+     "currency": "USD",
+     "perks": "",
+     "notes": "מחיר לפי הבלוג של GigSky (יולי 2026); עמוד המחירים נטען דינמית, כדאי לאמת באתר",
+     "url": ""
+    }
+   ]
+  },
+  "Yesim": {
+   "status": "ok",
+   "fetchedAt": "2026-10-21T14:20Z",
+   "error": null,
+   "plans": [
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 1,
+     "price": 3.0,
+     "currency": "USD",
+     "perks": "אירופה + בריטניה (33 מדינות), דאטה בלבד",
+     "notes": "",
+     "url": "https://yesim.tech/regions/europe-esim/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5,
+     "price": 11.52,
+     "currency": "USD",
+     "perks": "אירופה + בריטניה (33 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 15.00$)",
+     "url": "https://yesim.tech/regions/europe-esim/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 10,
+     "price": 19.2,
+     "currency": "USD",
+     "perks": "אירופה + בריטניה (33 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 30.00$)",
+     "url": "https://yesim.tech/regions/europe-esim/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 20,
+     "price": 26.4,
+     "currency": "USD",
+     "perks": "אירופה + בריטניה (33 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 60.00$)",
+     "url": "https://yesim.tech/regions/europe-esim/"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 30,
+     "price": 33.6,
+     "currency": "USD",
+     "perks": "אירופה + בריטניה (33 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 90.00$)",
+     "url": "https://yesim.tech/regions/europe-esim/"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 5,
+     "price": 12.0,
+     "currency": "USD",
+     "perks": "אסיה-פסיפיק (15 מדינות), דאטה בלבד",
+     "notes": "רשימת המדינות באתר Yesim, ודאו שהיעד כלול",
+     "url": "https://yesim.tech/regions/asia-pacific-esim/"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 10,
+     "price": 22.32,
+     "currency": "USD",
+     "perks": "אסיה-פסיפיק (15 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 24.00$); רשימת המדינות באתר Yesim, ודאו שהיעד כלול",
+     "url": "https://yesim.tech/regions/asia-pacific-esim/"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 20,
+     "price": 35.76,
+     "currency": "USD",
+     "perks": "אסיה-פסיפיק (15 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 48.00$); רשימת המדינות באתר Yesim, ודאו שהיעד כלול",
+     "url": "https://yesim.tech/regions/asia-pacific-esim/"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 30,
+     "price": 45.6,
+     "currency": "USD",
+     "perks": "אסיה-פסיפיק (15 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 72.00$); רשימת המדינות באתר Yesim, ודאו שהיעד כלול",
+     "url": "https://yesim.tech/regions/asia-pacific-esim/"
+    },
+    {
+     "days": "30",
+     "region": "north-america",
+     "gb": 4,
+     "price": 16.8,
+     "currency": "USD",
+     "perks": "צפון אמריקה (3 מדינות), דאטה בלבד",
+     "notes": "רשימת המדינות באתר Yesim, ודאו שהיעד כלול",
+     "url": "https://yesim.tech/regions/north-america-esim/"
+    },
+    {
+     "days": "30",
+     "region": "north-america",
+     "gb": 12,
+     "price": 26.4,
+     "currency": "USD",
+     "perks": "צפון אמריקה (3 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 50.40$); רשימת המדינות באתר Yesim, ודאו שהיעד כלול",
+     "url": "https://yesim.tech/regions/north-america-esim/"
+    },
+    {
+     "days": "30",
+     "region": "north-america",
+     "gb": 24,
+     "price": 38.4,
+     "currency": "USD",
+     "perks": "צפון אמריקה (3 מדינות), דאטה בלבד",
+     "notes": "מחיר מבצע (במקור 100.80$); רשימת המדינות באתר Yesim, ודאו שהיעד כלול",
+     "url": "https://yesim.tech/regions/north-america-esim/"
+    }
+   ]
+  },
+  "eSIM.io": {
+   "status": "ok",
+   "fetchedAt": "2026-10-21T14:20Z",
+   "error": null,
+   "plans": [
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 1,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 2,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 3,
+     "price": 9.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5,
+     "price": 14.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 10,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 20,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 50,
+     "price": 79.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 100,
+     "price": 99.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "1",
+     "region": "europe",
+     "gb": 999,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "3",
+     "region": "europe",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "5",
+     "region": "europe",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "10",
+     "region": "europe",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "20",
+     "region": "europe",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-europe"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 1,
+     "price": 6.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 2,
+     "price": 12.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 3,
+     "price": 18.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 5,
+     "price": 26.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 10,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 20,
+     "price": 79.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 50,
+     "price": 140.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 100,
+     "price": 250.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "1",
+     "region": "asia",
+     "gb": 999,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "3",
+     "region": "asia",
+     "gb": 999,
+     "price": 23.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "5",
+     "region": "asia",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "7",
+     "region": "asia",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "10",
+     "region": "asia",
+     "gb": 999,
+     "price": 67.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "15",
+     "region": "asia",
+     "gb": 999,
+     "price": 96.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "20",
+     "region": "asia",
+     "gb": 999,
+     "price": 122.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 999,
+     "price": 170.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/regions/esim-asia-pacific"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 1,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/global/esim-global"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 2,
+     "price": 14.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/global/esim-global"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 3,
+     "price": 20.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/global/esim-global"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 5,
+     "price": 30.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/global/esim-global"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 10,
+     "price": 52.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/global/esim-global"
+    },
+    {
+     "days": "30",
+     "region": "global",
+     "gb": 20,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/global/esim-global"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 1,
+     "price": 2.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 2,
+     "price": 5.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 3,
+     "price": 7.3,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 5,
+     "price": 10.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 10,
+     "price": 18.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 20,
+     "price": 33.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 50,
+     "price": 74.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 100,
+     "price": 119.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "1",
+     "region": "US",
+     "gb": 999,
+     "price": 5.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "3",
+     "region": "US",
+     "gb": 999,
+     "price": 14.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "5",
+     "region": "US",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "7",
+     "region": "US",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "10",
+     "region": "US",
+     "gb": 999,
+     "price": 38.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "15",
+     "region": "US",
+     "gb": 999,
+     "price": 53.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "20",
+     "region": "US",
+     "gb": 999,
+     "price": 68.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 999,
+     "price": 93.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-states-of-america"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 1,
+     "price": 4.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 2,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 3,
+     "price": 9.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 5,
+     "price": 14.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 10,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 20,
+     "price": 39.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 50,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 100,
+     "price": 119.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "1",
+     "region": "JP",
+     "gb": 999,
+     "price": 6.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "3",
+     "region": "JP",
+     "gb": 999,
+     "price": 17.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "5",
+     "region": "JP",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "7",
+     "region": "JP",
+     "gb": 999,
+     "price": 36.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "10",
+     "region": "JP",
+     "gb": 999,
+     "price": 50.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "15",
+     "region": "JP",
+     "gb": 999,
+     "price": 70.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "20",
+     "region": "JP",
+     "gb": 999,
+     "price": 90.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 999,
+     "price": 130.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-japan"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 10,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 20,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 50,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 100,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "1",
+     "region": "IT",
+     "gb": 999,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "3",
+     "region": "IT",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "5",
+     "region": "IT",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "7",
+     "region": "IT",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "10",
+     "region": "IT",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "15",
+     "region": "IT",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "20",
+     "region": "IT",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-italy"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 10,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 20,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 50,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 100,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "1",
+     "region": "GB",
+     "gb": 999,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "3",
+     "region": "GB",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "5",
+     "region": "GB",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "7",
+     "region": "GB",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "10",
+     "region": "GB",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "15",
+     "region": "GB",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "20",
+     "region": "GB",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-kingdom"
+    },
+    {
+     "days": "30",
+     "region": "MX",
+     "gb": 1,
+     "price": 6.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "30",
+     "region": "MX",
+     "gb": 2,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "30",
+     "region": "MX",
+     "gb": 3,
+     "price": 16.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "30",
+     "region": "MX",
+     "gb": 5,
+     "price": 25.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "30",
+     "region": "MX",
+     "gb": 10,
+     "price": 47.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "30",
+     "region": "MX",
+     "gb": 20,
+     "price": 85.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "30",
+     "region": "MX",
+     "gb": 50,
+     "price": 210.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "1",
+     "region": "MX",
+     "gb": 999,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "3",
+     "region": "MX",
+     "gb": 999,
+     "price": 26.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "5",
+     "region": "MX",
+     "gb": 999,
+     "price": 42.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "7",
+     "region": "MX",
+     "gb": 999,
+     "price": 57.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "10",
+     "region": "MX",
+     "gb": 999,
+     "price": 78.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "15",
+     "region": "MX",
+     "gb": 999,
+     "price": 112.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "20",
+     "region": "MX",
+     "gb": 999,
+     "price": 142.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "30",
+     "region": "MX",
+     "gb": 999,
+     "price": 208.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-mexico"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 10,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 20,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 50,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 100,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "1",
+     "region": "DE",
+     "gb": 999,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "3",
+     "region": "DE",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "5",
+     "region": "DE",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "7",
+     "region": "DE",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "10",
+     "region": "DE",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "15",
+     "region": "DE",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "20",
+     "region": "DE",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-germany"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 10,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 20,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 50,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 100,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "1",
+     "region": "FR",
+     "gb": 999,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "3",
+     "region": "FR",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "5",
+     "region": "FR",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "7",
+     "region": "FR",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "10",
+     "region": "FR",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "15",
+     "region": "FR",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "20",
+     "region": "FR",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-france"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 10,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 20,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 50,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 100,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "1",
+     "region": "ES",
+     "gb": 999,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "3",
+     "region": "ES",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "5",
+     "region": "ES",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "7",
+     "region": "ES",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "10",
+     "region": "ES",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "15",
+     "region": "ES",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "20",
+     "region": "ES",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-spain"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 10,
+     "price": 12.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 20,
+     "price": 19.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 50,
+     "price": 44.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 100,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "1",
+     "region": "TR",
+     "gb": 999,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "3",
+     "region": "TR",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "5",
+     "region": "TR",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "7",
+     "region": "TR",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "10",
+     "region": "TR",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "15",
+     "region": "TR",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "20",
+     "region": "TR",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-turkey"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 10,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 20,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 50,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 100,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "1",
+     "region": "GR",
+     "gb": 999,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "3",
+     "region": "GR",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "5",
+     "region": "GR",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "7",
+     "region": "GR",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "10",
+     "region": "GR",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "15",
+     "region": "GR",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "20",
+     "region": "GR",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-greece"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 10,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 20,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 50,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 100,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "1",
+     "region": "TH",
+     "gb": 999,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "3",
+     "region": "TH",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "5",
+     "region": "TH",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "7",
+     "region": "TH",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "10",
+     "region": "TH",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "15",
+     "region": "TH",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "20",
+     "region": "TH",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 999,
+     "price": 65.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-thailand"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 1,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 2,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 3,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 5,
+     "price": 17.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 10,
+     "price": 32.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 20,
+     "price": 60.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 50,
+     "price": 135.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 100,
+     "price": 250.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "1",
+     "region": "CN",
+     "gb": 999,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "3",
+     "region": "CN",
+     "gb": 999,
+     "price": 21.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "5",
+     "region": "CN",
+     "gb": 999,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "7",
+     "region": "CN",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "10",
+     "region": "CN",
+     "gb": 999,
+     "price": 62.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "15",
+     "region": "CN",
+     "gb": 999,
+     "price": 90.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "20",
+     "region": "CN",
+     "gb": 999,
+     "price": 110.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 999,
+     "price": 150.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-china"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 1,
+     "price": 4.35,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 2,
+     "price": 6.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 3,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 5,
+     "price": 12.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 10,
+     "price": 20.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 20,
+     "price": 40.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 50,
+     "price": 99.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "1",
+     "region": "AE",
+     "gb": 999,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "3",
+     "region": "AE",
+     "gb": 999,
+     "price": 39.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "5",
+     "region": "AE",
+     "gb": 999,
+     "price": 64.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "7",
+     "region": "AE",
+     "gb": 999,
+     "price": 88.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "10",
+     "region": "AE",
+     "gb": 999,
+     "price": 119.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "15",
+     "region": "AE",
+     "gb": 999,
+     "price": 170.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "20",
+     "region": "AE",
+     "gb": 999,
+     "price": 220.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 999,
+     "price": 300.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-united-arab-emirates"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 1,
+     "price": 3.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 2,
+     "price": 6.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 3,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 5,
+     "price": 12.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 10,
+     "price": 23.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 20,
+     "price": 42.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 50,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 100,
+     "price": 165.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "1",
+     "region": "KR",
+     "gb": 999,
+     "price": 5.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "3",
+     "region": "KR",
+     "gb": 999,
+     "price": 14.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "5",
+     "region": "KR",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "7",
+     "region": "KR",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "10",
+     "region": "KR",
+     "gb": 999,
+     "price": 38.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "15",
+     "region": "KR",
+     "gb": 999,
+     "price": 53.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "20",
+     "region": "KR",
+     "gb": 999,
+     "price": 68.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 999,
+     "price": 93.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-south-korea"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 1,
+     "price": 2.2,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 2,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 3,
+     "price": 4.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 5,
+     "price": 7.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 10,
+     "price": 13.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 20,
+     "price": 24.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 50,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 100,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "1",
+     "region": "VN",
+     "gb": 999,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "3",
+     "region": "VN",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "5",
+     "region": "VN",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "7",
+     "region": "VN",
+     "gb": 999,
+     "price": 22.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "10",
+     "region": "VN",
+     "gb": 999,
+     "price": 28.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "15",
+     "region": "VN",
+     "gb": 999,
+     "price": 39.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "20",
+     "region": "VN",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 999,
+     "price": 68.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-vietnam"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 1,
+     "price": 3.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 2,
+     "price": 6.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 3,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 5,
+     "price": 14.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 10,
+     "price": 28.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 20,
+     "price": 55.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 50,
+     "price": 120.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 100,
+     "price": 200.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "1",
+     "region": "IN",
+     "gb": 999,
+     "price": 5.5,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "3",
+     "region": "IN",
+     "gb": 999,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "5",
+     "region": "IN",
+     "gb": 999,
+     "price": 23.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "7",
+     "region": "IN",
+     "gb": 999,
+     "price": 30.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "10",
+     "region": "IN",
+     "gb": 999,
+     "price": 40.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "15",
+     "region": "IN",
+     "gb": 999,
+     "price": 57.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "20",
+     "region": "IN",
+     "gb": 999,
+     "price": 72.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 999,
+     "price": 96.0,
+     "currency": "USD",
+     "perks": "ללא הגבלת נפח (שימוש הוגן), בדקו תנאים אצל הספק",
+     "notes": "",
+     "url": "https://esim.io/destinations/esim-india"
+    }
+   ]
+  }
+ },
+ "updatedAt": "2026-10-21T14:20Z"
+}

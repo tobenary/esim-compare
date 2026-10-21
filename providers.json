@@ -65,6 +65,13 @@
    "coupon": null,
    "couponNote": null,
    "note": null
+  },
+  "eSIM.io": {
+   "url": "https://esim.io/regions/esim-europe",
+   "referralUrl": null,
+   "coupon": "TOMER83",
+   "couponNote": null,
+   "note": null
   }
  }
 }

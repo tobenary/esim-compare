@@ -1,0 +1,46 @@
+name: Daily data update
+
+on:
+  schedule:
+    - cron: "30 4 * * *" # every day 04:30 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh prices from the shops' websites
+        id: update
+        run: |
+          set +e
+          python3 scripts/update_data.py
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: Check the data still builds
+        run: python3 scripts/build.py
+      - name: Commit new data (Cloudflare redeploys on push)
+        run: |
+          git config user.name "esim-compare bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/plans.json
+          git diff --cached --quiet || (git commit -m "Daily data update $(date -u +%F)" && git push)
+      - name: Open or update an issue when a shop failed
+        if: steps.update.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create data-update --color FBCA04 --description "Daily data update problems" 2>/dev/null || true
+          n=$(gh issue list --label data-update --state open --json number --jq '.[0].number')
+          if [ -n "$n" ]; then
+            gh issue comment "$n" --body-file report.md
+          else
+            gh issue create --title "Daily update: a shop failed ($(date -u +%F))" --label data-update --body-file report.md
+          fi

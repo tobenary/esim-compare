@@ -2,3 +2,5 @@
 node_modules/
 .wrangler/
 public/data.json
+report.md
+__pycache__/
