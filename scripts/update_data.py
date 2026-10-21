@@ -55,12 +55,18 @@ def key(p):
     return (p["region"], str(p["days"]), p["gb"], p.get("perks", ""))
 
 
+def plausible(p):
+    return p["price"] > 0 and p["gb"] > 0 and bool(p["days"])
+
+
 def validate(plans):
-    if not plans:
+    """Drop rows that make no sense (e.g. a $0 placeholder). Too many bad rows means the parser broke."""
+    good = [p for p in plans if plausible(p)]
+    if not good:
         raise RuntimeError("no plans found: page layout changed or the page was blocked")
-    for p in plans:
-        if not (p["price"] > 0 and p["gb"] > 0 and p["days"]):
-            raise RuntimeError(f"implausible plan {p}")
+    if len(good) < 0.8 * len(plans):
+        raise RuntimeError(f"{len(plans) - len(good)} of {len(plans)} rows look wrong, e.g. {next(p for p in plans if not plausible(p))}")
+    return good
 
 
 def main():
@@ -80,8 +86,7 @@ def main():
         prov = data["providers"].setdefault(name, {"status": "manual", "fetchedAt": None, "error": None, "plans": []})
         old = prov["plans"]
         try:
-            new = scrape()
-            validate(new)
+            new = validate(scrape())
             if prov["status"] == "ok" and len(new) < MIN_KEEP_RATIO * len(old):
                 raise RuntimeError(f"only {len(new)} plans found, previously {len(old)}")
         except Exception as e:  # noqa: BLE001 - keep old data, report, carry on with the other shops
