@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install Playwright (Airalo needs a real browser; it drives the preinstalled Chrome)
+        run: python3 -m pip install --quiet playwright
       - name: Refresh prices from the shops' websites
         id: update
         run: |

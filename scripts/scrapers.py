@@ -8,10 +8,12 @@ Chrome (set CHROME_BIN to override the binary). Parsers work on the visible page
 shows up as "no plans found" and update_data.py keeps the previous prices instead of publishing garbage.
 """
 import html
+import json
 import os
 import re
 import shutil
 import subprocess
+from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import quote
 
 UA = "Mozilla/5.0 (compatible; esim-compare-bot)"
@@ -173,6 +175,143 @@ def harel():
             for gb, days, price in re.findall(r"אירופה (\d+(?:\.\d+)?) GB Data (\d+) days \$[\d.]+ \$([\d.]+)", t)]
 
 
+# --------------------------------------------------------------------- GigSky
+# GigSky's website loads its prices from a public JSON API: one feed lists every destination, then one
+# call per destination returns its plans (list price plus the site-wide discount shown on the page).
+GIGSKY_FEED = ("https://cdn-prod.gigsky.com/planBundle/includeSponsorPlans=false&simType=ACME_GSMA_ESIM_V2"
+               "&includePlanVariants=false&lang=en&version=2-plan-bundle-ext.json")
+GIGSKY_PLANS = "https://services.gigsky.com/cams/api/v4/planBundles/{id}?startIndex=0&count=100&includeFreePlan=false&currency=USD"
+GIGSKY_REGIONS = {"Europe": "europe", "Asia Pacific": "asia", "North America": "north-america",
+                  "Middle East": "middle-east", "Africa": "africa", "World Plan": "global"}
+
+
+def _gigsky_bundle(item):
+    bundle, region = item
+    url = "https://www.gigsky.com/region/esim-in-europe" if region == "europe" else "https://www.gigsky.com/"
+    d = json.loads(fetch(GIGSKY_PLANS.format(id=bundle["planBundleId"]), timeout=30))
+    out = []
+    for p in d.get("plans", []):
+        if p.get("freePlan") or not p.get("price"):
+            continue
+        pct = (p.get("discount") or {}).get("percentage") or 0
+        price = round(p["price"] * (1 - pct / 100), 2)
+        notes = f"כולל מבצע {pct}%" if pct else ""
+        if p.get("chargingType") == "UNLIMITED":
+            if p.get("isDayPlan"):  # priced per day; the site lets you pick the number of days
+                out.append(plan(1, region, UNLIMITED, price, "USD", url, perks="ללא הגבלה, מחיר ליום (אפשר לבחור כמה ימים)", notes=notes))
+            continue
+        out.append(plan(p["validityPeriodInDays"], region, round(p["dataLimitInKB"] / 1048576, 3), price, "USD", url, notes=notes))
+    return out
+
+
+def gigsky():
+    feed = json.loads(fetch(GIGSKY_FEED, timeout=60))["list"]
+    todo = []
+    for b in feed:
+        if b["planBundleType"] == "COUNTRY" and len(b.get("countryCodes", [])) == 1:
+            todo.append((b, b["countryCodes"][0]))
+        elif b["planBundleName"] in GIGSKY_REGIONS:
+            todo.append((b, GIGSKY_REGIONS[b["planBundleName"]]))
+    out = []
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for rows in pool.map(_gigsky_bundle, todo):
+            out += rows
+    return out
+
+
+# --------------------------------------------------------------------- BNESIM
+# BNESIM's shop is a JS app on top of a public API; this is the call it makes for its full price list (EUR).
+BNESIM_REGIONS = {"Europe 7": "europe", "Asia": "asia", "Middle East": "middle-east", "North America": "north-america",
+                  "South America": "south-america", "Africa": "africa", "Oceania": "oceania",
+                  "Global": "global", "Mini Global": "global"}
+
+
+def bnesim():
+    out = subprocess.run(["curl", "-sS", "--max-time", "90", "-A", UA, "-e", "https://shop.bnesim.com/", "-F", "a=SITE",
+                          "-F", "lang=en-US", "-F", "one_time_products=0",
+                          "https://api.bnesim.com/v0.1/sim_card_landing_pricing/"], capture_output=True, timeout=120)
+    if out.returncode != 0:
+        raise RuntimeError(f"BNESIM API call failed: {out.stderr.decode()[:150]}")
+    products = json.loads(out.stdout.decode("utf-8", "ignore"))["products"]
+    rows = []
+    for p in products:
+        if p["regional"]:
+            region = BNESIM_REGIONS.get(p["region"])
+            perks = f"{p['region'].replace(' 7', '')} ({len(p['coverages'])} מדינות)" if region else ""
+        elif len(p["coverages"]) == 1:
+            region, perks = p["coverages"][0], ""
+        else:
+            continue
+        if not region:
+            continue
+        amount = float(p["amount"]) if p["unit"] == "GB" else float(p["amount"]) / 1024
+        days = "30" if p["duration"] == 30 else "Unlimited"  # duration -1 = no expiry date
+        rows.append(plan(days, region, round(amount, 3), p["price"], p["currency"], "https://shop.bnesim.com/", perks=perks))
+    return rows
+
+
+# ---------------------------------------------------------------------- Airalo
+# Airalo draws its package lists in the browser and only shows fixed-data plans after clicking a tab, so this
+# one needs Playwright (pip install playwright; it drives the installed Chrome). The page shows prices in a
+# currency chosen from the visitor's location, so the currency is read from the page and converted later.
+AIRALO_PAGES = [("europe", "europe-esim"), ("asia", "asia-esim"), ("middle-east", "middle-east-esim"),
+                ("north-america", "north-america-esim"), ("south-america", "south-america-esim"),
+                ("africa", "africa-esim"), ("oceania", "oceania-esim")] + [(iso, f"{slug}-esim") for iso, slug in {
+    "US": "united-states", "FR": "france", "IT": "italy", "ES": "spain", "DE": "germany", "GB": "united-kingdom",
+    "GR": "greece", "TR": "turkey", "PT": "portugal", "NL": "netherlands", "CH": "switzerland", "AT": "austria",
+    "HR": "croatia", "CY": "cyprus", "CZ": "czech-republic", "HU": "hungary", "PL": "poland", "TH": "thailand",
+    "JP": "japan", "KR": "south-korea", "CN": "china", "IN": "india", "VN": "vietnam", "ID": "indonesia",
+    "SG": "singapore", "MY": "malaysia", "AE": "united-arab-emirates", "EG": "egypt", "MA": "morocco",
+    "MX": "mexico", "CA": "canada", "BR": "brazil", "AR": "argentina", "AU": "australia", "NZ": "new-zealand"}.items()]
+AIRALO_ROW = re.compile(r"(\d+) days?\s+(Unlimited|[\d.]+)\s+GB\s+([\d.]+)\s+([A-Z]{3})")
+
+
+def airalo():
+    from playwright.sync_api import sync_playwright  # imported here so other shops work without Playwright
+    out, pages = [], 0
+    with sync_playwright() as p:
+        browser = p.chromium.launch(channel="chrome", headless=True)
+        page = browser.new_context(locale="en-US", viewport={"width": 1300, "height": 900}).new_page()
+        for region, slug in AIRALO_PAGES:
+            url = f"https://www.airalo.com/{slug}"
+            try:
+                page.goto(url, wait_until="networkidle", timeout=60000)
+                page.wait_for_timeout(1000)
+                rows = AIRALO_ROW.findall(page.inner_text("body"))  # first tab: unlimited-data packages
+                page.get_by_text("Fixed data", exact=True).first.click(timeout=5000)
+                page.wait_for_timeout(1000)
+                rows += AIRALO_ROW.findall(page.inner_text("body"))
+            except Exception:  # noqa: BLE001 - a missing or slow page is skipped, not fatal
+                continue
+            seen, got = set(), []
+            for days, data, price, cur in rows:
+                if (days, data) in seen:
+                    continue
+                seen.add((days, data))
+                unl = data == "Unlimited"
+                got.append(plan(days, region, UNLIMITED if unl else float(data), price, cur, url,
+                                perks="ללא הגבלה" if unl else ""))
+            pages += bool(got)
+            out += got
+        browser.close()
+    if pages < 5:
+        raise RuntimeError(f"only {pages} Airalo pages had packages: layout changed or blocked?")
+    return out
+
+
+# ----------------------------------------------------------------------- World8
+def world8():
+    url = "https://world8.co.il/" + quote("מחירון") + "/"
+    t = text(fetch(url))
+    m = re.search(r"(\d+) דקות / \d+ סמס / 1GB גלישה = (\d+) ₪ תקף ל- 4 שנים", t)
+    if not m:
+        raise RuntimeError("World8 4-year plan price not found")
+    minutes, price = m.groups()
+    add = re.search(r"10GB גלישה = (\d+) ₪ ל- 30 יום", t)
+    notes = "לא שווה" + (f"; תוספת 10GB לאירופה/ארה״ב: {add.group(1)} ₪ ל-30 יום" if add else "")
+    return [plan("4 שנים", "global", 1, price, "ILS", url, perks=f"{minutes} דקות שיחה + {minutes} SMS, תקף ל-4 שנים", notes=notes)]
+
+
 # Provider name (as in providers.json) -> scraper. Shops without one keep their last known prices.
-SCRAPERS = {"Voye Global": voye, "Yesim": yesim, "WeSIM": wesim, "eSIM.io": esimio, "AirHub": airhub,
+SCRAPERS = {"World8": world8, "Airalo": airalo, "GigSky": gigsky, "BNESIM": bnesim, "Voye Global": voye, "Yesim": yesim, "WeSIM": wesim, "eSIM.io": esimio, "AirHub": airhub,
             "Harel Multi-Travel": harel}

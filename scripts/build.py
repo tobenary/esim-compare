@@ -36,7 +36,7 @@ def main():
     rates = store.get("rates") or RATES_TO_EUR
     valid_regions = set(destinations["regions"]) | {c for g in destinations["groups"] for c in g["countries"]}
 
-    rows = []
+    rows, skipped = [], {}
     for name, prov in store["providers"].items():
         if name not in providers:
             sys.exit(f"Provider {name!r} is missing from providers.json")
@@ -44,7 +44,9 @@ def main():
             if r["currency"] not in rates:
                 sys.exit(f"Unknown currency {r['currency']!r} for {name}")
             if r["region"] not in valid_regions:
-                sys.exit(f"Unknown region {r['region']!r} for {name}: use a region id or an ISO country code from destinations.json")
+                # Scraped data can contain codes we don't list (e.g. GigSky's "BL" or internal "1N"): skip and say so.
+                skipped[(name, r["region"])] = skipped.get((name, r["region"]), 0) + 1
+                continue
             days, days_label = parse_days(r["days"])
             gb = float(r["gb"])
             unlimited_data = gb >= UNLIMITED_GB
@@ -77,6 +79,8 @@ def main():
     (ROOT / "public" / "data.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8"
     )
+    for (name, region), n in sorted(skipped.items()):
+        print(f"warning: skipped {n} {name} plans for unknown destination {region!r} (add it to destinations.json to show it)")
     print(f"Wrote {len(rows)} plans to public/data.json")
 
 

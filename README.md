@@ -8,7 +8,7 @@ Prices are no longer edited by hand. `.github/workflows/daily-update.yml` runs e
 2. If `data/plans.json` changed, the workflow commits it. The push makes Cloudflare rebuild and redeploy the site.
 3. If a shop's scraper fails or finds far fewer plans than before, its previous prices are kept (marked "not updated automatically" on the site) and the workflow opens/updates a GitHub issue labelled `data-update`.
 
-Shops with a scraper: Voye Global, Yesim, WeSIM, eSIM.io, AirHub, Harel Multi-Travel. Shops without one (BNESIM, Airalo, GigSky, World8) keep their last known prices and are tagged on the site until a scraper is written.
+Every shop has a scraper (`scripts/scrapers.py`): GigSky and BNESIM read the JSON APIs their websites use (all destinations); Voye Global, Yesim, WeSIM and eSIM.io are parsed from page text; AirHub and Harel are rendered in headless Chrome; Airalo is driven with Playwright (needs `pip install playwright`, it uses the installed Chrome) for about 40 regions/countries; World8 is a text parse of its price page. A shop without a scraper would keep its last known prices and be tagged on the site.
 
 Files you can still edit:
 - `providers.json`: one entry per shop: `url`, `referralUrl` (your affiliate link, used for the Buy button when set), `coupon`, `couponNote`, `note`, and optional `popup` (coupon dialog before visiting).

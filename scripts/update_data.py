@@ -39,7 +39,8 @@ def seed_from_csv():
 def fetch_rates(prev):
     """Daily EUR conversion rates (ECB via frankfurter). Keeps the previous ones if the API is down."""
     rates, as_of = dict(prev.get("rates") or DEFAULT_RATES), prev.get("ratesAsOf")
-    for cur in ("USD", "ILS"):
+    used = {p["currency"] for prov in prev["providers"].values() for p in prov["plans"]}
+    for cur in sorted((used | {"USD", "ILS"}) - {"EUR"}):
         try:
             body = scrapers.fetch(f"https://api.frankfurter.dev/v1/latest?base={cur}&symbols=EUR", timeout=20)
             d = json.loads(body)

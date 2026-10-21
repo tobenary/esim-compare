@@ -241,7 +241,9 @@ function fillCountries() {
 const toggle = (set, v) => (set.has(v) ? set.delete(v) : set.add(v));
 const uniq = arr => [...new Set(arr)];
 
-function update() {
+let limit = 60; // cards shown; "show more" adds another page
+function update(keepLimit) {
+  if (keepLimit !== true) limit = 60;
   const dayVals = uniq(plans.filter(p => !p.unlimitedDays).map(p => p.days)).sort((a, b) => a - b);
   renderChips("f-days", "days",
     [...dayVals.map(d => ({ value: String(d), label: d + " ימים" })), { value: "u", label: "ללא תפוגה" }], dayKey);
@@ -265,7 +267,7 @@ function update() {
   list.replaceChildren();
   if (!out.length) list.append(el("div", { className: "empty", textContent: state.dest !== "all" && !plans.some(p => coversDest(p, state.dest))
     ? `עדיין אין חבילות ל${destLabel(state.dest)}. נסו חבילה גלובלית או אזור אחר.` : "אין חבילות שמתאימות לסינון" }));
-  out.forEach(p => {
+  out.slice(0, limit).forEach(p => {
     const spec = `${p.daysLabel}${p.unlimitedDays ? "" : " ימים"} · ${p.unlimitedData ? "גלישה ללא הגבלה" : p.gb + " GB"} · ${destLabel(p.region)}`;
     const name = el("div", { className: "prov", textContent: p.provider });
     if (p.priceEur === cheapest) name.append(el("span", { className: "badge", textContent: "הכי זול" }));
@@ -290,6 +292,11 @@ function update() {
     card.append(buy);
     list.append(card);
   });
+  if (out.length > limit) {
+    const more = el("button", { className: "chip", type: "button", textContent: `הצג עוד (${out.length - limit} נוספות)` });
+    more.onclick = () => { limit += 60; update(true); };
+    list.append(more);
+  }
   syncUrl();
 }
 
