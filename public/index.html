@@ -387,11 +387,13 @@ function renderCoupons() {
 }
 
 // Where the Buy button goes: the shop's page for this destination. With an affiliate link the visitor must go
-// through it to be tracked, so it's used as is unless the shop has a "referralDeepLink" template with {url}.
+// through it to be tracked, so the plain referral link is used unless the shop has a "referralDeepLink" template
+// in providers.json: {url} is the destination page as is, {urlEncoded} the same URL-encoded.
 function buyUrl(p, prov) {
   const target = p.url || prov.url;
   if (!prov.referralUrl) return target;
-  return prov.referralDeepLink ? prov.referralDeepLink.replace("{url}", encodeURIComponent(target)) : prov.referralUrl;
+  if (!prov.referralDeepLink) return prov.referralUrl;
+  return prov.referralDeepLink.replace("{urlEncoded}", encodeURIComponent(target)).replace("{url}", target);
 }
 
 function openPopup(name, prov, dest) {

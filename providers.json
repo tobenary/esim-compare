@@ -50,14 +50,16 @@
    "referralUrl": "https://voyeglobal.com/?referral_code=REF-A6D77510",
    "coupon": null,
    "couponNote": null,
-   "note": null
+   "note": null,
+   "referralDeepLink": "{url}?referral_code=REF-A6D77510"
   },
   "GigSky": {
    "url": "https://www.gigsky.com/region/esim-in-europe",
    "referralUrl": "https://gigsky.sng.link/Euypu/kbao?referralCode=TOME223&referrerName=Tomer&referralReward=25%25&_p=%257B%2522referralCode%2522%253A%2522TOME223%2522%257D&_forward_params=2",
    "coupon": "TOME223",
    "couponNote": "25% הנחה על התוכנית הראשונה ללקוח חדש",
-   "note": null
+   "note": null,
+   "referralDeepLink": "{url}"
   },
   "Yesim": {
    "url": "https://yesim.tech/regions/europe-esim",
