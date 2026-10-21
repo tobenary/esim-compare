@@ -199,7 +199,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T14:20Z",
+   "fetchedAt": "2026-10-21T17:55Z",
    "error": null,
    "plans": [
     {
@@ -1906,7 +1906,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T14:20Z",
+   "fetchedAt": "2026-10-21T17:55Z",
    "error": null,
    "plans": [
     {
@@ -1953,7 +1953,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T14:20Z",
+   "fetchedAt": "2026-10-21T17:55Z",
    "error": null,
    "plans": [
     {
@@ -2060,7 +2060,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T14:20Z",
+   "fetchedAt": "2026-10-21T17:55Z",
    "error": null,
    "plans": [
     {
@@ -2314,7 +2314,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T14:20Z",
+   "fetchedAt": "2026-10-21T17:55Z",
    "error": null,
    "plans": [
     {
@@ -2441,7 +2441,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T14:20Z",
+   "fetchedAt": "2026-10-21T17:55Z",
    "error": null,
    "plans": [
     {
@@ -5367,5 +5367,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-21T14:20Z"
+ "updatedAt": "2026-10-21T17:55Z"
 }
