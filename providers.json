@@ -12,7 +12,10 @@
    "referralUrl": null,
    "coupon": "8GXV4D9Q",
    "couponNote": "3€ הנחה על כל מוצרי BNESIM",
-   "note": "מומלצת לאירופה"
+   "note": "מומלצת לאירופה",
+   "popup": {
+    "offersUrl": "https://shop.bnesim.com/offers/"
+   }
   },
   "Airalo": {
    "url": "https://www.airalo.com/he/europe-esim",
