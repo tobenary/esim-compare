@@ -274,21 +274,27 @@ def airalo():
         page = browser.new_context(locale="en-US", viewport={"width": 1300, "height": 900}).new_page()
         for region, slug in AIRALO_PAGES:
             url = f"https://www.airalo.com/{slug}"
+            rows = []
             try:
                 page.goto(url, wait_until="networkidle", timeout=60000)
                 page.wait_for_timeout(1000)
                 rows = AIRALO_ROW.findall(page.inner_text("body"))  # first tab: unlimited-data packages
-                page.get_by_text("Fixed data", exact=True).first.click(timeout=5000)
+                tab = page.get_by_text("Fixed data", exact=True).first
+                try:
+                    tab.click(timeout=5000)
+                except Exception:  # noqa: BLE001 - an overlay (cookie banner) can swallow the click
+                    tab.dispatch_event("click")
                 page.wait_for_timeout(1000)
                 rows += AIRALO_ROW.findall(page.inner_text("body"))
             except Exception as e:  # noqa: BLE001 - a missing or slow page is skipped, not fatal
                 body = ""
                 try:
-                    body = re.sub(r"\s+", " ", page.inner_text("body"))[:350]
+                    full = re.sub(r"\s+", " ", page.inner_text("body"))
+                    i = max(full.find("Choose your package"), 0)
+                    body = full[i:i + 250]
                 except Exception:  # noqa: BLE001
                     pass
-                last_error = f"{slug}: {str(e).splitlines()[0][:100]} | page text: {body}"
-                continue
+                last_error = f"{slug}: {str(e).splitlines()[0][:100]} | rows before failure: {len(rows)} | page text: {body}"
             seen, got = set(), []
             for days, data, price, cur in rows:
                 if (days, data) in seen:
