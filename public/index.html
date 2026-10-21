@@ -291,9 +291,11 @@ function update(keepLimit) {
     // France-only plans: Geneva airport (GVA) is in Switzerland, so a France-only plan has no signal there.
     // "GVA" sits in its own left-to-right <bdi> so it can't flip the Hebrew sentence.
     const gva = p.region === "FR";
-    if (p.perks || p.notes || gva) {
+    const ski = p.days === 7; // a typical ski trip is 8 days, so a 7-day plan can fall one day short
+    if (p.perks || p.notes || gva || ski) {
       const meta = el("div", { className: "meta" });
       if (p.perks) meta.append(el("div", { textContent: "✔ " + p.perks }));
+      if (ski) meta.append(el("div", { textContent: "✔ בד״כ יציאה לסקי היא 8 ימים - לקחת בחשבון" }));
       if (p.notes) meta.append(el("div", { className: "note", textContent: p.notes }));
       if (gva) meta.append(el("div", { className: "hl" }, "✔ נחיתה בג׳נבה (", el("bdi", { dir: "ltr", textContent: "GVA" }),
         ") היא נחיתה בשוויץ ולא בצרפת: בחבילה לצרפת בלבד אין שם קליטה, לקחת בחשבון"));
