@@ -28,5 +28,4 @@ Do not put passwords, API keys, or payment/tax details in this file: the repo is
 - Note: the program was described as requiring an API integration.
 
 ## Site verification tags already added to `public/index.html`
-- FlexOffers: `fo-verify`
 - Impact: `impact-site-verification`
