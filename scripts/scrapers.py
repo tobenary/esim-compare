@@ -183,11 +183,33 @@ GIGSKY_FEED = ("https://cdn-prod.gigsky.com/planBundle/includeSponsorPlans=false
 GIGSKY_PLANS = "https://services.gigsky.com/cams/api/v4/planBundles/{id}?startIndex=0&count=100&includeFreePlan=false&currency=USD"
 GIGSKY_REGIONS = {"Europe": "europe", "Asia Pacific": "asia", "North America": "north-america",
                   "Middle East": "middle-east", "Africa": "africa", "World Plan": "global"}
+GIGSKY_HOME = "https://www.gigsky.com/all-countries"
+
+
+def _gigsky_page(bundle, region):
+    """The page for this destination on gigsky.com (regions: /region/esim-in-<name>, countries: /country/esim-in-<name>)."""
+    slug = re.sub(r"[^a-z0-9]+", "-", bundle["planBundleName"].lower()).strip("-")
+    if bundle["planBundleType"] == "COUNTRY":
+        return f"https://www.gigsky.com/country/esim-in-{slug}"
+    if region == "global":
+        return GIGSKY_HOME
+    return f"https://www.gigsky.com/region/esim-in-{slug}"
+
+
+def _url_ok(url):
+    try:
+        out = subprocess.run(["curl", "-sSL", "-o", "/dev/null", "--max-time", "20", "-A", UA, "-w", "%{http_code}", url],
+                             capture_output=True, timeout=30)
+        return out.stdout.decode().startswith("2")
+    except Exception:  # noqa: BLE001
+        return False
 
 
 def _gigsky_bundle(item):
     bundle, region = item
-    url = "https://www.gigsky.com/region/esim-in-europe" if region == "europe" else "https://www.gigsky.com/"
+    url = _gigsky_page(bundle, region)
+    if not _url_ok(url):  # a wrong guess would send people to a 404: fall back to the country list
+        url = GIGSKY_HOME
     d = json.loads(fetch(GIGSKY_PLANS.format(id=bundle["planBundleId"]), timeout=30))
     out = []
     for p in d.get("plans", []):
@@ -224,6 +246,10 @@ def gigsky():
 BNESIM_REGIONS = {"Europe 7": "europe", "Asia": "asia", "Middle East": "middle-east", "North America": "north-america",
                   "South America": "south-america", "Africa": "africa", "Oceania": "oceania",
                   "Global": "global", "Mini Global": "global"}
+# Page on shop.bnesim.com for each region product (plans/<slug>/); countries use plans/<iso2 lower>/.
+BNESIM_PAGES = {"Europe 7": "europe", "Asia": "asia", "Middle East": "middle-east", "North America": "north-america",
+                "South America": "south-america", "Africa": "africa", "Oceania": "oceania", "Global": "global",
+                "Mini Global": "mini-global"}
 
 
 def bnesim():
@@ -238,15 +264,17 @@ def bnesim():
         if p["regional"]:
             region = BNESIM_REGIONS.get(p["region"])
             perks = f"{p['region'].replace(' 7', '')} ({len(p['coverages'])} מדינות)" if region else ""
+            page = BNESIM_PAGES.get(p["region"], "")
         elif len(p["coverages"]) == 1:
             region, perks = p["coverages"][0], ""
+            page = region.lower()
         else:
             continue
         if not region:
             continue
         amount = float(p["amount"]) if p["unit"] == "GB" else float(p["amount"]) / 1024
         days = "30" if p["duration"] == 30 else "Unlimited"  # duration -1 = no expiry date
-        rows.append(plan(days, region, round(amount, 3), p["price"], p["currency"], "https://shop.bnesim.com/", perks=perks))
+        rows.append(plan(days, region, round(amount, 3), p["price"], p["currency"], f"https://shop.bnesim.com/plans/{page}/", perks=perks))
     return rows
 
 

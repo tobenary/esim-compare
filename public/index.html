@@ -103,6 +103,7 @@
   </div>
 
   <div class="panel" id="filters">
+    <div class="group"><h3>סוג חבילה</h3><div class="chips" id="f-kind"></div></div>
     <div class="group"><h3>ימים</h3><div class="chips" id="f-days"></div></div>
     <div class="group"><h3>נפח (GB)</h3><div class="chips" id="f-gb"></div></div>
     <div class="group"><h3>ספק</h3><div class="chips" id="f-prov"></div></div>
@@ -151,7 +152,7 @@ const GB_BUCKETS = [
 ];
 const SYMBOL = { EUR: "€", USD: "$", ILS: "₪" };
 
-const state = { days: new Set(), gb: new Set(), prov: new Set(), dest: "europe", unl: true, max: null, sort: "price" };
+const state = { days: new Set(), gb: new Set(), prov: new Set(), dest: "europe", kind: "all", unl: true, max: null, sort: "price" };
 let plans = [], providers = {}, dests = { regions: {}, groups: [] }, maxPrice = 100;
 const names = new Intl.DisplayNames(["he"], { type: "region" });
 
@@ -174,6 +175,7 @@ function matches(p, skip) {
   if (skip !== "gb" && state.gb.size && !(state.unl && p.unlimitedData) && !state.gb.has(gbBucket(p))) return false;
   if (skip !== "prov" && state.prov.size && !state.prov.has(p.provider)) return false;
   if (skip !== "dest" && !coversDest(p, state.dest)) return false;
+  if (skip !== "kind" && state.kind !== "all" && isRegional(p) !== (state.kind === "regional")) return false;
   if (p.priceEur > state.max) return false;
   return true;
 }
@@ -191,7 +193,8 @@ function coversDest(p, dest) {
 }
 
 const destLabel = id => (isCountry(id) ? names.of(id) : (regionOf(id) || {}).he || id);
-const isRegionalPlan = p => !isCountry(p.region) && p.region !== "global";
+const isRegional = p => !isCountry(p.region); // a region or worldwide plan, as opposed to a single country
+const isRegionalPlan = p => isRegional(p) && p.region !== "global";
 
 function perGb(p) { return p.unlimitedData ? Infinity : p.priceEur / p.gb; }
 
@@ -209,6 +212,32 @@ function renderChips(containerId, group, options, valueOf) {
   });
 }
 
+function renderKind() {
+  const box = $("f-kind");
+  box.replaceChildren();
+  [["all", "הכל"], ["regional", "אזוריות וגלובליות בלבד"], ["country", "מדינה בודדת בלבד"]].forEach(([id, label]) => {
+    const n = plans.filter(p => matches(p, "kind") && (id === "all" || isRegional(p) === (id === "regional"))).length;
+    const chip = el("button", { className: "chip" + (n ? "" : " zero"), type: "button" }, label, el("span", { className: "n", textContent: n }));
+    chip.setAttribute("aria-pressed", state.kind === id);
+    chip.onclick = () => { state.kind = id; update(); };
+    box.append(chip);
+  });
+}
+
+// The country box only suggests countries of the chosen region (all countries for worldwide / a single country).
+function fillCountryList() {
+  const en = new Intl.DisplayNames(["en"], { type: "region" });
+  const reg = regionOf(state.dest);
+  const allowed = reg && Array.isArray(reg.countries) ? new Set(reg.countries) : null;
+  const list = $("country-list");
+  list.replaceChildren();
+  dests.groups.forEach(g => g.countries.forEach(c => {
+    if (allowed && !allowed.has(c)) return;
+    list.append(el("option", { value: names.of(c) || c, label: en.of(c) || c }));
+  }));
+  $("country").placeholder = allowed ? `הקלידו מדינה ב${reg.he}` : "למשל צרפת, France";
+}
+
 function renderDest() {
   const box = $("f-dest");
   box.replaceChildren();
@@ -223,6 +252,7 @@ function renderDest() {
     chip.onclick = () => { state.dest = id; update(); };
     box.append(chip);
   });
+  fillCountryList();
   const input = $("country");
   if (isCountry(state.dest)) input.value = names.of(state.dest);
   else if (document.activeElement !== input) input.value = "";
@@ -232,12 +262,11 @@ const countryByName = new Map(); // lower-cased Hebrew or English name -> ISO co
 
 function fillCountries() {
   const en = new Intl.DisplayNames(["en"], { type: "region" });
-  const list = $("country-list"), input = $("country");
+  const input = $("country");
   dests.groups.forEach(g => g.countries.forEach(c => {
     const he = names.of(c) || c, eng = en.of(c) || c;
     countryByName.set(he.toLowerCase(), c);
     countryByName.set(eng.toLowerCase(), c);
-    list.append(el("option", { value: he, label: eng }));
   }));
   const pick = () => {
     const code = countryByName.get(input.value.trim().toLowerCase());
@@ -259,6 +288,7 @@ function update(keepLimit) {
   renderChips("f-gb", "gb", GB_BUCKETS.map(b => ({ value: b.id, label: b.label + " GB" })), gbBucket);
   renderChips("f-prov", "prov", uniq(plans.map(p => p.provider)).map(v => ({ value: v, label: v })), p => p.provider);
   renderDest();
+  renderKind();
 
   const out = plans.filter(p => matches(p));
   const sorters = {
@@ -281,7 +311,10 @@ function update(keepLimit) {
     const name = el("div", { className: "prov", textContent: p.provider });
     if (p.priceEur === cheapest) name.append(el("span", { className: "badge", textContent: "הכי זול" }));
     if (isFinite(bestGb) && perGb(p) === bestGb) name.append(el("span", { className: "badge", textContent: "משתלם לגיגה" }));
-    if (isRegionalPlan(p) && p.region !== state.dest) name.append(el("span", { className: "tag", textContent: "חבילה אזורית - ודאו שהמדינה כלולה" }));
+    if (isRegional(p)) {
+      const check = isCountry(state.dest) && p.region !== "global"; // a country is selected: its region plan may not include it
+      name.append(el("span", { className: "tag", textContent: check ? "חבילה אזורית - ודאו שהמדינה כלולה" : p.region === "global" ? "גלובלית" : "אזורית" }));
+    }
     if (p.stale) name.append(el("span", { className: "tag", textContent: "מחיר לא מתעדכן אוטומטית - ודאו באתר" }));
     const card = el("div", { className: "plan" },
       el("div", {}, name, el("div", { className: "spec", textContent: spec })),
@@ -302,9 +335,10 @@ function update(keepLimit) {
       card.append(meta);
     }
     const prov = providers[p.provider] || {};
-    const buy = el("a", { className: "buy", href: prov.referralUrl || p.url || prov.url, target: "_blank", rel: "noopener", textContent: "לאתר הספק ←" });
+    const href = buyUrl(p, prov);
+    const buy = el("a", { className: "buy", href, target: "_blank", rel: "noopener", textContent: "לאתר הספק ←" });
     // Shops with a "popup" entry in providers.json show the coupon dialog before the visit.
-    if (prov.popup) buy.onclick = e => { e.preventDefault(); openPopup(p.provider, prov); };
+    if (prov.popup) buy.onclick = e => { e.preventDefault(); openPopup(p.provider, prov, href); };
     card.append(buy);
     list.append(card);
   });
@@ -321,6 +355,7 @@ function syncUrl() {
   const q = new URLSearchParams();
   ["days", "gb", "prov"].forEach(k => state[k].size && q.set(k, [...state[k]].join("|")));
   if (state.dest !== "europe") q.set("dest", state.dest);
+  if (state.kind !== "all") q.set("kind", state.kind);
   if (!state.unl) q.set("unl", "0");
   if (state.max < maxPrice) q.set("max", state.max);
   if (state.sort !== "price") q.set("sort", state.sort);
@@ -330,6 +365,7 @@ function readUrl() {
   const q = new URLSearchParams(location.search);
   ["days", "gb", "prov"].forEach(k => q.get(k) && q.get(k).split("|").forEach(v => state[k].add(v)));
   state.dest = q.get("dest") || "europe";
+  state.kind = q.get("kind") || "all";
   state.unl = q.get("unl") !== "0";
   state.max = q.has("max") ? Number(q.get("max")) : maxPrice;
   state.sort = q.get("sort") || "price";
@@ -350,9 +386,16 @@ function renderCoupons() {
   });
 }
 
-function openPopup(name, prov) {
+// Where the Buy button goes: the shop's page for this destination. With an affiliate link the visitor must go
+// through it to be tracked, so it's used as is unless the shop has a "referralDeepLink" template with {url}.
+function buyUrl(p, prov) {
+  const target = p.url || prov.url;
+  if (!prov.referralUrl) return target;
+  return prov.referralDeepLink ? prov.referralDeepLink.replace("{url}", encodeURIComponent(target)) : prov.referralUrl;
+}
+
+function openPopup(name, prov, dest) {
   const d = $("popup");
-  const dest = prov.referralUrl || prov.url;
   d.querySelectorAll(".pname").forEach(n => (n.textContent = name));
   d.querySelectorAll(".code").forEach(n => (n.textContent = prov.coupon));
   d.querySelectorAll("a.offers").forEach(a => { a.href = prov.popup.offersUrl; a.textContent = prov.popup.offersUrl; });
@@ -392,7 +435,7 @@ async function init() {
   $("sort").onchange = e => { state.sort = e.target.value; update(); };
   $("reset").onclick = () => {
     ["days", "gb", "prov"].forEach(k => state[k].clear());
-    state.dest = "europe"; state.unl = true; state.max = maxPrice; state.sort = "price";
+    state.dest = "europe"; state.kind = "all"; state.unl = true; state.max = maxPrice; state.sort = "price";
     slider.value = maxPrice; $("unl").checked = true; $("sort").value = "price";
     update();
   };
