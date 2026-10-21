@@ -263,7 +263,9 @@ AIRALO_PAGES = [("europe", "europe-esim"), ("asia", "asia-esim"), ("middle-east"
     "JP": "japan", "KR": "south-korea", "CN": "china", "IN": "india", "VN": "vietnam", "ID": "indonesia",
     "SG": "singapore", "MY": "malaysia", "AE": "united-arab-emirates", "EG": "egypt", "MA": "morocco",
     "MX": "mexico", "CA": "canada", "BR": "brazil", "AR": "argentina", "AU": "australia", "NZ": "new-zealand"}.items()]
-AIRALO_ROW = re.compile(r"(\d+) days?\s+(Unlimited|[\d.]+)\s+GB\s+([\d.]+)\s+([A-Z]{3})")
+# Two layouts exist depending on the visitor: "3 days\nUnlimited\nGB\n10.00\nCHF" (tabs for fixed / unlimited
+# data) and "3 days 1 GB $4.00 USD" (one flat list). One pattern covers both.
+AIRALO_ROW = re.compile(r"(\d+) days?\s+(Unlimited|[\d.]+)(?:\s+GB)?\s+(?:[$€£]\s*)?([\d.]+)\s+([A-Z]{3})")
 
 
 def airalo():
@@ -279,13 +281,14 @@ def airalo():
                 page.goto(url, wait_until="networkidle", timeout=60000)
                 page.wait_for_timeout(1000)
                 rows = AIRALO_ROW.findall(page.inner_text("body"))  # first tab: unlimited-data packages
-                tab = page.get_by_text("Fixed data", exact=True).first
-                try:
-                    tab.click(timeout=5000)
-                except Exception:  # noqa: BLE001 - an overlay (cookie banner) can swallow the click
-                    tab.dispatch_event("click")
-                page.wait_for_timeout(1000)
-                rows += AIRALO_ROW.findall(page.inner_text("body"))
+                tab = page.get_by_text("Fixed data", exact=True)
+                if tab.count():  # the tabbed layout; the flat layout already listed everything above
+                    try:
+                        tab.first.click(timeout=4000)
+                    except Exception:  # noqa: BLE001 - an overlay (cookie banner) can swallow the click
+                        tab.first.dispatch_event("click", timeout=4000)
+                    page.wait_for_timeout(1000)
+                    rows += AIRALO_ROW.findall(page.inner_text("body"))
             except Exception as e:  # noqa: BLE001 - a missing or slow page is skipped, not fatal
                 body = ""
                 try:
