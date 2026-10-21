@@ -9,7 +9,7 @@
  "providers": {
   "World8": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -17604,7 +17604,7 @@
   "Airalo": {
    "status": "stale",
    "fetchedAt": "2026-10-21T18:16Z",
-   "error": "only 0 Airalo pages had packages: layout changed or blocked?",
+   "error": "only 0 Airalo pages had packages: layout changed or blocked? last error: austria-esim: Locator.click: Timeout 5000ms exceeded.",
    "plans": [
     {
      "days": "3",
@@ -21410,7 +21410,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -23117,7 +23117,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -23164,7 +23164,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -23271,7 +23271,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -23458,7 +23458,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -33295,7 +33295,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -33422,7 +33422,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T18:23Z",
+   "fetchedAt": "2026-10-21T18:33Z",
    "error": null,
    "plans": [
     {
@@ -36348,5 +36348,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-21T18:23Z"
+ "updatedAt": "2026-10-21T18:33Z"
 }
