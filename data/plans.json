@@ -17604,7 +17604,7 @@
   "Airalo": {
    "status": "stale",
    "fetchedAt": "2026-10-21T18:16Z",
-   "error": "only 0 Airalo pages had packages: layout changed or blocked? last error: austria-esim: Locator.click: Timeout 5000ms exceeded.",
+   "error": "only 0 Airalo pages had packages: layout changed or blocked? last error: austria-esim: Locator.click: Timeout 5000ms exceeded. | page text: Directs to Airalo homepage. Opens language selection menu when selected. Opens currency selection menu when selected. Log in Opens option to log in to an existi",
    "plans": [
     {
      "days": "3",
@@ -36348,5 +36348,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-21T18:33Z"
+ "updatedAt": "2026-10-21T18:42Z"
 }
