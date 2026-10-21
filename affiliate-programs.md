@@ -29,3 +29,7 @@ Do not put passwords, API keys, or payment/tax details in this file: the repo is
 
 ## Site verification tags already added to `public/index.html`
 - Impact: `impact-site-verification`
+
+## Yesim
+- Tracking link (Travelpayouts): https://yesim.tpx.lt/HL11rFi4
+- Live on the site with 5 Europe & UK plans (prices from yesim.tech/regions/europe-esim). Unlimited passes not added: the page didn't show them.
