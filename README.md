@@ -28,3 +28,21 @@ Cloudflare (Workers static assets), project `esim-compare`, live at https://esim
 - Build command: `python3 scripts/build.py` (reads `data/plans.json`)
 - Deploy command: `npx wrangler deploy` (reads `wrangler.jsonc`)
 - Only `public/` is served. Never point the assets directory at the repo root: that would publish `.git/` and the source files.
+
+## Saved versions (optionA)
+The site as it looks today (Hebrew RTL, Europe-first destination picker, coupon popups, Geneva/ski banners, all 10 shops scraped) is saved as git tag **`optionA`** and branch **`optionA`**. A redesign can be tried freely on another branch; this one stays untouched.
+
+Recreate it exactly:
+```
+git clone https://github.com/tobenary/esim-compare.git && cd esim-compare
+git checkout optionA            # tag or branch, same commit
+python3 scripts/build.py        # builds public/data.json from data/plans.json
+python3 -m http.server 8000 -d public   # open http://localhost:8000
+```
+Put it back live (replace main with optionA, keeps history):
+```
+git checkout main
+git revert --no-commit optionA..main && git commit -m "Restore optionA design"
+git push
+```
+Cloudflare redeploys main automatically. The daily data update runs only on `main`; `optionA` keeps its data snapshot from the day it was saved (rebuild with fresh data: `git checkout main -- data/plans.json` then build).
