@@ -17602,3226 +17602,3306 @@
    ]
   },
   "Airalo": {
-   "status": "stale",
-   "fetchedAt": "2026-10-21T18:16Z",
-   "error": "only 0 Airalo pages had packages: layout changed or blocked? last error: austria-esim: Locator.dispatch_event: Timeout 30000ms exceeded. | rows before failure: 0 | page text: Choose your package 3 days 1 GB $4.00 USD Selects current package to proceed to checkout. 3 GB $5.50 USD Selects current pack",
+   "status": "ok",
+   "fetchedAt": "2026-10-21T18:55Z",
+   "error": null,
    "plans": [
     {
      "days": "3",
      "region": "europe",
      "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "5",
-     "region": "europe",
-     "gb": 999,
-     "price": 17.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "7",
-     "region": "europe",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "10",
-     "region": "europe",
-     "gb": 999,
-     "price": 30.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "15",
-     "region": "europe",
-     "gb": 999,
-     "price": 42.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "30",
-     "region": "europe",
-     "gb": 999,
-     "price": 61.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "3",
-     "region": "europe",
-     "gb": 1.0,
-     "price": 4.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "7",
-     "region": "europe",
-     "gb": 3.0,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "15",
-     "region": "europe",
-     "gb": 5.0,
-     "price": 16.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "30",
-     "region": "europe",
-     "gb": 5.0,
-     "price": 17.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "90",
-     "region": "europe",
-     "gb": 50.0,
-     "price": 85.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "180",
-     "region": "europe",
-     "gb": 100.0,
-     "price": 158.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/europe-esim"
-    },
-    {
-     "days": "3",
-     "region": "asia",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "5",
-     "region": "asia",
-     "gb": 999,
-     "price": 16.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "7",
-     "region": "asia",
-     "gb": 999,
-     "price": 22.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "10",
-     "region": "asia",
-     "gb": 999,
-     "price": 30.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "15",
-     "region": "asia",
-     "gb": 999,
-     "price": 42.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "30",
-     "region": "asia",
-     "gb": 999,
-     "price": 63.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "3",
-     "region": "asia",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "7",
-     "region": "asia",
-     "gb": 3.0,
-     "price": 8.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "15",
-     "region": "asia",
-     "gb": 5.0,
-     "price": 12.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "30",
-     "region": "asia",
-     "gb": 5.0,
-     "price": 13.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "90",
-     "region": "asia",
-     "gb": 50.0,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "180",
-     "region": "asia",
-     "gb": 100.0,
-     "price": 76.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/asia-esim"
-    },
-    {
-     "days": "3",
-     "region": "north-america",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "5",
-     "region": "north-america",
-     "gb": 999,
-     "price": 25.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "7",
-     "region": "north-america",
-     "gb": 999,
-     "price": 32.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "10",
-     "region": "north-america",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "15",
-     "region": "north-america",
-     "gb": 999,
-     "price": 52.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 999,
-     "price": 83.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "3",
-     "region": "north-america",
-     "gb": 1.0,
-     "price": 5.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "7",
-     "region": "north-america",
-     "gb": 3.0,
-     "price": 13.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "15",
-     "region": "north-america",
-     "gb": 5.0,
-     "price": 20.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 5.0,
-     "price": 20.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/north-america-esim"
-    },
-    {
-     "days": "3",
-     "region": "oceania",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "5",
-     "region": "oceania",
-     "gb": 999,
-     "price": 17.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "7",
-     "region": "oceania",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "10",
-     "region": "oceania",
-     "gb": 999,
-     "price": 30.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "15",
-     "region": "oceania",
-     "gb": 999,
-     "price": 42.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "30",
-     "region": "oceania",
-     "gb": 999,
-     "price": 63.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "3",
-     "region": "oceania",
-     "gb": 1.0,
-     "price": 4.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "7",
-     "region": "oceania",
-     "gb": 3.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "15",
-     "region": "oceania",
-     "gb": 5.0,
-     "price": 13.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "30",
-     "region": "oceania",
-     "gb": 5.0,
-     "price": 13.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/oceania-esim"
-    },
-    {
-     "days": "3",
-     "region": "US",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "5",
-     "region": "US",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "7",
-     "region": "US",
-     "gb": 999,
-     "price": 21.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "10",
-     "region": "US",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "15",
-     "region": "US",
-     "gb": 999,
-     "price": 39.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "30",
-     "region": "US",
-     "gb": 999,
-     "price": 58.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "3",
-     "region": "US",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "7",
-     "region": "US",
-     "gb": 3.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "15",
-     "region": "US",
-     "gb": 5.0,
      "price": 11.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "30",
-     "region": "US",
-     "gb": 5.0,
-     "price": 12.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-states-esim"
-    },
-    {
-     "days": "3",
-     "region": "FR",
-     "gb": 999,
-     "price": 9.5,
-     "currency": "CHF",
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/france-esim"
+     "url": "https://www.airalo.com/europe-esim"
     },
     {
      "days": "5",
-     "region": "FR",
+     "region": "europe",
      "gb": 999,
-     "price": 15.0,
-     "currency": "CHF",
+     "price": 19.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/france-esim"
+     "url": "https://www.airalo.com/europe-esim"
     },
     {
      "days": "7",
-     "region": "FR",
-     "gb": 999,
-     "price": 20.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/france-esim"
-    },
-    {
-     "days": "10",
-     "region": "FR",
-     "gb": 999,
-     "price": 25.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/france-esim"
-    },
-    {
-     "days": "15",
-     "region": "FR",
-     "gb": 999,
-     "price": 36.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/france-esim"
-    },
-    {
-     "days": "30",
-     "region": "FR",
-     "gb": 999,
-     "price": 50.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/france-esim"
-    },
-    {
-     "days": "3",
-     "region": "FR",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/france-esim"
-    },
-    {
-     "days": "7",
-     "region": "FR",
-     "gb": 3.0,
-     "price": 6.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/france-esim"
-    },
-    {
-     "days": "15",
-     "region": "FR",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/france-esim"
-    },
-    {
-     "days": "30",
-     "region": "FR",
-     "gb": 5.0,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/france-esim"
-    },
-    {
-     "days": "3",
-     "region": "IT",
-     "gb": 999,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "5",
-     "region": "IT",
-     "gb": 999,
-     "price": 15.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "7",
-     "region": "IT",
-     "gb": 999,
-     "price": 20.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "10",
-     "region": "IT",
-     "gb": 999,
-     "price": 27.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "15",
-     "region": "IT",
-     "gb": 999,
-     "price": 38.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "30",
-     "region": "IT",
-     "gb": 999,
-     "price": 55.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "3",
-     "region": "IT",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "7",
-     "region": "IT",
-     "gb": 3.0,
-     "price": 6.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "15",
-     "region": "IT",
-     "gb": 5.0,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "30",
-     "region": "IT",
-     "gb": 5.0,
-     "price": 10.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/italy-esim"
-    },
-    {
-     "days": "3",
-     "region": "ES",
-     "gb": 999,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "5",
-     "region": "ES",
-     "gb": 999,
-     "price": 15.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "7",
-     "region": "ES",
-     "gb": 999,
-     "price": 20.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "10",
-     "region": "ES",
-     "gb": 999,
-     "price": 27.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "15",
-     "region": "ES",
-     "gb": 999,
-     "price": 37.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "30",
-     "region": "ES",
-     "gb": 999,
-     "price": 54.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "3",
-     "region": "ES",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "7",
-     "region": "ES",
-     "gb": 3.0,
-     "price": 5.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "15",
-     "region": "ES",
-     "gb": 5.0,
-     "price": 7.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "30",
-     "region": "ES",
-     "gb": 5.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/spain-esim"
-    },
-    {
-     "days": "3",
-     "region": "DE",
-     "gb": 999,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "5",
-     "region": "DE",
-     "gb": 999,
-     "price": 15.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "7",
-     "region": "DE",
-     "gb": 999,
-     "price": 20.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "10",
-     "region": "DE",
-     "gb": 999,
-     "price": 26.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "15",
-     "region": "DE",
-     "gb": 999,
-     "price": 36.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "30",
-     "region": "DE",
-     "gb": 999,
-     "price": 50.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "3",
-     "region": "DE",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "7",
-     "region": "DE",
-     "gb": 3.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "15",
-     "region": "DE",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "30",
-     "region": "DE",
-     "gb": 5.0,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/germany-esim"
-    },
-    {
-     "days": "3",
-     "region": "GB",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "5",
-     "region": "GB",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "7",
-     "region": "GB",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "10",
-     "region": "GB",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "15",
-     "region": "GB",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "30",
-     "region": "GB",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "3",
-     "region": "GB",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "7",
-     "region": "GB",
-     "gb": 3.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "15",
-     "region": "GB",
-     "gb": 5.0,
-     "price": 11.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "30",
-     "region": "GB",
-     "gb": 5.0,
-     "price": 11.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-kingdom-esim"
-    },
-    {
-     "days": "3",
-     "region": "GR",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "5",
-     "region": "GR",
-     "gb": 999,
-     "price": 16.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "7",
-     "region": "GR",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "10",
-     "region": "GR",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "15",
-     "region": "GR",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "30",
-     "region": "GR",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "3",
-     "region": "GR",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "7",
-     "region": "GR",
-     "gb": 3.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "15",
-     "region": "GR",
-     "gb": 5.0,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "30",
-     "region": "GR",
-     "gb": 5.0,
-     "price": 10.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/greece-esim"
-    },
-    {
-     "days": "3",
-     "region": "TR",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "5",
-     "region": "TR",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "7",
-     "region": "TR",
-     "gb": 999,
-     "price": 21.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "10",
-     "region": "TR",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "15",
-     "region": "TR",
-     "gb": 999,
-     "price": 33.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "30",
-     "region": "TR",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "3",
-     "region": "TR",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "7",
-     "region": "TR",
-     "gb": 3.0,
-     "price": 6.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "15",
-     "region": "TR",
-     "gb": 5.0,
-     "price": 8.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "30",
-     "region": "TR",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/turkey-esim"
-    },
-    {
-     "days": "3",
-     "region": "PT",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "5",
-     "region": "PT",
-     "gb": 999,
-     "price": 16.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "7",
-     "region": "PT",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "10",
-     "region": "PT",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "15",
-     "region": "PT",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "30",
-     "region": "PT",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "3",
-     "region": "PT",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "7",
-     "region": "PT",
-     "gb": 3.0,
-     "price": 6.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "15",
-     "region": "PT",
-     "gb": 5.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "30",
-     "region": "PT",
-     "gb": 5.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/portugal-esim"
-    },
-    {
-     "days": "3",
-     "region": "NL",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "5",
-     "region": "NL",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "7",
-     "region": "NL",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "10",
-     "region": "NL",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "15",
-     "region": "NL",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "30",
-     "region": "NL",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "3",
-     "region": "NL",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "7",
-     "region": "NL",
-     "gb": 3.0,
-     "price": 6.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "15",
-     "region": "NL",
-     "gb": 5.0,
-     "price": 8.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "30",
-     "region": "NL",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/netherlands-esim"
-    },
-    {
-     "days": "3",
-     "region": "CH",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "5",
-     "region": "CH",
-     "gb": 999,
-     "price": 15.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "7",
-     "region": "CH",
-     "gb": 999,
-     "price": 21.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "10",
-     "region": "CH",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "15",
-     "region": "CH",
-     "gb": 999,
-     "price": 39.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "30",
-     "region": "CH",
-     "gb": 999,
-     "price": 58.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "3",
-     "region": "CH",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "7",
-     "region": "CH",
-     "gb": 3.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "15",
-     "region": "CH",
-     "gb": 5.0,
-     "price": 12.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "30",
-     "region": "CH",
-     "gb": 5.0,
-     "price": 12.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/switzerland-esim"
-    },
-    {
-     "days": "3",
-     "region": "HR",
-     "gb": 999,
-     "price": 8.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "5",
-     "region": "HR",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "7",
-     "region": "HR",
-     "gb": 999,
-     "price": 21.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "10",
-     "region": "HR",
-     "gb": 999,
-     "price": 24.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "15",
-     "region": "HR",
-     "gb": 999,
-     "price": 33.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "30",
-     "region": "HR",
-     "gb": 999,
-     "price": 50.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "3",
-     "region": "HR",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "7",
-     "region": "HR",
-     "gb": 3.0,
-     "price": 6.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "15",
-     "region": "HR",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "30",
-     "region": "HR",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/croatia-esim"
-    },
-    {
-     "days": "3",
-     "region": "CY",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "5",
-     "region": "CY",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "7",
-     "region": "CY",
-     "gb": 999,
-     "price": 23.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "10",
-     "region": "CY",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "15",
-     "region": "CY",
-     "gb": 999,
-     "price": 41.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "30",
-     "region": "CY",
-     "gb": 999,
-     "price": 58.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "3",
-     "region": "CY",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "7",
-     "region": "CY",
-     "gb": 3.0,
-     "price": 6.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "15",
-     "region": "CY",
-     "gb": 5.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "30",
-     "region": "CY",
-     "gb": 5.0,
-     "price": 8.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/cyprus-esim"
-    },
-    {
-     "days": "3",
-     "region": "CZ",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "5",
-     "region": "CZ",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "7",
-     "region": "CZ",
-     "gb": 999,
-     "price": 23.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "10",
-     "region": "CZ",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "15",
-     "region": "CZ",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "30",
-     "region": "CZ",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "3",
-     "region": "CZ",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "7",
-     "region": "CZ",
-     "gb": 3.0,
-     "price": 4.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "15",
-     "region": "CZ",
-     "gb": 5.0,
-     "price": 6.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "30",
-     "region": "CZ",
-     "gb": 5.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/czech-republic-esim"
-    },
-    {
-     "days": "3",
-     "region": "HU",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "5",
-     "region": "HU",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "7",
-     "region": "HU",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "10",
-     "region": "HU",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "15",
-     "region": "HU",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "30",
-     "region": "HU",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "3",
-     "region": "HU",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "7",
-     "region": "HU",
-     "gb": 3.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "15",
-     "region": "HU",
-     "gb": 5.0,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "30",
-     "region": "HU",
-     "gb": 5.0,
-     "price": 10.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/hungary-esim"
-    },
-    {
-     "days": "3",
-     "region": "PL",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "5",
-     "region": "PL",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "7",
-     "region": "PL",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "10",
-     "region": "PL",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "15",
-     "region": "PL",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "30",
-     "region": "PL",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "3",
-     "region": "PL",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "7",
-     "region": "PL",
-     "gb": 3.0,
-     "price": 5.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "15",
-     "region": "PL",
-     "gb": 5.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "30",
-     "region": "PL",
-     "gb": 5.0,
-     "price": 7.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/poland-esim"
-    },
-    {
-     "days": "3",
-     "region": "TH",
-     "gb": 999,
-     "price": 8.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "5",
-     "region": "TH",
-     "gb": 999,
-     "price": 13.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "7",
-     "region": "TH",
-     "gb": 999,
-     "price": 18.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "10",
-     "region": "TH",
-     "gb": 999,
-     "price": 26.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "15",
-     "region": "TH",
-     "gb": 999,
-     "price": 33.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "30",
-     "region": "TH",
-     "gb": 999,
-     "price": 42.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "3",
-     "region": "TH",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "7",
-     "region": "TH",
-     "gb": 3.0,
-     "price": 5.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "15",
-     "region": "TH",
-     "gb": 5.0,
-     "price": 6.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "30",
-     "region": "TH",
-     "gb": 5.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/thailand-esim"
-    },
-    {
-     "days": "3",
-     "region": "JP",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "5",
-     "region": "JP",
-     "gb": 999,
-     "price": 15.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "7",
-     "region": "JP",
-     "gb": 999,
-     "price": 23.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "10",
-     "region": "JP",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "15",
-     "region": "JP",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "30",
-     "region": "JP",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "3",
-     "region": "JP",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "7",
-     "region": "JP",
-     "gb": 3.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "15",
-     "region": "JP",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "30",
-     "region": "JP",
-     "gb": 5.0,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/japan-esim"
-    },
-    {
-     "days": "3",
-     "region": "KR",
-     "gb": 999,
-     "price": 10.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "5",
-     "region": "KR",
-     "gb": 999,
-     "price": 17.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "7",
-     "region": "KR",
-     "gb": 999,
-     "price": 25.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "10",
-     "region": "KR",
-     "gb": 999,
-     "price": 30.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "15",
-     "region": "KR",
-     "gb": 999,
-     "price": 42.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "30",
-     "region": "KR",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "3",
-     "region": "KR",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "7",
-     "region": "KR",
-     "gb": 3.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "15",
-     "region": "KR",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "30",
-     "region": "KR",
-     "gb": 5.0,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/south-korea-esim"
-    },
-    {
-     "days": "3",
-     "region": "CN",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "5",
-     "region": "CN",
-     "gb": 999,
-     "price": 16.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "7",
-     "region": "CN",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "10",
-     "region": "CN",
-     "gb": 999,
-     "price": 30.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "15",
-     "region": "CN",
-     "gb": 999,
-     "price": 42.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "30",
-     "region": "CN",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "3",
-     "region": "CN",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "7",
-     "region": "CN",
-     "gb": 3.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "15",
-     "region": "CN",
-     "gb": 5.0,
-     "price": 13.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "30",
-     "region": "CN",
-     "gb": 5.0,
-     "price": 13.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/china-esim"
-    },
-    {
-     "days": "3",
-     "region": "IN",
-     "gb": 999,
-     "price": 17.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/india-esim"
-    },
-    {
-     "days": "5",
-     "region": "IN",
+     "region": "europe",
      "gb": 999,
      "price": 27.0,
-     "currency": "CHF",
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/india-esim"
-    },
-    {
-     "days": "7",
-     "region": "IN",
-     "gb": 999,
-     "price": 34.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/india-esim"
+     "url": "https://www.airalo.com/europe-esim"
     },
     {
      "days": "10",
-     "region": "IN",
+     "region": "europe",
      "gb": 999,
-     "price": 39.5,
-     "currency": "CHF",
+     "price": 35.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/india-esim"
+     "url": "https://www.airalo.com/europe-esim"
     },
     {
      "days": "15",
-     "region": "IN",
+     "region": "europe",
      "gb": 999,
-     "price": 53.0,
-     "currency": "CHF",
+     "price": 49.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/india-esim"
+     "url": "https://www.airalo.com/europe-esim"
     },
     {
      "days": "30",
-     "region": "IN",
+     "region": "europe",
      "gb": 999,
-     "price": 84.5,
-     "currency": "CHF",
+     "price": 71.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/india-esim"
+     "url": "https://www.airalo.com/europe-esim"
     },
     {
      "days": "3",
-     "region": "IN",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/india-esim"
-    },
-    {
-     "days": "7",
-     "region": "IN",
-     "gb": 3.0,
-     "price": 8.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/india-esim"
-    },
-    {
-     "days": "15",
-     "region": "IN",
-     "gb": 5.0,
-     "price": 12.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/india-esim"
-    },
-    {
-     "days": "30",
-     "region": "IN",
-     "gb": 5.0,
-     "price": 12.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/india-esim"
-    },
-    {
-     "days": "3",
-     "region": "VN",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "5",
-     "region": "VN",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "7",
-     "region": "VN",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "10",
-     "region": "VN",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "15",
-     "region": "VN",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "30",
-     "region": "VN",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "3",
-     "region": "VN",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "7",
-     "region": "VN",
-     "gb": 3.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "15",
-     "region": "VN",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "30",
-     "region": "VN",
-     "gb": 5.0,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/vietnam-esim"
-    },
-    {
-     "days": "3",
-     "region": "ID",
-     "gb": 999,
-     "price": 9.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "5",
-     "region": "ID",
-     "gb": 999,
-     "price": 16.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "7",
-     "region": "ID",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "10",
-     "region": "ID",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "15",
-     "region": "ID",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "30",
-     "region": "ID",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "3",
-     "region": "ID",
-     "gb": 1.0,
-     "price": 4.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "7",
-     "region": "ID",
-     "gb": 3.0,
-     "price": 7.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "15",
-     "region": "ID",
-     "gb": 5.0,
-     "price": 11.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "30",
-     "region": "ID",
-     "gb": 5.0,
-     "price": 12.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/indonesia-esim"
-    },
-    {
-     "days": "3",
-     "region": "SG",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "5",
-     "region": "SG",
-     "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "7",
-     "region": "SG",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "10",
-     "region": "SG",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "15",
-     "region": "SG",
-     "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "30",
-     "region": "SG",
-     "gb": 999,
-     "price": 59.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "3",
-     "region": "SG",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "7",
-     "region": "SG",
-     "gb": 3.0,
-     "price": 6.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "15",
-     "region": "SG",
-     "gb": 5.0,
-     "price": 8.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "30",
-     "region": "SG",
-     "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/singapore-esim"
-    },
-    {
-     "days": "3",
-     "region": "MY",
-     "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "5",
-     "region": "MY",
-     "gb": 999,
-     "price": 16.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "7",
-     "region": "MY",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "10",
-     "region": "MY",
-     "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "15",
-     "region": "MY",
-     "gb": 999,
-     "price": 41.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "30",
-     "region": "MY",
-     "gb": 999,
-     "price": 61.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "3",
-     "region": "MY",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "7",
-     "region": "MY",
-     "gb": 3.0,
-     "price": 7.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "15",
-     "region": "MY",
-     "gb": 5.0,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "30",
-     "region": "MY",
-     "gb": 5.0,
-     "price": 10.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/malaysia-esim"
-    },
-    {
-     "days": "3",
-     "region": "AE",
-     "gb": 999,
-     "price": 11.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "5",
-     "region": "AE",
-     "gb": 999,
-     "price": 16.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "7",
-     "region": "AE",
-     "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "10",
-     "region": "AE",
-     "gb": 999,
-     "price": 30.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "15",
-     "region": "AE",
-     "gb": 999,
-     "price": 42.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "30",
-     "region": "AE",
-     "gb": 999,
-     "price": 61.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "3",
-     "region": "AE",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "7",
-     "region": "AE",
-     "gb": 3.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "15",
-     "region": "AE",
-     "gb": 5.0,
-     "price": 10.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "30",
-     "region": "AE",
-     "gb": 5.0,
-     "price": 10.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/united-arab-emirates-esim"
-    },
-    {
-     "days": "3",
-     "region": "EG",
-     "gb": 999,
-     "price": 17.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
-    },
-    {
-     "days": "5",
-     "region": "EG",
-     "gb": 999,
-     "price": 24.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
-    },
-    {
-     "days": "7",
-     "region": "EG",
-     "gb": 999,
-     "price": 27.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
-    },
-    {
-     "days": "10",
-     "region": "EG",
-     "gb": 999,
-     "price": 30.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
-    },
-    {
-     "days": "15",
-     "region": "EG",
-     "gb": 999,
-     "price": 42.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
-    },
-    {
-     "days": "30",
-     "region": "EG",
-     "gb": 999,
-     "price": 77.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
-    },
-    {
-     "days": "3",
-     "region": "EG",
+     "region": "europe",
      "gb": 1.0,
      "price": 5.0,
-     "currency": "CHF",
+     "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
+     "url": "https://www.airalo.com/europe-esim"
     },
     {
      "days": "7",
-     "region": "EG",
+     "region": "europe",
      "gb": 3.0,
-     "price": 12.5,
-     "currency": "CHF",
+     "price": 11.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
+     "url": "https://www.airalo.com/europe-esim"
     },
     {
      "days": "15",
-     "region": "EG",
-     "gb": 5.0,
-     "price": 17.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
-    },
-    {
-     "days": "30",
-     "region": "EG",
-     "gb": 5.0,
-     "price": 17.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/egypt-esim"
-    },
-    {
-     "days": "3",
-     "region": "MA",
-     "gb": 999,
-     "price": 15.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/morocco-esim"
-    },
-    {
-     "days": "5",
-     "region": "MA",
-     "gb": 999,
-     "price": 25.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/morocco-esim"
-    },
-    {
-     "days": "7",
-     "region": "MA",
-     "gb": 999,
-     "price": 30.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/morocco-esim"
-    },
-    {
-     "days": "10",
-     "region": "MA",
-     "gb": 999,
-     "price": 38.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/morocco-esim"
-    },
-    {
-     "days": "3",
-     "region": "MA",
-     "gb": 1.0,
-     "price": 5.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/morocco-esim"
-    },
-    {
-     "days": "7",
-     "region": "MA",
-     "gb": 3.0,
-     "price": 14.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/morocco-esim"
-    },
-    {
-     "days": "15",
-     "region": "MA",
-     "gb": 5.0,
-     "price": 18.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/morocco-esim"
-    },
-    {
-     "days": "30",
-     "region": "MA",
+     "region": "europe",
      "gb": 5.0,
      "price": 19.0,
-     "currency": "CHF",
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "90",
+     "region": "europe",
+     "gb": 50.0,
+     "price": 100.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "180",
+     "region": "europe",
+     "gb": 100.0,
+     "price": 185.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "3",
+     "region": "asia",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "5",
+     "region": "asia",
+     "gb": 999,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "7",
+     "region": "asia",
+     "gb": 999,
+     "price": 26.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "10",
+     "region": "asia",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "15",
+     "region": "asia",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 999,
+     "price": 73.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "3",
+     "region": "asia",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "7",
+     "region": "asia",
+     "gb": 3.0,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "15",
+     "region": "asia",
+     "gb": 5.0,
+     "price": 14.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "30",
+     "region": "asia",
+     "gb": 5.0,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "90",
+     "region": "asia",
+     "gb": 50.0,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "180",
+     "region": "asia",
+     "gb": 100.0,
+     "price": 89.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/asia-esim"
+    },
+    {
+     "days": "3",
+     "region": "north-america",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "5",
+     "region": "north-america",
+     "gb": 999,
+     "price": 29.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "7",
+     "region": "north-america",
+     "gb": 999,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "10",
+     "region": "north-america",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "15",
+     "region": "north-america",
+     "gb": 999,
+     "price": 60.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "30",
+     "region": "north-america",
+     "gb": 999,
+     "price": 97.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "3",
+     "region": "north-america",
+     "gb": 1.0,
+     "price": 5.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "7",
+     "region": "north-america",
+     "gb": 3.0,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "15",
+     "region": "north-america",
+     "gb": 5.0,
+     "price": 23.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "30",
+     "region": "north-america",
+     "gb": 5.0,
+     "price": 24.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/north-america-esim"
+    },
+    {
+     "days": "3",
+     "region": "africa",
+     "gb": 1.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/africa-esim"
+    },
+    {
+     "days": "7",
+     "region": "africa",
+     "gb": 3.0,
+     "price": 25.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/africa-esim"
+    },
+    {
+     "days": "15",
+     "region": "africa",
+     "gb": 5.0,
+     "price": 37.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/africa-esim"
+    },
+    {
+     "days": "30",
+     "region": "africa",
+     "gb": 5.0,
+     "price": 41.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/africa-esim"
+    },
+    {
+     "days": "3",
+     "region": "oceania",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "5",
+     "region": "oceania",
+     "gb": 999,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "7",
+     "region": "oceania",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "10",
+     "region": "oceania",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "15",
+     "region": "oceania",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "30",
+     "region": "oceania",
+     "gb": 999,
+     "price": 73.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "3",
+     "region": "oceania",
+     "gb": 1.0,
+     "price": 4.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "7",
+     "region": "oceania",
+     "gb": 3.0,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "15",
+     "region": "oceania",
+     "gb": 5.0,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "30",
+     "region": "oceania",
+     "gb": 5.0,
+     "price": 15.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/oceania-esim"
+    },
+    {
+     "days": "3",
+     "region": "US",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "5",
+     "region": "US",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "7",
+     "region": "US",
+     "gb": 999,
+     "price": 25.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "10",
+     "region": "US",
+     "gb": 999,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "15",
+     "region": "US",
+     "gb": 999,
+     "price": 46.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 999,
+     "price": 68.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "3",
+     "region": "US",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "7",
+     "region": "US",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "15",
+     "region": "US",
+     "gb": 5.0,
+     "price": 13.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "30",
+     "region": "US",
+     "gb": 5.0,
+     "price": 13.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-states-esim"
+    },
+    {
+     "days": "3",
+     "region": "FR",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "5",
+     "region": "FR",
+     "gb": 999,
+     "price": 17.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "7",
+     "region": "FR",
+     "gb": 999,
+     "price": 23.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "10",
+     "region": "FR",
+     "gb": 999,
+     "price": 29.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "15",
+     "region": "FR",
+     "gb": 999,
+     "price": 42.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 999,
+     "price": 59.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "3",
+     "region": "FR",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "7",
+     "region": "FR",
+     "gb": 3.0,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "15",
+     "region": "FR",
+     "gb": 5.0,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "30",
+     "region": "FR",
+     "gb": 5.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/france-esim"
+    },
+    {
+     "days": "3",
+     "region": "IT",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "5",
+     "region": "IT",
+     "gb": 999,
+     "price": 17.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "7",
+     "region": "IT",
+     "gb": 999,
+     "price": 23.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "10",
+     "region": "IT",
+     "gb": 999,
+     "price": 32.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "15",
+     "region": "IT",
+     "gb": 999,
+     "price": 44.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 999,
+     "price": 64.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "3",
+     "region": "IT",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "7",
+     "region": "IT",
+     "gb": 3.0,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "15",
+     "region": "IT",
+     "gb": 5.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "30",
+     "region": "IT",
+     "gb": 5.0,
+     "price": 12.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/italy-esim"
+    },
+    {
+     "days": "3",
+     "region": "ES",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "5",
+     "region": "ES",
+     "gb": 999,
+     "price": 17.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "7",
+     "region": "ES",
+     "gb": 999,
+     "price": 23.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "10",
+     "region": "ES",
+     "gb": 999,
+     "price": 32.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "15",
+     "region": "ES",
+     "gb": 999,
+     "price": 43.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 999,
+     "price": 63.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "3",
+     "region": "ES",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "7",
+     "region": "ES",
+     "gb": 3.0,
+     "price": 6.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "15",
+     "region": "ES",
+     "gb": 5.0,
+     "price": 8.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "30",
+     "region": "ES",
+     "gb": 5.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/spain-esim"
+    },
+    {
+     "days": "3",
+     "region": "DE",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "5",
+     "region": "DE",
+     "gb": 999,
+     "price": 18.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "7",
+     "region": "DE",
+     "gb": 999,
+     "price": 24.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "10",
+     "region": "DE",
+     "gb": 999,
+     "price": 30.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "15",
+     "region": "DE",
+     "gb": 999,
+     "price": 42.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 999,
+     "price": 59.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "3",
+     "region": "DE",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "7",
+     "region": "DE",
+     "gb": 3.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "15",
+     "region": "DE",
+     "gb": 5.0,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "30",
+     "region": "DE",
+     "gb": 5.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/germany-esim"
+    },
+    {
+     "days": "3",
+     "region": "GB",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "5",
+     "region": "GB",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "7",
+     "region": "GB",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "10",
+     "region": "GB",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "15",
+     "region": "GB",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "3",
+     "region": "GB",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "7",
+     "region": "GB",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "15",
+     "region": "GB",
+     "gb": 5.0,
+     "price": 12.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "30",
+     "region": "GB",
+     "gb": 5.0,
+     "price": 13.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-kingdom-esim"
+    },
+    {
+     "days": "3",
+     "region": "GR",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "5",
+     "region": "GR",
+     "gb": 999,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "7",
+     "region": "GR",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "10",
+     "region": "GR",
+     "gb": 999,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "15",
+     "region": "GR",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "3",
+     "region": "GR",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "7",
+     "region": "GR",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "15",
+     "region": "GR",
+     "gb": 5.0,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "30",
+     "region": "GR",
+     "gb": 5.0,
+     "price": 12.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/greece-esim"
+    },
+    {
+     "days": "3",
+     "region": "TR",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "5",
+     "region": "TR",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "7",
+     "region": "TR",
+     "gb": 999,
+     "price": 24.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "10",
+     "region": "TR",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "15",
+     "region": "TR",
+     "gb": 999,
+     "price": 39.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "3",
+     "region": "TR",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "7",
+     "region": "TR",
+     "gb": 3.0,
+     "price": 6.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "15",
+     "region": "TR",
+     "gb": 5.0,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "30",
+     "region": "TR",
+     "gb": 5.0,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/turkey-esim"
+    },
+    {
+     "days": "3",
+     "region": "PT",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "5",
+     "region": "PT",
+     "gb": 999,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "7",
+     "region": "PT",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "10",
+     "region": "PT",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "15",
+     "region": "PT",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "30",
+     "region": "PT",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "3",
+     "region": "PT",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "7",
+     "region": "PT",
+     "gb": 3.0,
+     "price": 6.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "15",
+     "region": "PT",
+     "gb": 5.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "30",
+     "region": "PT",
+     "gb": 5.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/portugal-esim"
+    },
+    {
+     "days": "3",
+     "region": "NL",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "5",
+     "region": "NL",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "7",
+     "region": "NL",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "10",
+     "region": "NL",
+     "gb": 999,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "15",
+     "region": "NL",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "30",
+     "region": "NL",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "3",
+     "region": "NL",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "7",
+     "region": "NL",
+     "gb": 3.0,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "15",
+     "region": "NL",
+     "gb": 5.0,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "30",
+     "region": "NL",
+     "gb": 5.0,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/netherlands-esim"
+    },
+    {
+     "days": "3",
+     "region": "CH",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "5",
+     "region": "CH",
+     "gb": 999,
+     "price": 18.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "7",
+     "region": "CH",
+     "gb": 999,
+     "price": 25.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "10",
+     "region": "CH",
+     "gb": 999,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "15",
+     "region": "CH",
+     "gb": 999,
+     "price": 46.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "30",
+     "region": "CH",
+     "gb": 999,
+     "price": 68.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "3",
+     "region": "CH",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "7",
+     "region": "CH",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "15",
+     "region": "CH",
+     "gb": 5.0,
+     "price": 13.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "30",
+     "region": "CH",
+     "gb": 5.0,
+     "price": 14.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/switzerland-esim"
+    },
+    {
+     "days": "3",
+     "region": "AT",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/austria-esim"
+    },
+    {
+     "days": "7",
+     "region": "AT",
+     "gb": 3.0,
+     "price": 6.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/austria-esim"
+    },
+    {
+     "days": "15",
+     "region": "AT",
+     "gb": 5.0,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/austria-esim"
+    },
+    {
+     "days": "30",
+     "region": "AT",
+     "gb": 5.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/austria-esim"
+    },
+    {
+     "days": "3",
+     "region": "HR",
+     "gb": 999,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "5",
+     "region": "HR",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "7",
+     "region": "HR",
+     "gb": 999,
+     "price": 24.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "10",
+     "region": "HR",
+     "gb": 999,
+     "price": 28.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "15",
+     "region": "HR",
+     "gb": 999,
+     "price": 38.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "30",
+     "region": "HR",
+     "gb": 999,
+     "price": 58.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "3",
+     "region": "HR",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "7",
+     "region": "HR",
+     "gb": 3.0,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "15",
+     "region": "HR",
+     "gb": 5.0,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "30",
+     "region": "HR",
+     "gb": 5.0,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/croatia-esim"
+    },
+    {
+     "days": "3",
+     "region": "CY",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "5",
+     "region": "CY",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "7",
+     "region": "CY",
+     "gb": 999,
+     "price": 26.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "10",
+     "region": "CY",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "15",
+     "region": "CY",
+     "gb": 999,
+     "price": 48.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "30",
+     "region": "CY",
+     "gb": 999,
+     "price": 68.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "3",
+     "region": "CY",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "7",
+     "region": "CY",
+     "gb": 3.0,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "15",
+     "region": "CY",
+     "gb": 5.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "30",
+     "region": "CY",
+     "gb": 5.0,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/cyprus-esim"
+    },
+    {
+     "days": "3",
+     "region": "CZ",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "5",
+     "region": "CZ",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "7",
+     "region": "CZ",
+     "gb": 999,
+     "price": 26.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "10",
+     "region": "CZ",
+     "gb": 999,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "15",
+     "region": "CZ",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "30",
+     "region": "CZ",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "3",
+     "region": "CZ",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "7",
+     "region": "CZ",
+     "gb": 3.0,
+     "price": 5.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "15",
+     "region": "CZ",
+     "gb": 5.0,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "30",
+     "region": "CZ",
+     "gb": 5.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/czech-republic-esim"
+    },
+    {
+     "days": "3",
+     "region": "HU",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "5",
+     "region": "HU",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "7",
+     "region": "HU",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "10",
+     "region": "HU",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "15",
+     "region": "HU",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "30",
+     "region": "HU",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "3",
+     "region": "HU",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "7",
+     "region": "HU",
+     "gb": 3.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "15",
+     "region": "HU",
+     "gb": 5.0,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "30",
+     "region": "HU",
+     "gb": 5.0,
+     "price": 12.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/hungary-esim"
+    },
+    {
+     "days": "3",
+     "region": "PL",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "5",
+     "region": "PL",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "7",
+     "region": "PL",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "10",
+     "region": "PL",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "15",
+     "region": "PL",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "30",
+     "region": "PL",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "3",
+     "region": "PL",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "7",
+     "region": "PL",
+     "gb": 3.0,
+     "price": 6.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "15",
+     "region": "PL",
+     "gb": 5.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "30",
+     "region": "PL",
+     "gb": 5.0,
+     "price": 8.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/poland-esim"
+    },
+    {
+     "days": "3",
+     "region": "TH",
+     "gb": 999,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "5",
+     "region": "TH",
+     "gb": 999,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "7",
+     "region": "TH",
+     "gb": 999,
+     "price": 21.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "10",
+     "region": "TH",
+     "gb": 999,
+     "price": 31.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "15",
+     "region": "TH",
+     "gb": 999,
+     "price": 39.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "3",
+     "region": "TH",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "7",
+     "region": "TH",
+     "gb": 3.0,
+     "price": 6.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "15",
+     "region": "TH",
+     "gb": 5.0,
+     "price": 7.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "30",
+     "region": "TH",
+     "gb": 5.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/thailand-esim"
+    },
+    {
+     "days": "3",
+     "region": "JP",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "5",
+     "region": "JP",
+     "gb": 999,
+     "price": 17.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "7",
+     "region": "JP",
+     "gb": 999,
+     "price": 26.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "10",
+     "region": "JP",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "15",
+     "region": "JP",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "3",
+     "region": "JP",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "7",
+     "region": "JP",
+     "gb": 3.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "15",
+     "region": "JP",
+     "gb": 5.0,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "30",
+     "region": "JP",
+     "gb": 5.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/japan-esim"
+    },
+    {
+     "days": "3",
+     "region": "KR",
+     "gb": 999,
+     "price": 12.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "5",
+     "region": "KR",
+     "gb": 999,
+     "price": 20.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "7",
+     "region": "KR",
+     "gb": 999,
+     "price": 29.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "10",
+     "region": "KR",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "15",
+     "region": "KR",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "3",
+     "region": "KR",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "7",
+     "region": "KR",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "15",
+     "region": "KR",
+     "gb": 5.0,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "30",
+     "region": "KR",
+     "gb": 5.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/south-korea-esim"
+    },
+    {
+     "days": "3",
+     "region": "CN",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "5",
+     "region": "CN",
+     "gb": 999,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "7",
+     "region": "CN",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "10",
+     "region": "CN",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "15",
+     "region": "CN",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "3",
+     "region": "CN",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "7",
+     "region": "CN",
+     "gb": 3.0,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "15",
+     "region": "CN",
+     "gb": 5.0,
+     "price": 15.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "30",
+     "region": "CN",
+     "gb": 5.0,
+     "price": 15.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/china-esim"
+    },
+    {
+     "days": "3",
+     "region": "IN",
+     "gb": 999,
+     "price": 20.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "5",
+     "region": "IN",
+     "gb": 999,
+     "price": 31.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "7",
+     "region": "IN",
+     "gb": 999,
+     "price": 39.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "10",
+     "region": "IN",
+     "gb": 999,
+     "price": 46.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "15",
+     "region": "IN",
+     "gb": 999,
+     "price": 62.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 999,
+     "price": 99.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "3",
+     "region": "IN",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "7",
+     "region": "IN",
+     "gb": 3.0,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "15",
+     "region": "IN",
+     "gb": 5.0,
+     "price": 13.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "30",
+     "region": "IN",
+     "gb": 5.0,
+     "price": 14.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/india-esim"
+    },
+    {
+     "days": "3",
+     "region": "VN",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "5",
+     "region": "VN",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "7",
+     "region": "VN",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "10",
+     "region": "VN",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "15",
+     "region": "VN",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "3",
+     "region": "VN",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "7",
+     "region": "VN",
+     "gb": 3.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "15",
+     "region": "VN",
+     "gb": 5.0,
+     "price": 10.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "30",
+     "region": "VN",
+     "gb": 5.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/vietnam-esim"
+    },
+    {
+     "days": "3",
+     "region": "ID",
+     "gb": 999,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "5",
+     "region": "ID",
+     "gb": 999,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "7",
+     "region": "ID",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "10",
+     "region": "ID",
+     "gb": 999,
+     "price": 34.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "15",
+     "region": "ID",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "30",
+     "region": "ID",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "3",
+     "region": "ID",
+     "gb": 1.0,
+     "price": 4.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "7",
+     "region": "ID",
+     "gb": 3.0,
+     "price": 8.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "15",
+     "region": "ID",
+     "gb": 5.0,
+     "price": 13.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "30",
+     "region": "ID",
+     "gb": 5.0,
+     "price": 13.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/indonesia-esim"
+    },
+    {
+     "days": "3",
+     "region": "SG",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "5",
+     "region": "SG",
+     "gb": 999,
+     "price": 18.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "7",
+     "region": "SG",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "10",
+     "region": "SG",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "15",
+     "region": "SG",
+     "gb": 999,
+     "price": 48.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "30",
+     "region": "SG",
+     "gb": 999,
+     "price": 69.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "3",
+     "region": "SG",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "7",
+     "region": "SG",
+     "gb": 3.0,
+     "price": 7.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "15",
+     "region": "SG",
+     "gb": 5.0,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "30",
+     "region": "SG",
+     "gb": 5.0,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/singapore-esim"
+    },
+    {
+     "days": "3",
+     "region": "MY",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "5",
+     "region": "MY",
+     "gb": 999,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "7",
+     "region": "MY",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "10",
+     "region": "MY",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "15",
+     "region": "MY",
+     "gb": 999,
+     "price": 48.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "30",
+     "region": "MY",
+     "gb": 999,
+     "price": 71.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "3",
+     "region": "MY",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "7",
+     "region": "MY",
+     "gb": 3.0,
+     "price": 8.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "15",
+     "region": "MY",
+     "gb": 5.0,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "30",
+     "region": "MY",
+     "gb": 5.0,
+     "price": 12.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/malaysia-esim"
+    },
+    {
+     "days": "3",
+     "region": "AE",
+     "gb": 999,
+     "price": 12.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "5",
+     "region": "AE",
+     "gb": 999,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "7",
+     "region": "AE",
+     "gb": 999,
+     "price": 27.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "10",
+     "region": "AE",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "15",
+     "region": "AE",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 999,
+     "price": 72.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "3",
+     "region": "AE",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "7",
+     "region": "AE",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "15",
+     "region": "AE",
+     "gb": 5.0,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "30",
+     "region": "AE",
+     "gb": 5.0,
+     "price": 12.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/united-arab-emirates-esim"
+    },
+    {
+     "days": "3",
+     "region": "EG",
+     "gb": 999,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "5",
+     "region": "EG",
+     "gb": 999,
+     "price": 28.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "7",
+     "region": "EG",
+     "gb": 999,
+     "price": 32.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "10",
+     "region": "EG",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "15",
+     "region": "EG",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "30",
+     "region": "EG",
+     "gb": 999,
+     "price": 90.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "3",
+     "region": "EG",
+     "gb": 1.0,
+     "price": 5.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "7",
+     "region": "EG",
+     "gb": 3.0,
+     "price": 14.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "15",
+     "region": "EG",
+     "gb": 5.0,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "30",
+     "region": "EG",
+     "gb": 5.0,
+     "price": 20.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/egypt-esim"
+    },
+    {
+     "days": "3",
+     "region": "MA",
+     "gb": 999,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "5",
+     "region": "MA",
+     "gb": 999,
+     "price": 29.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "7",
+     "region": "MA",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "10",
+     "region": "MA",
+     "gb": 999,
+     "price": 45.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "3",
+     "region": "MA",
+     "gb": 1.0,
+     "price": 6.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "7",
+     "region": "MA",
+     "gb": 3.0,
+     "price": 16.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "15",
+     "region": "MA",
+     "gb": 5.0,
+     "price": 21.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "30",
+     "region": "MA",
+     "gb": 5.0,
+     "price": 22.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/morocco-esim"
@@ -20830,378 +20910,378 @@
      "days": "3",
      "region": "MX",
      "gb": 999,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "5",
-     "region": "MX",
-     "gb": 999,
-     "price": 15.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "7",
-     "region": "MX",
-     "gb": 999,
-     "price": 20.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "10",
-     "region": "MX",
-     "gb": 999,
-     "price": 27.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "15",
-     "region": "MX",
-     "gb": 999,
-     "price": 37.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "30",
-     "region": "MX",
-     "gb": 999,
-     "price": 53.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "3",
-     "region": "MX",
-     "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "7",
-     "region": "MX",
-     "gb": 3.0,
-     "price": 7.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "15",
-     "region": "MX",
-     "gb": 5.0,
-     "price": 11.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "30",
-     "region": "MX",
-     "gb": 5.0,
-     "price": 11.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/mexico-esim"
-    },
-    {
-     "days": "3",
-     "region": "CA",
-     "gb": 999,
-     "price": 15.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "5",
-     "region": "CA",
-     "gb": 999,
-     "price": 20.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "7",
-     "region": "CA",
-     "gb": 999,
-     "price": 25.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "10",
-     "region": "CA",
-     "gb": 999,
-     "price": 29.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "15",
-     "region": "CA",
-     "gb": 999,
-     "price": 38.0,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "30",
-     "region": "CA",
-     "gb": 999,
-     "price": 69.5,
-     "currency": "CHF",
-     "perks": "ללא הגבלה",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "3",
-     "region": "CA",
-     "gb": 1.0,
-     "price": 6.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "7",
-     "region": "CA",
-     "gb": 3.0,
-     "price": 8.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "15",
-     "region": "CA",
-     "gb": 5.0,
-     "price": 13.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "30",
-     "region": "CA",
-     "gb": 5.0,
-     "price": 15.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/canada-esim"
-    },
-    {
-     "days": "3",
-     "region": "BR",
-     "gb": 999,
      "price": 10.5,
-     "currency": "CHF",
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "5",
-     "region": "BR",
+     "region": "MX",
      "gb": 999,
-     "price": 16.5,
-     "currency": "CHF",
+     "price": 17.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "7",
-     "region": "BR",
+     "region": "MX",
      "gb": 999,
-     "price": 21.5,
-     "currency": "CHF",
+     "price": 23.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "10",
-     "region": "BR",
+     "region": "MX",
      "gb": 999,
-     "price": 28.5,
-     "currency": "CHF",
+     "price": 31.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "15",
-     "region": "BR",
+     "region": "MX",
      "gb": 999,
-     "price": 39.5,
-     "currency": "CHF",
+     "price": 43.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "30",
-     "region": "BR",
+     "region": "MX",
      "gb": 999,
-     "price": 73.0,
-     "currency": "CHF",
+     "price": 62.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "3",
-     "region": "BR",
+     "region": "MX",
      "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
+     "price": 4.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "7",
-     "region": "BR",
+     "region": "MX",
      "gb": 3.0,
      "price": 8.5,
-     "currency": "CHF",
+     "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "15",
-     "region": "BR",
+     "region": "MX",
      "gb": 5.0,
-     "price": 11.0,
-     "currency": "CHF",
+     "price": 12.5,
+     "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "30",
-     "region": "BR",
+     "region": "MX",
      "gb": 5.0,
-     "price": 11.5,
-     "currency": "CHF",
+     "price": 13.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airalo.com/brazil-esim"
+     "url": "https://www.airalo.com/mexico-esim"
     },
     {
      "days": "3",
-     "region": "AR",
+     "region": "CA",
      "gb": 999,
-     "price": 17.0,
-     "currency": "CHF",
+     "price": 17.61,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/argentina-esim"
+     "url": "https://www.airalo.com/canada-esim"
     },
     {
      "days": "5",
-     "region": "AR",
+     "region": "CA",
      "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
+     "price": 23.24,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/argentina-esim"
+     "url": "https://www.airalo.com/canada-esim"
     },
     {
      "days": "7",
-     "region": "AR",
+     "region": "CA",
      "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
+     "price": 28.87,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/argentina-esim"
+     "url": "https://www.airalo.com/canada-esim"
     },
     {
      "days": "10",
-     "region": "AR",
+     "region": "CA",
      "gb": 999,
-     "price": 33.0,
-     "currency": "CHF",
+     "price": 33.8,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/argentina-esim"
-    },
-    {
-     "days": "3",
-     "region": "AR",
-     "gb": 1.0,
-     "price": 4.5,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/argentina-esim"
-    },
-    {
-     "days": "7",
-     "region": "AR",
-     "gb": 3.0,
-     "price": 9.0,
-     "currency": "CHF",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airalo.com/argentina-esim"
+     "url": "https://www.airalo.com/canada-esim"
     },
     {
      "days": "15",
-     "region": "AR",
-     "gb": 5.0,
-     "price": 14.5,
-     "currency": "CHF",
-     "perks": "",
+     "region": "CA",
+     "gb": 999,
+     "price": 44.01,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
      "notes": "",
-     "url": "https://www.airalo.com/argentina-esim"
+     "url": "https://www.airalo.com/canada-esim"
     },
     {
      "days": "30",
-     "region": "AR",
+     "region": "CA",
+     "gb": 999,
+     "price": 80.99,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/canada-esim"
+    },
+    {
+     "days": "3",
+     "region": "CA",
+     "gb": 1.0,
+     "price": 7.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/canada-esim"
+    },
+    {
+     "days": "7",
+     "region": "CA",
+     "gb": 3.0,
+     "price": 9.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/canada-esim"
+    },
+    {
+     "days": "15",
+     "region": "CA",
      "gb": 5.0,
      "price": 15.0,
-     "currency": "CHF",
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/canada-esim"
+    },
+    {
+     "days": "30",
+     "region": "CA",
+     "gb": 5.0,
+     "price": 18.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/canada-esim"
+    },
+    {
+     "days": "3",
+     "region": "BR",
+     "gb": 999,
+     "price": 12.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "5",
+     "region": "BR",
+     "gb": 999,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "7",
+     "region": "BR",
+     "gb": 999,
+     "price": 25.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "10",
+     "region": "BR",
+     "gb": 999,
+     "price": 33.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "15",
+     "region": "BR",
+     "gb": 999,
+     "price": 46.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "30",
+     "region": "BR",
+     "gb": 999,
+     "price": 85.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "3",
+     "region": "BR",
+     "gb": 1.0,
+     "price": 4.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "7",
+     "region": "BR",
+     "gb": 3.0,
+     "price": 9.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "15",
+     "region": "BR",
+     "gb": 5.0,
+     "price": 12.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "30",
+     "region": "BR",
+     "gb": 5.0,
+     "price": 13.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/brazil-esim"
+    },
+    {
+     "days": "3",
+     "region": "AR",
+     "gb": 999,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/argentina-esim"
+    },
+    {
+     "days": "5",
+     "region": "AR",
+     "gb": 999,
+     "price": 27.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/argentina-esim"
+    },
+    {
+     "days": "7",
+     "region": "AR",
+     "gb": 999,
+     "price": 34.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/argentina-esim"
+    },
+    {
+     "days": "10",
+     "region": "AR",
+     "gb": 999,
+     "price": 38.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/argentina-esim"
+    },
+    {
+     "days": "3",
+     "region": "AR",
+     "gb": 1.0,
+     "price": 5.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/argentina-esim"
+    },
+    {
+     "days": "7",
+     "region": "AR",
+     "gb": 3.0,
+     "price": 10.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/argentina-esim"
+    },
+    {
+     "days": "15",
+     "region": "AR",
+     "gb": 5.0,
+     "price": 16.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/argentina-esim"
+    },
+    {
+     "days": "30",
+     "region": "AR",
+     "gb": 5.0,
+     "price": 17.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/argentina-esim"
@@ -21210,8 +21290,8 @@
      "days": "3",
      "region": "AU",
      "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
+     "price": 11.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21220,8 +21300,8 @@
      "days": "5",
      "region": "AU",
      "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
+     "price": 18.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21230,8 +21310,8 @@
      "days": "7",
      "region": "AU",
      "gb": 999,
-     "price": 23.0,
-     "currency": "CHF",
+     "price": 26.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21240,8 +21320,8 @@
      "days": "10",
      "region": "AU",
      "gb": 999,
-     "price": 27.5,
-     "currency": "CHF",
+     "price": 32.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21250,8 +21330,8 @@
      "days": "15",
      "region": "AU",
      "gb": 999,
-     "price": 38.5,
-     "currency": "CHF",
+     "price": 45.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21260,8 +21340,8 @@
      "days": "30",
      "region": "AU",
      "gb": 999,
-     "price": 57.0,
-     "currency": "CHF",
+     "price": 66.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21270,8 +21350,8 @@
      "days": "3",
      "region": "AU",
      "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
+     "price": 4.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21280,8 +21360,8 @@
      "days": "7",
      "region": "AU",
      "gb": 3.0,
-     "price": 7.0,
-     "currency": "CHF",
+     "price": 8.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21290,8 +21370,8 @@
      "days": "15",
      "region": "AU",
      "gb": 5.0,
-     "price": 9.0,
-     "currency": "CHF",
+     "price": 10.5,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21300,8 +21380,8 @@
      "days": "30",
      "region": "AU",
      "gb": 5.0,
-     "price": 9.5,
-     "currency": "CHF",
+     "price": 11.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/australia-esim"
@@ -21310,8 +21390,8 @@
      "days": "3",
      "region": "NZ",
      "gb": 999,
-     "price": 10.0,
-     "currency": "CHF",
+     "price": 11.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21320,8 +21400,8 @@
      "days": "5",
      "region": "NZ",
      "gb": 999,
-     "price": 16.0,
-     "currency": "CHF",
+     "price": 18.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21330,8 +21410,8 @@
      "days": "7",
      "region": "NZ",
      "gb": 999,
-     "price": 23.5,
-     "currency": "CHF",
+     "price": 27.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21340,8 +21420,8 @@
      "days": "10",
      "region": "NZ",
      "gb": 999,
-     "price": 29.5,
-     "currency": "CHF",
+     "price": 34.5,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21350,8 +21430,8 @@
      "days": "15",
      "region": "NZ",
      "gb": 999,
-     "price": 41.0,
-     "currency": "CHF",
+     "price": 48.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21360,8 +21440,8 @@
      "days": "30",
      "region": "NZ",
      "gb": 999,
-     "price": 61.0,
-     "currency": "CHF",
+     "price": 71.0,
+     "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21370,8 +21450,8 @@
      "days": "3",
      "region": "NZ",
      "gb": 1.0,
-     "price": 3.5,
-     "currency": "CHF",
+     "price": 4.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21380,8 +21460,8 @@
      "days": "7",
      "region": "NZ",
      "gb": 3.0,
-     "price": 9.0,
-     "currency": "CHF",
+     "price": 10.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21390,8 +21470,8 @@
      "days": "15",
      "region": "NZ",
      "gb": 5.0,
-     "price": 12.0,
-     "currency": "CHF",
+     "price": 13.5,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -21400,8 +21480,8 @@
      "days": "30",
      "region": "NZ",
      "gb": 5.0,
-     "price": 12.0,
-     "currency": "CHF",
+     "price": 14.0,
+     "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airalo.com/new-zealand-esim"
@@ -36348,5 +36428,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-21T18:48Z"
+ "updatedAt": "2026-10-21T18:55Z"
 }
