@@ -120,6 +120,7 @@
     </div>
   </div>
 
+  <div class="banner" id="ski" hidden>✔ בד״כ יציאה לסקי היא 8 ימים - לקחת בחשבון</div>
   <div class="bar"><div id="count"></div><button class="reset" id="reset">נקה סינון</button></div>
   <div class="list" id="list"></div>
   <div class="foot">חלק מהקישורים באתר הם קישורי שותפים (referral): אם תרכשו דרכם ייתכן שאקבל הטבה, ללא עלות נוספת עבורכם.<br>המחירים נאספים אוטומטית מאתרי החברות מדי יום (חלק מהחברות מסומנות כלא מתעדכנות אוטומטית) והומרו ליורו לפי שער יומי (<span id="rates"></span>). המחיר המקורי מופיע ליד כל חבילה. ייתכנו הבדלים בפועל — בדקו באתר הספק לפני הרכישה.</div>
@@ -300,8 +301,9 @@ function update(keepLimit) {
 
   const cheapest = Math.min(...out.map(p => p.priceEur));
   const bestGb = Math.min(...out.map(perGb));
-  $("count").textContent = `${out.length} חבילות ל${state.dest === "all" ? "כל היעדים" : destLabel(state.dest)} (מתוך ${plans.length})`;
+  $("count").textContent = `${out.length} חבילות ל${state.dest === "all" ? "כל היעדים" : destLabel(state.dest)}`;
   $("maxv").textContent = state.max;
+  $("ski").hidden = !state.days.has("7"); // a typical ski trip is 8 days, so remind people who pick 7
   const list = $("list");
   list.replaceChildren();
   if (!out.length) list.append(el("div", { className: "empty", textContent: state.dest !== "all" && !plans.some(p => coversDest(p, state.dest))
@@ -324,11 +326,9 @@ function update(keepLimit) {
     // France-only plans: Geneva airport (GVA) is in Switzerland, so a France-only plan has no signal there.
     // "GVA" sits in its own left-to-right <bdi> so it can't flip the Hebrew sentence.
     const gva = p.region === "FR";
-    const ski = p.days === 7; // a typical ski trip is 8 days, so a 7-day plan can fall one day short
-    if (p.perks || p.notes || gva || ski) {
+    if (p.perks || p.notes || gva) {
       const meta = el("div", { className: "meta" });
       if (p.perks) meta.append(el("div", { textContent: "✔ " + p.perks }));
-      if (ski) meta.append(el("div", { textContent: "✔ בד״כ יציאה לסקי היא 8 ימים - לקחת בחשבון" }));
       if (p.notes) meta.append(el("div", { className: "note", textContent: p.notes }));
       if (gva) meta.append(el("div", { className: "hl" }, "✔ נחיתה בג׳נבה (", el("bdi", { dir: "ltr", textContent: "GVA" }),
         ") היא נחיתה בשוויץ ולא בצרפת: בחבילה לצרפת בלבד אין שם קליטה, לקחת בחשבון"));
