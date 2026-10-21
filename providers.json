@@ -14,7 +14,9 @@
    "couponNote": "3€ הנחה על כל מוצרי BNESIM",
    "note": "מומלצת לאירופה",
    "popup": {
-    "offersUrl": "https://shop.bnesim.com/offers/"
+    "offersUrl": "https://shop.bnesim.com/offers/",
+    "he": "אם זו הרכישה הראשונה שלכם, השתמשו בקופון הזה לקבלת הנחה של 3 יורו:",
+    "en": "If this is your first purchase, use this coupon to get 3 EUR off:"
    }
   },
   "Airalo": {
@@ -59,7 +61,11 @@
    "coupon": "TOME223",
    "couponNote": "25% הנחה על התוכנית הראשונה ללקוח חדש",
    "note": null,
-   "referralDeepLink": "{url}"
+   "referralDeepLink": "{url}",
+   "popup": {
+    "he": "אם זו הרכישה הראשונה שלכם, השתמשו בקופון הזה לקבלת 25% הנחה על התוכנית הראשונה:",
+    "en": "If this is your first purchase, use this coupon to get 25% off your first plan:"
+   }
   },
   "Yesim": {
    "url": "https://yesim.tech/regions/europe-esim",
@@ -73,7 +79,11 @@
    "referralUrl": null,
    "coupon": "TOMER83",
    "couponNote": null,
-   "note": null
+   "note": null,
+   "popup": {
+    "he": "השתמשו בקוד הקופון הזה בעת התשלום:",
+    "en": "Use this coupon code at checkout:"
+   }
   }
  }
 }

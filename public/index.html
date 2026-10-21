@@ -121,6 +121,9 @@
   </div>
 
   <div class="banner" id="ski" hidden>✔ בד״כ יציאה לסקי היא 8 ימים - לקחת בחשבון</div>
+  <!-- Geneva airport (GVA) is in Switzerland, so a France-only plan has no signal there. "GVA" sits in its own
+       left-to-right <bdi> so it can't flip the Hebrew sentence. -->
+  <div class="banner" id="gva" hidden>שימו לב: אם אתם נוחתים בשדה התעופה של ג׳נבה, זו נחיתה בשוויץ ולא בצרפת, ולכן חבילה לצרפת בלבד לא תעבוד שם ולא תהיה לכם קליטה. כדאי לבחור חבילת אירופה. (שדה התעופה: <bdi dir="ltr">GVA</bdi>)</div>
   <div class="bar"><div id="count"></div><button class="reset" id="reset">נקה סינון</button></div>
   <div class="list" id="list"></div>
   <div class="foot">חלק מהקישורים באתר הם קישורי שותפים (referral): אם תרכשו דרכם ייתכן שאקבל הטבה, ללא עלות נוספת עבורכם.<br>המחירים נאספים אוטומטית מאתרי החברות מדי יום (חלק מהחברות מסומנות כלא מתעדכנות אוטומטית) והומרו ליורו לפי שער יומי (<span id="rates"></span>). המחיר המקורי מופיע ליד כל חבילה. ייתכנו הבדלים בפועל — בדקו באתר הספק לפני הרכישה.</div>
@@ -129,12 +132,12 @@
 <dialog id="popup" aria-labelledby="popup-title">
   <div class="lang" dir="rtl">
     <h2 id="popup-title">לפני שממשיכים ל-<span class="pname"></span></h2>
-    <p>אם זו הרכישה הראשונה שלכם, השתמשו בקופון הזה לקבלת הנחה של 3 יורו: <span class="code"></span></p>
-    <p>רוצים לחפש עוד מבצעים? התחברו ובדקו את ההצעות: <a class="offers" target="_blank" rel="noopener"></a></p>
+    <p><span class="t"></span> <span class="code"></span></p>
+    <p class="offers-row">רוצים לחפש עוד מבצעים? התחברו ובדקו את ההצעות: <a class="offers" target="_blank" rel="noopener"></a></p>
   </div>
   <div class="lang" dir="ltr">
-    <p>If this is your first purchase, use this coupon to get 3 EUR off: <span class="code"></span></p>
-    <p>Want to look for more deals? Log in and check the offers: <a class="offers" target="_blank" rel="noopener"></a></p>
+    <p><span class="t"></span> <span class="code"></span></p>
+    <p class="offers-row">Want to look for more deals? Log in and check the offers: <a class="offers" target="_blank" rel="noopener"></a></p>
   </div>
   <div class="actions" dir="rtl">
     <button class="copy" type="button">העתקת הקוד שלי / Copy my code</button>
@@ -303,6 +306,7 @@ function update(keepLimit) {
   const bestGb = Math.min(...out.map(perGb));
   $("count").textContent = `${out.length} חבילות ל${state.dest === "all" ? "כל היעדים" : destLabel(state.dest)}`;
   $("maxv").textContent = state.max;
+  $("gva").hidden = state.dest !== "FR";
   $("ski").hidden = !state.days.has("7"); // a typical ski trip is 8 days, so remind people who pick 7
   const list = $("list");
   list.replaceChildren();
@@ -323,15 +327,10 @@ function update(keepLimit) {
       el("div", { className: "price" },
         el("div", { className: "eur", textContent: "€" + p.priceEur.toFixed(2) }),
         p.currency !== "EUR" ? el("div", { className: "orig", textContent: `מקור: ${SYMBOL[p.currency]}${p.price}` }) : ""));
-    // France-only plans: Geneva airport (GVA) is in Switzerland, so a France-only plan has no signal there.
-    // "GVA" sits in its own left-to-right <bdi> so it can't flip the Hebrew sentence.
-    const gva = p.region === "FR";
-    if (p.perks || p.notes || gva) {
+    if (p.perks || p.notes) {
       const meta = el("div", { className: "meta" });
       if (p.perks) meta.append(el("div", { textContent: "✔ " + p.perks }));
       if (p.notes) meta.append(el("div", { className: "note", textContent: p.notes }));
-      if (gva) meta.append(el("div", { className: "hl" }, "✔ נחיתה בג׳נבה (", el("bdi", { dir: "ltr", textContent: "GVA" }),
-        ") היא נחיתה בשוויץ ולא בצרפת: בחבילה לצרפת בלבד אין שם קליטה, לקחת בחשבון"));
       card.append(meta);
     }
     const prov = providers[p.provider] || {};
@@ -400,7 +399,10 @@ function openPopup(name, prov, dest) {
   const d = $("popup");
   d.querySelectorAll(".pname").forEach(n => (n.textContent = name));
   d.querySelectorAll(".code").forEach(n => (n.textContent = prov.coupon));
-  d.querySelectorAll("a.offers").forEach(a => { a.href = prov.popup.offersUrl; a.textContent = prov.popup.offersUrl; });
+  d.querySelector('[dir="rtl"] .t').textContent = prov.popup.he;
+  d.querySelector('[dir="ltr"] .t').textContent = prov.popup.en;
+  d.querySelectorAll(".offers-row").forEach(r => (r.hidden = !prov.popup.offersUrl));
+  d.querySelectorAll("a.offers").forEach(a => { a.href = prov.popup.offersUrl || ""; a.textContent = prov.popup.offersUrl || ""; });
   d.querySelector("a.go").href = dest;
   d.querySelector("a.go").onclick = () => d.close();
   const copy = d.querySelector("button.copy");
