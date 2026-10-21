@@ -25,6 +25,8 @@ def parse_days(raw):
 
 def main():
     providers = json.loads((ROOT / "providers.json").read_text(encoding="utf-8"))["providers"]
+    destinations = json.loads((ROOT / "destinations.json").read_text(encoding="utf-8"))
+    valid_regions = set(destinations["regions"]) | {c for g in destinations["groups"] for c in g["countries"]}
     rows = []
     with open(ROOT / "plans.csv", encoding="utf-8", newline="") as f:
         for r in csv.DictReader(f):
@@ -34,6 +36,9 @@ def main():
             name = r["provider"].strip()
             if name not in providers:
                 sys.exit(f"Provider {name!r} is missing from providers.json")
+            region = r["region"].strip()
+            if region not in valid_regions:
+                sys.exit(f"Unknown region {region!r} for {name}: use a region id or an ISO country code from destinations.json")
             days, days_label = parse_days(r["days"])
             gb = float(r["gb"])
             price = float(r["price"])
@@ -45,7 +50,7 @@ def main():
                 "daysLabel": days_label,
                 # Plans with no numeric day count are shown under the "Unlimited" filter.
                 "unlimitedDays": days is None,
-                "region": r["region"].strip(),
+                "region": region,
                 "gb": None if unlimited_data else gb,
                 "unlimitedData": unlimited_data,
                 "price": price,
@@ -53,12 +58,14 @@ def main():
                 "priceEur": price_eur,
                 "perks": r["perks"].strip(),
                 "notes": r["notes"].strip(),
+                "url": (r.get("url") or "").strip(),
             })
 
     out = {
         "updated": date.today().isoformat(),
         "rates": RATES_TO_EUR,
         "providers": providers,
+        "destinations": destinations,
         "plans": rows,
     }
     (ROOT / "public" / "data.json").write_text(

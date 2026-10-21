@@ -42,14 +42,15 @@ def has_price(text, price):
 
 def main():
     providers = json.loads((ROOT / "providers.json").read_text(encoding="utf-8"))["providers"]
-    by_provider = defaultdict(list)
+    # Group plans by the page they are listed on: a plan's own url, else its provider's url.
+    by_page = defaultdict(list)
     with open(ROOT / "plans.csv", encoding="utf-8", newline="") as f:
         for row in csv.DictReader(f):
-            by_provider[row["provider"]].append(row)
+            url = (row.get("url") or "").strip() or providers[row["provider"]]["url"]
+            by_page[(row["provider"], url)].append(row)
 
     lines, problems = [], 0
-    for name, rows in by_provider.items():
-        url = providers[name]["url"]
+    for (name, url), rows in by_page.items():
         try:
             text = fetch_text(url)
         except Exception as e:  # network, TLS, HTTP errors

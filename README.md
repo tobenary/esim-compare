@@ -4,7 +4,7 @@ Static site: `public/index.html` reads `public/data.json` and filters it in the 
 
 ## Data (the only files you edit)
 - `providers.json`: one entry per shop: `url`, `referralUrl` (your affiliate link, used for the Buy button when set), `coupon`, `couponNote`, `note`.
-- `plans.csv`: one row per plan. `provider` must match a key in `providers.json`. Currencies: EUR, USD, ILS. Use `999` in `gb` for unlimited data, and `Unlimited` in `days` for no-expiry plans.
+- `plans.csv`: one row per plan. `provider` must match a key in `providers.json`. `region` is a region id or an ISO country code from `destinations.json` (e.g. `europe`, `asia`, `global`, `US`, `TH`). Optional `url` deep-links the Buy button when the shop has no referral link. Currencies: EUR, USD, ILS. Use `999` in `gb` for unlimited data, and `Unlimited` in `days` for no-expiry plans.
 - `public/data.json` is generated (not committed): `python3 scripts/build.py` (also stamps the "updated" date). Conversion rates live in `RATES_TO_EUR` in that script.
 
 ## Adding a shop
