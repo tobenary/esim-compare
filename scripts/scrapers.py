@@ -268,7 +268,7 @@ AIRALO_ROW = re.compile(r"(\d+) days?\s+(Unlimited|[\d.]+)\s+GB\s+([\d.]+)\s+([A
 
 def airalo():
     from playwright.sync_api import sync_playwright  # imported here so other shops work without Playwright
-    out, pages = [], 0
+    out, pages, last_error = [], 0, ""
     with sync_playwright() as p:
         browser = p.chromium.launch(channel="chrome", headless=True)
         page = browser.new_context(locale="en-US", viewport={"width": 1300, "height": 900}).new_page()
@@ -281,7 +281,8 @@ def airalo():
                 page.get_by_text("Fixed data", exact=True).first.click(timeout=5000)
                 page.wait_for_timeout(1000)
                 rows += AIRALO_ROW.findall(page.inner_text("body"))
-            except Exception:  # noqa: BLE001 - a missing or slow page is skipped, not fatal
+            except Exception as e:  # noqa: BLE001 - a missing or slow page is skipped, not fatal
+                last_error = f"{slug}: {str(e).splitlines()[0][:120]}"
                 continue
             seen, got = set(), []
             for days, data, price, cur in rows:
@@ -295,7 +296,7 @@ def airalo():
             out += got
         browser.close()
     if pages < 5:
-        raise RuntimeError(f"only {pages} Airalo pages had packages: layout changed or blocked?")
+        raise RuntimeError(f"only {pages} Airalo pages had packages: layout changed or blocked? last error: {last_error}")
     return out
 
 

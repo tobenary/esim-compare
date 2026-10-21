@@ -51,7 +51,7 @@ def fetch_rates(prev):
 
 
 def key(p):
-    return (p["region"], str(p["days"]), p["gb"])
+    return (p["region"], str(p["days"]), p["gb"], p.get("perks", ""))
 
 
 def validate(plans):
