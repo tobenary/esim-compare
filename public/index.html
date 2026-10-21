@@ -67,8 +67,7 @@
   .dest h3 { margin: 0 0 6px; font-size: .85rem; color: var(--muted); font-weight: 600; }
   .dest .chip.europe { font-weight: 800; font-size: 1.05rem; padding: 7px 18px; border-width: 2px; border-color: var(--accent); }
   .dest .chip.europe[aria-pressed="false"] { color: var(--accent); }
-  .dest select { margin-inline-start: 4px; min-width: 200px; }
-  .dest select option.eu, .dest select optgroup.eu { font-weight: 800; }
+  .dest input { font: inherit; margin-inline-start: 4px; min-width: 220px; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
   .tag { display: inline-block; font-size: .72rem; padding: 1px 8px; border-radius: 999px; background: var(--accent-bg); color: var(--accent); margin-inline-start: 6px; }
   dialog { border: 1px solid var(--line); border-radius: 14px; background: var(--card); color: var(--text);
     padding: 18px 20px; width: calc(100vw - 32px); max-width: 460px; overflow-wrap: anywhere; }
@@ -99,7 +98,7 @@
   <div class="panel dest">
     <h3>לאן נוסעים?</h3>
     <div class="chips" id="f-dest"></div>
-    <div style="margin-top:8px"><label class="toggle">או בחרו מדינה: <select id="country"></select></label></div>
+    <div style="margin-top:8px"><label class="toggle">או הקלידו מדינה: <input id="country" type="search" list="country-list" placeholder="למשל צרפת, France" autocomplete="off"></label><datalist id="country-list"></datalist></div>
   </div>
 
   <div class="panel" id="filters">
@@ -223,19 +222,28 @@ function renderDest() {
     chip.onclick = () => { state.dest = id; update(); };
     box.append(chip);
   });
-  $("country").value = isCountry(state.dest) ? state.dest : "";
+  const input = $("country");
+  if (isCountry(state.dest)) input.value = names.of(state.dest);
+  else if (document.activeElement !== input) input.value = "";
 }
 
+const countryByName = new Map(); // lower-cased Hebrew or English name -> ISO code
+
 function fillCountries() {
-  const sel = $("country");
-  sel.append(el("option", { value: "", textContent: "— בחרו מדינה —" }));
-  dests.groups.forEach(g => {
-    const og = el("optgroup", { label: g.he, className: g.id === "europe" ? "eu" : "" });
-    g.countries.map(c => [c, names.of(c) || c]).sort((a, b) => a[1].localeCompare(b[1], "he"))
-      .forEach(([c, n]) => og.append(el("option", { value: c, textContent: n })));
-    sel.append(og);
-  });
-  sel.onchange = () => { if (sel.value) { state.dest = sel.value; update(); } };
+  const en = new Intl.DisplayNames(["en"], { type: "region" });
+  const list = $("country-list"), input = $("country");
+  dests.groups.forEach(g => g.countries.forEach(c => {
+    const he = names.of(c) || c, eng = en.of(c) || c;
+    countryByName.set(he.toLowerCase(), c);
+    countryByName.set(eng.toLowerCase(), c);
+    list.append(el("option", { value: he, label: eng }));
+  }));
+  const pick = () => {
+    const code = countryByName.get(input.value.trim().toLowerCase());
+    if (code && code !== state.dest) { state.dest = code; update(); }
+  };
+  input.oninput = pick;   // fires when typing a full name or choosing a suggestion
+  input.onchange = pick;
 }
 
 const toggle = (set, v) => (set.has(v) ? set.delete(v) : set.add(v));
