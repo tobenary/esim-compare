@@ -72,10 +72,21 @@
   .plan .note { color: var(--muted); }
   .badge { display: inline-block; font-size: .7rem; padding: 0 7px; border-radius: 4px; margin-inline-start: 6px; background: var(--good-bg); color: var(--good); font-weight: 700; }
   .tag { display: inline-block; font-size: .7rem; padding: 0 7px; border-radius: 4px; background: var(--accent-bg); color: var(--accent); margin-inline-start: 6px; }
+  .cols { display: grid; grid-template-columns: 1fr 110px 130px; gap: 2px 14px; padding: 6px 15px; font-size: .72rem; font-weight: 700;
+    color: var(--muted); text-transform: uppercase; letter-spacing: .04em; background: var(--side); border: 1px solid var(--line);
+    border-bottom: none; border-radius: 10px 10px 0 0; position: sticky; top: 0; z-index: 5; }
+  .cols span:nth-child(2) { text-align: end; } .cols span:nth-child(3) { text-align: center; }
+  .cols + .list { border-radius: 0 0 10px 10px; }
+  details.side > summary { display: none; }
   .empty { text-align: center; color: var(--muted); padding: 30px 0; }
   .list > .chip { margin: 10px; }
   .foot { color: var(--muted); font-size: .78rem; margin: 16px 0; }
   @media (max-width: 860px) {
+    .cols { display: none; } .cols + .list { border-radius: 10px; }
+    details.side > summary { display: block; cursor: pointer; font-weight: 700; padding: 2px 0; list-style: none; }
+    details.side > summary::after { content: "▾"; margin-inline-start: 8px; color: var(--muted); }
+    details.side[open] > summary::after { content: "▴"; }
+    details.side[open] > summary { margin-bottom: 10px; }
     .layout { grid-template-columns: 1fr; }
     aside { position: static; max-height: none; }
     .plan { grid-template-columns: 1fr auto; }
@@ -105,6 +116,8 @@
 <div class="top"><div class="in"><h1>השוואת מחירי eSIM</h1><span class="sub" id="updated"></span></div></div>
 <div class="layout">
   <aside>
+   <details class="side" open>
+    <summary>יעד וסינון</summary>
     <div class="group">
       <h3>לאן נוסעים?</h3>
       <div class="chips" id="f-dest"></div>
@@ -127,6 +140,7 @@
           </select></label>
       </div>
     </div>
+   </details>
   </aside>
   <main>
     <div id="coupons"></div>
@@ -136,6 +150,7 @@
          left-to-right <bdi> so it can't flip the Hebrew sentence. -->
     <div class="banner" id="gva" hidden>שימו לב: אם אתם נוחתים בשדה התעופה של ג׳נבה, זו נחיתה בשוויץ ולא בצרפת, ולכן חבילה לצרפת בלבד לא תעבוד שם ולא תהיה לכם קליטה. כדאי לבחור חבילת אירופה. (שדה התעופה: <bdi dir="ltr">GVA</bdi>)</div>
     <div class="bar"><div id="count"></div><button class="reset" id="reset">נקה סינון</button></div>
+    <div class="cols" aria-hidden="true"><span>חבילה</span><span>מחיר</span><span>רכישה</span></div>
     <div class="list" id="list"></div>
     <div class="foot">חלק מהקישורים באתר הם קישורי שותפים (referral): אם תרכשו דרכם ייתכן שאקבל הטבה, ללא עלות נוספת עבורכם.<br>המחירים נאספים אוטומטית מאתרי החברות מדי יום (חלק מהחברות מסומנות כלא מתעדכנות אוטומטית) והומרו ליורו לפי שער יומי (<span id="rates"></span>). המחיר המקורי מופיע ליד כל חבילה. ייתכנו הבדלים בפועל — בדקו באתר הספק לפני הרכישה.</div>
   </main>
@@ -159,6 +174,14 @@
   </div>
 </dialog>
 
+<script>
+// The sidebar is always open on wide screens and starts collapsed on phones.
+(() => {
+  const mq = matchMedia("(max-width: 860px)"), d = document.querySelector("details.side");
+  const sync = () => { d.open = !mq.matches; };
+  sync(); mq.addEventListener("change", sync);
+})();
+</script>
 <script>
 const GB_BUCKETS = [
   { id: "le1", label: "עד 1", test: g => g <= 1 },
