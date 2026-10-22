@@ -85,10 +85,12 @@
   .foot { color: var(--muted); font-size: .78rem; margin: 16px 0; }
   @media (max-width: 860px) {
     .cols { display: none; } .cols + .list { border-radius: 10px; }
-    details.side > summary { display: block; cursor: pointer; font-weight: 700; padding: 2px 0; list-style: none; }
-    details.side > summary { position: relative; padding-inline-end: 22px; }
-    details.side > summary::after { content: "▾"; position: absolute; inset-inline-end: 2px; top: 2px; color: var(--muted); }
-    details.side[open] > summary::after { content: "▴"; }
+    details.side > summary { display: block; position: relative; cursor: pointer; font-weight: 700; list-style: none; padding: 2px 0; padding-inline-end: 96px; min-height: 44px; }
+    details.side > summary::-webkit-details-marker { display: none; }
+    /* a clearly visible text button: "הצג" when collapsed, "הסתר" when open */
+    details.side > summary::after { content: "הצג ▾"; position: absolute; inset-inline-end: 0; top: 0; background: var(--accent); color: #fff;
+      font-weight: 700; font-size: .95rem; border-radius: 8px; padding: 9px 16px; }
+    details.side[open] > summary::after { content: "הסתר ▴"; }
     details.side[open] > summary { margin-bottom: 10px; }
     .layout { grid-template-columns: 1fr; }
     aside { position: static; max-height: none; }
