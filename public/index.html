@@ -13,91 +13,112 @@
 })();
 </script>
 <title>השוואת מחירי eSIM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap">
 <style>
   :root {
-    --bg: #ffffff; --card: #ffffff; --text: #111827; --muted: #6b7280; --line: #e5e7eb; --side: #f9fafb;
-    --accent: #0b6bcb; --accent-bg: #e6f0fb; --good: #0a7d3c; --good-bg: #e3f6ea; --warn-bg: #fff4d6;
+    --bg: #f5f6fa; --card: #fff; --text: #14213d; --muted: #66708a; --line: #e3e7f0;
+    --navy: #0b2545; --navy2: #13386b; --accent: #1f6feb; --accent-bg: #e8f0fe; --good: #0a7d3c; --good-bg: #e3f6ea; --warn-bg: #fff4d6;
+    --shadow: 0 1px 2px rgba(20,33,61,.05), 0 8px 24px rgba(20,33,61,.07);
+    --radius: 18px;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #0d1117; --card: #0d1117; --text: #e6edf3; --muted: #8b949e; --line: #262c36; --side: #161b22;
-      --accent: #58a6ff; --accent-bg: #16314f; --good: #4cd08a; --good-bg: #153424; --warn-bg: #3a3118; }
+    :root { --bg: #0a1220; --card: #111c31; --text: #e8edf7; --muted: #94a0ba; --line: #22304d;
+      --navy: #08162b; --navy2: #0f2a52; --accent: #5b9bff; --accent-bg: #162c52; --good: #4cd08a; --good-bg: #153424; --warn-bg: #3a3118;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.3); }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
-  .top { border-bottom: 1px solid var(--line); background: var(--side); }
-  .top .in { max-width: 1280px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; }
-  .top h1 { font-size: 1.15rem; margin: 0; }
-  .sub { color: var(--muted); font-size: .82rem; }
-  .layout { max-width: 1280px; margin: 0 auto; padding: 12px 16px; display: grid; grid-template-columns: 290px 1fr; gap: 20px; align-items: start; }
-  aside { position: sticky; top: 8px; max-height: calc(100vh - 16px); overflow-y: auto; background: var(--side); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
-  .banner { background: var(--warn-bg); border-radius: 8px; padding: 8px 12px; margin-bottom: 8px; font-size: .88rem; }
-  .coupon { display: inline-flex; gap: 8px; align-items: center; background: var(--card); border: 1px dashed var(--accent);
-    border-radius: 6px; padding: 1px 8px; font-family: ui-monospace, monospace; cursor: pointer; }
-  .group { margin-bottom: 14px; }
-  .group h3, aside h3 { font-size: .72rem; color: var(--muted); margin: 0 0 6px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
-  .chips { display: flex; flex-wrap: wrap; gap: 5px; }
-  .chip { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 6px; padding: 3px 9px;
-    font: inherit; font-size: .84rem; cursor: pointer; }
-  .chip .n { color: var(--muted); font-size: .74rem; margin-inline-start: 4px; }
-  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .chip[aria-pressed="true"] .n { color: #dbe9fb; }
-  .chip.zero { opacity: .4; }
-  .chip.europe { font-weight: 800; border: 2px solid var(--accent); padding: 2px 12px; }
-  .chip.europe[aria-pressed="false"] { color: var(--accent); }
-  #f-dest { flex-direction: column; align-items: stretch; }
-  #f-dest .chip { text-align: start; display: flex; justify-content: space-between; }
-  #f-dest .chip.europe { font-size: 1rem; }
-  aside input[type=search] { font: inherit; width: 100%; margin-top: 8px; padding: 6px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
-  .row { display: grid; gap: 10px; }
-  label.toggle { display: flex; gap: 6px; align-items: center; cursor: pointer; font-size: .88rem; flex-wrap: wrap; }
-  label.toggle input[type=range] { flex: 1 1 100%; }
-  select, input[type=range] { font: inherit; accent-color: var(--accent); }
-  select { padding: 4px 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
-  .bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 6px 2px 8px; font-weight: 700; }
-  .reset { background: none; border: none; color: var(--accent); cursor: pointer; font: inherit; font-size: .88rem; }
-  .list { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
-  .plan { display: grid; grid-template-columns: 1fr 110px 130px; gap: 2px 14px; padding: 9px 14px; align-items: center; border-top: 1px solid var(--line); }
-  .plan:first-child { border-top: none; }
-  .plan:hover { background: var(--side); }
-  .plan > div:first-child { grid-area: 1 / 1; }
-  .plan .price { grid-area: 1 / 2; text-align: end; }
-  .plan a.buy { grid-area: 1 / 3; text-align: center; border: 1px solid var(--accent); color: var(--accent); text-decoration: none;
-    border-radius: 6px; padding: 4px 8px; font-size: .86rem; font-weight: 600; }
-  .plan a.buy:hover { background: var(--accent); color: #fff; }
-  .plan .meta { grid-area: 2 / 1 / 3 / -1; font-size: .82rem; }
-  .plan .prov { font-weight: 700; }
-  .plan .spec { color: var(--muted); font-size: .86rem; }
-  .plan .eur { font-size: 1.15rem; font-weight: 800; font-variant-numeric: tabular-nums; }
-  .plan .orig { color: var(--muted); font-size: .74rem; }
-  .plan .note { color: var(--muted); }
-  .badge { display: inline-block; font-size: .7rem; padding: 0 7px; border-radius: 4px; margin-inline-start: 6px; background: var(--good-bg); color: var(--good); font-weight: 700; }
-  .tag { display: inline-block; font-size: .7rem; padding: 0 7px; border-radius: 4px; background: var(--accent-bg); color: var(--accent); margin-inline-start: 6px; }
-  .cols { display: grid; grid-template-columns: 1fr 110px 130px; gap: 2px 14px; padding: 6px 15px; font-size: .72rem; font-weight: 700;
-    color: var(--muted); text-transform: uppercase; letter-spacing: .04em; background: var(--side); border: 1px solid var(--line);
-    border-bottom: none; border-radius: 10px 10px 0 0; position: sticky; top: 0; z-index: 5; }
-  .cols span:nth-child(2) { text-align: end; } .cols span:nth-child(3) { text-align: center; }
-  .cols + .list { border-radius: 0 0 10px 10px; }
-  details.side > summary { display: none; }
-  .active { display: block; font-weight: 400; font-size: .82rem; color: var(--muted); margin-top: 2px; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 "Heebo", system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+
+  /* hero: headline, country search, destination chips */
+  .hero { background: radial-gradient(900px 400px at 85% -10%, rgba(91,155,255,.35), transparent 60%), linear-gradient(160deg, var(--navy), var(--navy2));
+    color: #fff; padding: 34px 0 64px; }
+  .hero h1 { font-size: clamp(1.7rem, 4.5vw, 2.7rem); line-height: 1.15; margin: 0 0 8px; font-weight: 800; letter-spacing: -.01em; }
+  .hero .lead { margin: 0 0 20px; color: #c3d2ee; font-size: 1.02rem; }
+  .hero .lead b { color: #fff; }
+  .search { position: relative; max-width: 520px; margin-bottom: 16px; }
+  .search input { width: 100%; font: inherit; font-size: 1.05rem; padding: 14px 48px 14px 18px; border-radius: 14px; border: none; background: #fff; color: #14213d; box-shadow: 0 8px 24px rgba(0,0,0,.25); }
+  .search .ico { position: absolute; inset-inline-start: 16px; top: 50%; transform: translateY(-50%); font-size: 1.1rem; pointer-events: none; }
+  .search input { padding-inline-start: 46px; padding-inline-end: 16px; }
+  .hero .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .hero .chip { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.22); color: #fff; border-radius: 999px; padding: 7px 15px; font: inherit; font-size: .95rem; cursor: pointer; transition: background .12s; }
+  .hero .chip:hover { background: rgba(255,255,255,.2); }
+  .hero .chip .n { color: #aebfdc; font-size: .78rem; margin-inline-start: 6px; }
+  .hero .chip[aria-pressed="true"] { background: #fff; color: var(--navy); border-color: #fff; font-weight: 700; }
+  .hero .chip[aria-pressed="true"] .n { color: #66708a; }
+  .hero .chip.europe { font-weight: 800; font-size: 1.05rem; padding: 8px 20px; border: 2px solid #fff; }
+  .hero .chip.zero { opacity: .45; }
+
+  main.wrap { margin-top: -38px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+
+  /* coupons strip + notices */
+  #coupons { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+  #coupons .banner { margin: 0; flex: 1 1 280px; background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); font-size: .86rem; }
+  .banner { background: var(--warn-bg); border-radius: 12px; padding: 10px 14px; margin: 0 0 10px; font-size: .92rem; }
+  .coupon { display: inline-flex; gap: 8px; align-items: center; background: var(--accent-bg); border: 1px dashed var(--accent); color: var(--accent);
+    border-radius: 8px; padding: 1px 10px; font-family: ui-monospace, monospace; font-weight: 700; cursor: pointer; }
+
+  /* filters */
+  details.side { margin-bottom: 14px; padding: 4px 18px; }
+  details.side > summary { cursor: pointer; font-weight: 700; padding: 12px 0; list-style: none; position: relative; padding-inline-end: 24px; }
+  details.side > summary::after { content: "▾"; position: absolute; inset-inline-end: 2px; top: 12px; color: var(--muted); }
+  details.side[open] > summary::after { content: "▴"; }
+  .active { display: block; font-weight: 400; font-size: .84rem; color: var(--muted); margin-top: 2px; }
   .active:empty { display: none; }
-  .empty { text-align: center; color: var(--muted); padding: 30px 0; }
-  .list > .chip { margin: 10px; }
-  .foot { color: var(--muted); font-size: .78rem; margin: 16px 0; }
-  @media (max-width: 860px) {
-    .cols { display: none; } .cols + .list { border-radius: 10px; }
-    details.side > summary { display: block; cursor: pointer; font-weight: 700; padding: 2px 0; list-style: none; }
-    details.side > summary { position: relative; padding-inline-end: 22px; }
-    details.side > summary::after { content: "▾"; position: absolute; inset-inline-end: 2px; top: 2px; color: var(--muted); }
-    details.side[open] > summary::after { content: "▴"; }
-    details.side[open] > summary { margin-bottom: 10px; }
-    .layout { grid-template-columns: 1fr; }
-    aside { position: static; max-height: none; }
-    .plan { grid-template-columns: 1fr auto; }
-    .plan a.buy { grid-area: 3 / 1 / 4 / -1; }
-    .plan .meta { grid-area: 2 / 1 / 3 / -1; }
-  }
-  #coupons { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px; margin-bottom: 8px; } #coupons .banner { margin: 0; font-size: .82rem; }
-  @media (max-width: 860px) { #f-dest { flex-direction: row; flex-wrap: wrap; } #f-dest .chip { display: inline-block; } #f-dest .chip.europe { flex: 1 1 100%; } }
+  #filters { padding: 2px 0 14px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px 28px; }
+  #filters .row { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 12px; }
+  .group h3 { font-size: .74rem; color: var(--muted); margin: 0 0 7px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  #filters .chip { border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px; padding: 4px 12px; font: inherit; font-size: .88rem; cursor: pointer; }
+  #filters .chip:hover { border-color: var(--accent); }
+  #filters .chip .n { color: var(--muted); font-size: .76rem; margin-inline-start: 5px; }
+  #filters .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #filters .chip[aria-pressed="true"] .n { color: #d6e4ff; }
+  #filters .chip.zero { opacity: .4; }
+  .row { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; }
+  label.toggle { display: inline-flex; gap: 8px; align-items: center; cursor: pointer; font-size: .92rem; }
+  select, input[type=range], input[type=checkbox] { font: inherit; accent-color: var(--accent); }
+  select { padding: 6px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); }
+
+  /* results */
+  .bar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin: 18px 2px 12px; }
+  #count { font-weight: 800; font-size: 1.15rem; }
+  .bar .tools { display: flex; align-items: center; gap: 14px; font-size: .9rem; }
+  .reset { background: none; border: none; color: var(--accent); cursor: pointer; font: inherit; font-weight: 600; }
+  .list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .plan { padding: 16px; display: flex; flex-direction: column; gap: 12px; transition: transform .14s, box-shadow .14s, border-color .14s; }
+  .plan:hover { transform: translateY(-3px); border-color: var(--accent); }
+  .plan header { display: flex; align-items: center; gap: 12px; }
+  .av { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font-weight: 800; color: #fff;
+    background: hsl(var(--h) 55% 42%); }
+  .who { flex: 1; min-width: 0; }
+  .prov { font-weight: 800; font-size: 1.05rem; line-height: 1.2; }
+  .where { color: var(--muted); font-size: .86rem; }
+  .price { text-align: end; }
+  .eur { font-size: 1.6rem; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; }
+  .orig { color: var(--muted); font-size: .74rem; margin-top: 2px; }
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .stat { background: var(--bg); border-radius: 12px; padding: 8px 12px; display: flex; align-items: baseline; gap: 6px; }
+  .stat b { font-size: 1.35rem; font-weight: 800; }
+  .stat small { color: var(--muted); font-size: .84rem; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tags:empty { display: none; }
+  .badge { font-size: .72rem; padding: 1px 9px; border-radius: 999px; background: var(--good-bg); color: var(--good); font-weight: 700; }
+  .tag { font-size: .72rem; padding: 1px 9px; border-radius: 999px; background: var(--accent-bg); color: var(--accent); font-weight: 600; }
+  .meta { font-size: .86rem; }
+  .meta .note { color: var(--muted); }
+  a.buy { margin-top: auto; text-align: center; background: var(--navy); color: #fff; text-decoration: none; font-weight: 700; border-radius: 12px; padding: 10px 12px; }
+  a.buy:hover { background: var(--accent); }
+  @media (prefers-color-scheme: dark) { a.buy { background: var(--accent); } a.buy:hover { filter: brightness(1.12); background: var(--accent); } }
+  .empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 40px 0; }
+  .list > .chip { grid-column: 1 / -1; justify-self: center; padding: 9px 26px; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 999px; font: inherit; cursor: pointer; }
+  .foot { color: var(--muted); font-size: .8rem; margin: 26px 0 40px; }
+  @media (max-width: 600px) { .list { grid-template-columns: 1fr; } .hero { padding-top: 24px; } }
+  @media (max-width: 600px) { .hero .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; scrollbar-width: none; } .hero .chip { white-space: nowrap; } #coupons .banner { flex-basis: 100%; } }
 
   dialog { border: 1px solid var(--line); border-radius: 14px; background: var(--card); color: var(--text);
     padding: 18px 20px; width: calc(100vw - 32px); max-width: 460px; overflow-wrap: anywhere; }
@@ -116,48 +137,54 @@
 </style>
 </head>
 <body>
-<div class="top"><div class="in"><h1>השוואת מחירי eSIM</h1><span class="sub" id="updated"></span></div></div>
-<div class="layout">
-  <aside>
-   <details class="side" open>
-    <summary>יעד וסינון<span class="active" id="active"></span></summary>
-    <div class="group">
-      <h3>לאן נוסעים?</h3>
-      <div class="chips" id="f-dest"></div>
-      <input id="country" type="search" list="country-list" placeholder="או הקלידו מדינה: צרפת, France" autocomplete="off"><datalist id="country-list"></datalist>
-    </div>
+<header class="hero"><div class="wrap">
+  <h1>eSIM לכל יעד, במחיר הכי טוב</h1>
+  <p class="lead">משווים <b id="total"></b> חבילות מ-10 ספקים, מתעדכן כל יום. <span id="updated"></span></p>
+  <div class="search">
+    <span class="ico">🔍</span>
+    <input id="country" type="search" list="country-list" placeholder="לאן טסים? הקלידו מדינה: צרפת, France" autocomplete="off"><datalist id="country-list"></datalist>
+  </div>
+  <div class="chips" id="f-dest"></div>
+</div></header>
+
+<main class="wrap">
+  <div id="coupons"></div>
+  <div class="banner">⚠️ אחרי רכישה בדקו שלא הופעל חידוש מנוי אוטומטי (subscription), ובטלו אותו במסך הפרופיל אם לא רוצים חידוש.</div>
+
+  <details class="side card" open>
+    <summary>סינון<span class="active" id="active"></span></summary>
     <div id="filters">
       <div class="group"><h3>סוג חבילה</h3><div class="chips" id="f-kind"></div></div>
       <div class="group"><h3>ימים</h3><div class="chips" id="f-days"></div></div>
       <div class="group"><h3>נפח (GB)</h3><div class="chips" id="f-gb"></div></div>
       <div class="group"><h3>ספק</h3><div class="chips" id="f-prov"></div></div>
       <div class="row">
-        <label class="toggle"><input type="checkbox" id="unl" checked> כלול חבילות ללא הגבלה</label>
+        <label class="toggle"><input type="checkbox" id="unl" checked> כלול חבילות ללא הגבלה (ימים / נפח)</label>
         <label class="toggle">מחיר מקסימלי: <b id="maxv"></b> €
           <input type="range" id="max" min="0" max="100" step="1"></label>
-        <label class="toggle">מיון:
-          <select id="sort">
-            <option value="price">מחיר (הזול ראשון)</option>
-            <option value="perGb">מחיר לגיגה</option>
-            <option value="days">ימים (הרבה ראשון)</option>
-          </select></label>
       </div>
     </div>
-   </details>
-  </aside>
-  <main>
-    <div id="coupons"></div>
-    <div class="banner">⚠️ אחרי רכישה בדקו שלא הופעל חידוש מנוי אוטומטי (subscription), ובטלו אותו במסך הפרופיל אם לא רוצים חידוש.</div>
-    <div class="banner" id="ski" hidden>✔ בד״כ יציאה לסקי היא 8 ימים - לקחת בחשבון</div>
-    <!-- Geneva airport (GVA) is in Switzerland, so a France-only plan has no signal there. "GVA" sits in its own
-         left-to-right <bdi> so it can't flip the Hebrew sentence. -->
-    <div class="banner" id="gva" hidden>שימו לב: אם אתם נוחתים בשדה התעופה של ג׳נבה, זו נחיתה בשוויץ ולא בצרפת, ולכן חבילה לצרפת בלבד לא תעבוד שם ולא תהיה לכם קליטה. כדאי לבחור חבילת אירופה. (שדה התעופה: <bdi dir="ltr">GVA</bdi>)</div>
-    <div class="bar"><div id="count"></div><button class="reset" id="reset">נקה סינון</button></div>
-    <div class="cols" aria-hidden="true"><span>חבילה</span><span>מחיר</span><span>רכישה</span></div>
-    <div class="list" id="list"></div>
-    <div class="foot">חלק מהקישורים באתר הם קישורי שותפים (referral): אם תרכשו דרכם ייתכן שאקבל הטבה, ללא עלות נוספת עבורכם.<br>המחירים נאספים אוטומטית מאתרי החברות מדי יום (חלק מהחברות מסומנות כלא מתעדכנות אוטומטית) והומרו ליורו לפי שער יומי (<span id="rates"></span>). המחיר המקורי מופיע ליד כל חבילה. ייתכנו הבדלים בפועל — בדקו באתר הספק לפני הרכישה.</div>
-  </main>
-</div>
+  </details>
+
+  <div class="banner" id="ski" hidden>✔ בד״כ יציאה לסקי היא 8 ימים - לקחת בחשבון</div>
+  <!-- Geneva airport (GVA) is in Switzerland, so a France-only plan has no signal there. "GVA" sits in its own
+       left-to-right <bdi> so it can't flip the Hebrew sentence. -->
+  <div class="banner" id="gva" hidden>שימו לב: אם אתם נוחתים בשדה התעופה של ג׳נבה, זו נחיתה בשוויץ ולא בצרפת, ולכן חבילה לצרפת בלבד לא תעבוד שם ולא תהיה לכם קליטה. כדאי לבחור חבילת אירופה. (שדה התעופה: <bdi dir="ltr">GVA</bdi>)</div>
+  <div class="bar">
+    <div id="count"></div>
+    <div class="tools">
+      <label class="toggle">מיון:
+        <select id="sort">
+          <option value="price">מחיר (הזול ראשון)</option>
+          <option value="perGb">מחיר לגיגה</option>
+          <option value="days">ימים (הרבה ראשון)</option>
+        </select></label>
+      <button class="reset" id="reset">נקה סינון</button>
+    </div>
+  </div>
+  <div class="list" id="list"></div>
+  <div class="foot">חלק מהקישורים באתר הם קישורי שותפים (referral): אם תרכשו דרכם ייתכן שאקבל הטבה, ללא עלות נוספת עבורכם.<br>המחירים נאספים אוטומטית מאתרי החברות מדי יום (חלק מהחברות מסומנות כלא מתעדכנות אוטומטית) והומרו ליורו לפי שער יומי (<span id="rates"></span>). המחיר המקורי מופיע ליד כל חבילה. ייתכנו הבדלים בפועל — בדקו באתר הספק לפני הרכישה.</div>
+</main>
 
 
 <dialog id="popup" aria-labelledby="popup-title">
@@ -364,27 +391,34 @@ function update(keepLimit) {
   if (!out.length) list.append(el("div", { className: "empty", textContent: state.dest !== "all" && !plans.some(p => coversDest(p, state.dest))
     ? `עדיין אין חבילות ל${destLabel(state.dest)}. נסו חבילה גלובלית או אזור אחר.` : "אין חבילות שמתאימות לסינון" }));
   out.slice(0, limit).forEach(p => {
-    const spec = `${p.daysLabel}${p.unlimitedDays ? "" : " ימים"} · ${p.unlimitedData ? "גלישה ללא הגבלה" : p.gb + " GB"} · ${destLabel(p.region)}`;
-    const name = el("div", { className: "prov", textContent: p.provider });
-    if (p.priceEur === cheapest) name.append(el("span", { className: "badge", textContent: "הכי זול" }));
-    if (isFinite(bestGb) && perGb(p) === bestGb) name.append(el("span", { className: "badge", textContent: "משתלם לגיגה" }));
+    const prov = providers[p.provider] || {};
+    const tags = el("div", { className: "tags" });
+    if (p.priceEur === cheapest) tags.append(el("span", { className: "badge", textContent: "הכי זול" }));
+    if (isFinite(bestGb) && perGb(p) === bestGb) tags.append(el("span", { className: "badge", textContent: "משתלם לגיגה" }));
     if (isRegional(p)) {
       const check = isCountry(state.dest) && p.region !== "global"; // a country is selected: its region plan may not include it
-      name.append(el("span", { className: "tag", textContent: check ? "חבילה אזורית - ודאו שהמדינה כלולה" : p.region === "global" ? "גלובלית" : "אזורית" }));
+      tags.append(el("span", { className: "tag", textContent: check ? "חבילה אזורית - ודאו שהמדינה כלולה" : p.region === "global" ? "גלובלית" : "אזורית" }));
     }
-    if (p.stale) name.append(el("span", { className: "tag", textContent: "מחיר לא מתעדכן אוטומטית - ודאו באתר" }));
-    const card = el("div", { className: "plan" },
-      el("div", {}, name, el("div", { className: "spec", textContent: spec })),
-      el("div", { className: "price" },
-        el("div", { className: "eur", textContent: "€" + p.priceEur.toFixed(2) }),
-        p.currency !== "EUR" ? el("div", { className: "orig", textContent: `מקור: ${SYMBOL[p.currency]}${p.price}` }) : ""));
+    if (p.stale) tags.append(el("span", { className: "tag", textContent: "מחיר לא מתעדכן אוטומטית - ודאו באתר" }));
+    const av = el("span", { className: "av", textContent: p.provider[0].toUpperCase() });
+    av.style.setProperty("--h", [...p.provider].reduce((h, c) => h + c.charCodeAt(0) * 7, 0) % 360);
+    const stat = (big, small) => el("div", { className: "stat" }, el("b", { textContent: big }), el("small", { textContent: small }));
+    const card = el("article", { className: "plan card" },
+      el("header", {}, av,
+        el("div", { className: "who" }, el("div", { className: "prov", textContent: p.provider }), el("div", { className: "where", textContent: destLabel(p.region) })),
+        el("div", { className: "price" },
+          el("div", { className: "eur", textContent: "€" + p.priceEur.toFixed(2) }),
+          p.currency !== "EUR" ? el("div", { className: "orig", textContent: `מקור: ${SYMBOL[p.currency]}${p.price}` }) : "")),
+      el("div", { className: "stats" },
+        p.unlimitedData ? stat("∞", "גלישה ללא הגבלה") : stat(p.gb, "GB"),
+        p.unlimitedDays ? stat("∞", p.daysLabel) : stat(p.daysLabel, "ימים")),
+      tags);
     if (p.perks || p.notes) {
       const meta = el("div", { className: "meta" });
       if (p.perks) meta.append(el("div", { textContent: "✔ " + p.perks }));
       if (p.notes) meta.append(el("div", { className: "note", textContent: p.notes }));
       card.append(meta);
     }
-    const prov = providers[p.provider] || {};
     const href = buyUrl(p, prov);
     const buy = el("a", { className: "buy", href, target: "_blank", rel: "noopener", textContent: "לאתר הספק ←" });
     // Shops with a "popup" entry in providers.json show the coupon dialog before the visit.
@@ -484,6 +518,8 @@ async function init() {
   $("unl").checked = state.unl;
   $("sort").value = state.sort;
   $("updated").textContent = "עודכן לאחרונה: " + data.updated;
+  $("total").textContent = plans.length.toLocaleString("he-IL");
+  $("total").textContent = plans.length.toLocaleString("he-IL");
   $("rates").textContent = Object.entries(data.rates).filter(([c]) => c !== "EUR").map(([c, r]) => `1 ${c} ≈ €${r}`).join(", ");
   slider.oninput = () => { state.max = Number(slider.value); update(); };
   $("unl").onchange = e => { state.unl = e.target.checked; update(); };
