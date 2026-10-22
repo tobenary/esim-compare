@@ -9,7 +9,7 @@
  "providers": {
   "World8": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -17603,7 +17603,7 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -24910,7 +24910,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -34327,7 +34327,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -34444,7 +34444,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -35442,6 +35442,16 @@
      "region": "NZ",
      "gb": 300.0,
      "price": 38.9,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/new-zealand"
+    },
+    {
+     "days": "30",
+     "region": "NZ",
+     "gb": 50.0,
+     "price": 45.49,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -38238,26 +38248,6 @@
      "url": "https://www.airhubapp.com/esim/bolivia"
     },
     {
-     "days": "30",
-     "region": "AX",
-     "gb": 50.0,
-     "price": 45.89,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/aland-islands"
-    },
-    {
-     "days": "30",
-     "region": "AX",
-     "gb": 100.0,
-     "price": 59.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/aland-islands"
-    },
-    {
      "days": "7",
      "region": "UA",
      "gb": 3.0,
@@ -39052,6 +39042,16 @@
      "region": "BG",
      "gb": 50.0,
      "price": 45.49,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/bulgaria"
+    },
+    {
+     "days": "30",
+     "region": "BG",
+     "gb": 100.0,
+     "price": 59.0,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -40628,6 +40628,16 @@
      "url": "https://www.airhubapp.com/esim/san-marino"
     },
     {
+     "days": "30",
+     "region": "SM",
+     "gb": 100.0,
+     "price": 59.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/san-marino"
+    },
+    {
      "days": "7",
      "region": "SR",
      "gb": 1.0,
@@ -41058,6 +41068,16 @@
      "url": "https://www.airhubapp.com/esim/zambia"
     },
     {
+     "days": "1",
+     "region": "BD",
+     "gb": 999,
+     "price": 3.59,
+     "currency": "USD",
+     "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/bangladesh"
+    },
+    {
      "days": "30",
      "region": "BD",
      "gb": 4.0,
@@ -41392,6 +41412,16 @@
      "region": "HR",
      "gb": 12.0,
      "price": 13.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/croatia"
+    },
+    {
+     "days": "30",
+     "region": "HR",
+     "gb": 50.0,
+     "price": 45.49,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -41962,6 +41992,16 @@
      "region": "GT",
      "gb": 50.0,
      "price": 45.49,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/guatemala"
+    },
+    {
+     "days": "30",
+     "region": "GT",
+     "gb": 100.0,
+     "price": 59.0,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -44490,20 +44530,20 @@
     {
      "days": "30",
      "region": "CA",
-     "gb": 300.0,
-     "price": 50.0,
+     "gb": 50.0,
+     "price": 45.49,
      "currency": "USD",
      "perks": "",
      "notes": "",
      "url": "https://www.airhubapp.com/esim/canada"
     },
     {
-     "days": "60",
+     "days": "30",
      "region": "CA",
-     "gb": 999,
-     "price": 66.99,
+     "gb": 300.0,
+     "price": 50.0,
      "currency": "USD",
-     "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
+     "perks": "",
      "notes": "",
      "url": "https://www.airhubapp.com/esim/canada"
     },
@@ -44611,7 +44651,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -58448,7 +58488,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -68285,7 +68325,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -76482,7 +76522,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-10-21T20:53Z",
+   "fetchedAt": "2026-10-22T09:33Z",
    "error": null,
    "plans": [
     {
@@ -99548,5 +99588,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-21T20:53Z"
+ "updatedAt": "2026-10-22T09:33Z"
 }
