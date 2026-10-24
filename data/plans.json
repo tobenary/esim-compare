@@ -1,15 +1,15 @@
 {
  "rates": {
   "EUR": 1.0,
-  "USD": 0.8925,
-  "ILS": 0.2872,
+  "USD": 0.8934,
+  "ILS": 0.2862,
   "CHF": 1.0804
  },
- "ratesAsOf": "2026-10-22",
+ "ratesAsOf": "2026-10-23",
  "providers": {
   "World8": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -17603,7 +17603,7 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -24910,7 +24910,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -34327,7 +34327,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -34444,7 +34444,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -35182,16 +35182,6 @@
      "region": "TR",
      "gb": 50.0,
      "price": 45.49,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/turkey"
-    },
-    {
-     "days": "30",
-     "region": "TR",
-     "gb": 300.0,
-     "price": 59.0,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -38248,40 +38238,10 @@
      "url": "https://www.airhubapp.com/esim/aland-islands"
     },
     {
-     "days": "5",
-     "region": "LK",
-     "gb": 1.0,
-     "price": 13.5,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/sri-lanka"
-    },
-    {
      "days": "30",
      "region": "LK",
      "gb": 12.0,
      "price": 17.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/sri-lanka"
-    },
-    {
-     "days": "10",
-     "region": "LK",
-     "gb": 1.0,
-     "price": 23.5,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/sri-lanka"
-    },
-    {
-     "days": "15",
-     "region": "LK",
-     "gb": 1.0,
-     "price": 32.5,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -44030,16 +43990,6 @@
     {
      "days": "30",
      "region": "asia",
-     "gb": 23.0,
-     "price": 38.5,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/asia-pacific"
-    },
-    {
-     "days": "30",
-     "region": "asia",
      "gb": 12.0,
      "price": 44.5,
      "currency": "USD",
@@ -44068,32 +44018,12 @@
      "url": "https://www.airhubapp.com/esim/asia-pacific"
     },
     {
-     "days": "30",
-     "region": "asia",
-     "gb": 33.0,
-     "price": 54.5,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/asia-pacific"
-    },
-    {
      "days": "15",
      "region": "asia",
      "gb": 999,
      "price": 56.0,
      "currency": "USD",
      "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/asia-pacific"
-    },
-    {
-     "days": "30",
-     "region": "asia",
-     "gb": 50.0,
-     "price": 68.0,
-     "currency": "USD",
-     "perks": "",
      "notes": "",
      "url": "https://www.airhubapp.com/esim/asia-pacific"
     },
@@ -44661,7 +44591,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -58498,7 +58428,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -65722,6 +65652,26 @@
      "url": "https://www.gigsky.com/country/esim-in-india"
     },
     {
+     "days": "30",
+     "region": "IN",
+     "gb": 10.0,
+     "price": 9.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "כולל מבצע 50%",
+     "url": "https://www.gigsky.com/country/esim-in-india"
+    },
+    {
+     "days": "60",
+     "region": "IN",
+     "gb": 20.0,
+     "price": 17.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "כולל מבצע 50%",
+     "url": "https://www.gigsky.com/country/esim-in-india"
+    },
+    {
      "days": "1",
      "region": "IN",
      "gb": 999,
@@ -68335,7 +68285,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -76532,7 +76482,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-10-23T09:29Z",
+   "fetchedAt": "2026-10-24T09:00Z",
    "error": null,
    "plans": [
     {
@@ -99598,5 +99548,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-23T09:29Z"
+ "updatedAt": "2026-10-24T09:00Z"
 }
