@@ -9,7 +9,7 @@
  "providers": {
   "World8": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -17603,9 +17603,129 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
+    {
+     "days": "3",
+     "region": "europe",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "5",
+     "region": "europe",
+     "gb": 999,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "10",
+     "region": "europe",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 999,
+     "price": 71.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "3",
+     "region": "europe",
+     "gb": 1.0,
+     "price": 5.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 3.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "90",
+     "region": "europe",
+     "gb": 50.0,
+     "price": 100.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "180",
+     "region": "europe",
+     "gb": 100.0,
+     "price": 185.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
     {
      "days": "3",
      "region": "asia",
@@ -20710,7 +20830,7 @@
      "days": "3",
      "region": "MA",
      "gb": 999,
-     "price": 17.5,
+     "price": 14.5,
      "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
@@ -20720,7 +20840,7 @@
      "days": "5",
      "region": "MA",
      "gb": 999,
-     "price": 29.0,
+     "price": 23.0,
      "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
@@ -20730,7 +20850,7 @@
      "days": "7",
      "region": "MA",
      "gb": 999,
-     "price": 35.0,
+     "price": 31.0,
      "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
@@ -20740,7 +20860,27 @@
      "days": "10",
      "region": "MA",
      "gb": 999,
-     "price": 45.0,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "15",
+     "region": "MA",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/morocco-esim"
+    },
+    {
+     "days": "30",
+     "region": "MA",
+     "gb": 999,
+     "price": 79.0,
      "currency": "USD",
      "perks": "ללא הגבלה",
      "notes": "",
@@ -20750,7 +20890,7 @@
      "days": "3",
      "region": "MA",
      "gb": 1.0,
-     "price": 6.0,
+     "price": 4.0,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -20760,7 +20900,7 @@
      "days": "7",
      "region": "MA",
      "gb": 3.0,
-     "price": 16.0,
+     "price": 8.0,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -23909,6 +24049,66 @@
     {
      "days": "3",
      "region": "JO",
+     "gb": 999,
+     "price": 12.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/jordan-esim"
+    },
+    {
+     "days": "5",
+     "region": "JO",
+     "gb": 999,
+     "price": 20.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/jordan-esim"
+    },
+    {
+     "days": "7",
+     "region": "JO",
+     "gb": 999,
+     "price": 27.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/jordan-esim"
+    },
+    {
+     "days": "10",
+     "region": "JO",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/jordan-esim"
+    },
+    {
+     "days": "15",
+     "region": "JO",
+     "gb": 999,
+     "price": 58.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/jordan-esim"
+    },
+    {
+     "days": "30",
+     "region": "JO",
+     "gb": 999,
+     "price": 99.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/jordan-esim"
+    },
+    {
+     "days": "3",
+     "region": "JO",
      "gb": 1.0,
      "price": 4.5,
      "currency": "USD",
@@ -24790,7 +24990,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -34207,7 +34407,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -34324,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -44471,7 +44671,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -58308,7 +58508,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -68165,7 +68365,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -76362,7 +76562,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-10-25T09:17Z",
+   "fetchedAt": "2026-10-26T10:23Z",
    "error": null,
    "plans": [
     {
@@ -99428,5 +99628,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-25T09:17Z"
+ "updatedAt": "2026-10-26T10:23Z"
 }
