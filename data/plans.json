@@ -1,15 +1,15 @@
 {
  "rates": {
   "EUR": 1.0,
-  "USD": 0.8934,
-  "ILS": 0.2862,
+  "USD": 0.8938,
+  "ILS": 0.2902,
   "CHF": 1.0804
  },
- "ratesAsOf": "2026-10-23",
+ "ratesAsOf": "2026-10-26",
  "providers": {
   "World8": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -17603,7 +17603,7 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -24990,7 +24990,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -34407,7 +34407,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -44671,7 +44671,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -58508,7 +58508,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -68365,7 +68365,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -76562,7 +76562,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-10-26T10:23Z",
+   "fetchedAt": "2026-10-27T09:57Z",
    "error": null,
    "plans": [
     {
@@ -99628,5 +99628,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-26T10:23Z"
+ "updatedAt": "2026-10-27T09:57Z"
 }
