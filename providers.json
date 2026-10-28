@@ -22,9 +22,13 @@
   "Airalo": {
    "url": "https://www.airalo.com/he/europe-esim",
    "referralUrl": null,
-   "coupon": null,
+   "coupon": "TOMER4289",
    "couponNote": null,
-   "note": null
+   "note": null,
+   "popup": {
+    "he": "השתמשו בקוד הזה בעת הרכישה:",
+    "en": "Use this code when you buy:"
+   }
   },
   "WeSIM": {
    "url": "https://wesim.co.il/product-category/esim-%d7%9c%d7%90%d7%99%d7%a8%d7%95%d7%a4%d7%94/",
