@@ -96,6 +96,13 @@
    "couponNote": null,
    "note": null,
    "referralDeepLink": "https://mayamobile.pxf.io/m4qaO1?u={urlEncoded}"
+  },
+  "Global YO": {
+   "url": "https://www.globalyo.com/",
+   "referralUrl": "https://globalyo.pxf.io/c/8011208/4027935/24001",
+   "coupon": null,
+   "couponNote": null,
+   "note": null
   }
  }
 }

@@ -491,5 +491,47 @@ def maya():
     return out
 
 
-SCRAPERS = {"World8": world8, "Airalo": airalo, "GigSky": gigsky, "BNESIM": bnesim, "Voye Global": voye, "Yesim": yesim, "WeSIM": wesim, "eSIM.io": esimio, "AirHub": airhub, "Maya": maya,
+# ---------------------------------------------------------------- Global YO
+# globalyo.com/esim/<slug>/ pages (listed in the sitemap), one per country plus a few regional "explorer" packages.
+# Each page lists the plans as "15 days -40% Limited time 3 GB $ 7.99 $ 4.54 15 Days Data only": list price, then sale price.
+GLOBALYO_SITE = "https://www.globalyo.com"
+GLOBALYO_REGIONS = {"europe-explorer": "europe", "asia-explorer": "asia", "middle-east-explorer": "middle-east",
+                    "africa-explorer": "africa", "north-america-explorer": "north-america",
+                    "latin-america-explorer": "south-america", "global-explorer-100": "global", "global-explorer-150": "global"}
+GLOBALYO_ROW = re.compile(r"(\d+(?:\.\d+)?) GB \$ ([\d.]+)(?: \$ ([\d.]+))? (\d+) Days Data only")
+
+
+def _globalyo_region(slug):
+    slug = re.sub(r"^esim-|-esim$", "", slug)
+    if slug in GLOBALYO_REGIONS_BY_SLUG:
+        return GLOBALYO_REGIONS_BY_SLUG[slug]
+    return iso_from_name(slug)
+
+
+GLOBALYO_REGIONS_BY_SLUG = {re.sub(r"^esim-", "", k): v for k, v in GLOBALYO_REGIONS.items()}
+
+
+def globalyo():
+    sitemap = fetch(GLOBALYO_SITE + "/sitemap.xml")
+    todo = []
+    for path in re.findall(r"<loc>https://www\.globalyo\.com(/esim/[^<]+/)</loc>", sitemap):
+        region = _globalyo_region(path.split("/")[2])
+        if region:
+            todo.append((region, GLOBALYO_SITE + path))
+    out, pages = [], 0
+    for (region, url), html_ in zip(todo, fetch_many([t[1] for t in todo])):
+        if not html_:
+            continue
+        rows = GLOBALYO_ROW.findall(text(html_))
+        pages += bool(rows)
+        for gb, orig, sale, days in rows:
+            price = sale or orig
+            note = _sale(f"{orig}") if sale and sale != orig else ""
+            out.append(plan(days, region, float(gb), price, "USD", url, "דאטה בלבד", note))
+    if pages < 50:
+        raise RuntimeError(f"only {pages} Global YO pages had plans: layout changed?")
+    return out
+
+
+SCRAPERS = {"World8": world8, "Airalo": airalo, "GigSky": gigsky, "BNESIM": bnesim, "Voye Global": voye, "Yesim": yesim, "WeSIM": wesim, "eSIM.io": esimio, "AirHub": airhub, "Maya": maya, "Global YO": globalyo,
             "Harel Multi-Travel": harel}
