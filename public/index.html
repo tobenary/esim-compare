@@ -230,7 +230,13 @@ const regionOf = id => dests.regions[id];
 
 // Does the plan cover the chosen destination (a region id, a country code, or "all")?
 function coversDest(p, dest) {
-  if (dest === "all" || p.region === dest || p.region === "global") return true;
+  if (dest === "all") return true;
+  if (p.countries) { // the shop lists exactly which countries it covers
+    if (isCountry(dest)) return p.countries.includes(dest);
+    const r = regionOf(dest);
+    return !r || r.countries === "*" || r.countries.some(c => p.countries.includes(c));
+  }
+  if (p.region === dest || p.region === "global") return true;
   if (isCountry(dest)) { const r = regionOf(p.region); return !!r && r.countries.includes(dest); }
   // dest is a region: also show single-country plans for countries inside it
   const r = regionOf(dest);

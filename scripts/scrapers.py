@@ -465,5 +465,31 @@ def world8():
 
 
 # Provider name (as in providers.json) -> scraper. Shops without one keep their last known prices.
-SCRAPERS = {"World8": world8, "Airalo": airalo, "GigSky": gigsky, "BNESIM": bnesim, "Voye Global": voye, "Yesim": yesim, "WeSIM": wesim, "eSIM.io": esimio, "AirHub": airhub,
+# ------------------------------------------------------------------- Maya
+# Maya publishes a live JSON feed for partners (no login). Plans are unlimited global plans, plus the same with cruise
+# ships. Coverage comes with every plan as ISO alpha-3 codes: map them to our alpha-2 codes (data/iso3.json).
+MAYA_API = "https://affiliates.maya.net/"
+MAYA_ISO3_EXTRA = {"KSV": "XK"}  # Kosovo has no official alpha-3 code
+
+
+def maya():
+    feed = json.loads(fetch(MAYA_API, timeout=60))
+    iso3 = {**json.loads((ROOT / "data" / "iso3.json").read_text(encoding="utf-8")), **MAYA_ISO3_EXTRA}
+    ours = {c for g in json.loads((ROOT / "destinations.json").read_text(encoding="utf-8"))["groups"] for c in g["countries"]}
+    out = []
+    for item in feed["plans"]:
+        price = (item.get("priceDiscounted") or {}).get("EUR") or (item.get("priceOriginal") or {}).get("EUR")
+        if not price or not item.get("validityInDays"):
+            continue
+        cruise = item.get("regionType") == "cruise"
+        perks = (item.get("fupDescription") or "").strip()
+        if cruise:
+            perks = ("כולל ספינות תענוגות (קרוזים) וגם יבשה. " + perks).strip()
+        p = plan(item["validityInDays"], "global", UNLIMITED, price, "EUR", item.get("url", ""), perks)
+        p["countries"] = sorted({iso3[c] for c in item.get("supportedCountries", {}) if c in iso3} & ours)
+        out.append(p)
+    return out
+
+
+SCRAPERS = {"World8": world8, "Airalo": airalo, "GigSky": gigsky, "BNESIM": bnesim, "Voye Global": voye, "Yesim": yesim, "WeSIM": wesim, "eSIM.io": esimio, "AirHub": airhub, "Maya": maya,
             "Harel Multi-Travel": harel}

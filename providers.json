@@ -84,6 +84,14 @@
     "he": "השתמשו בקוד הקופון הזה בעת התשלום:",
     "en": "Use this coupon code at checkout:"
    }
+  },
+  "Maya": {
+   "url": "https://maya.net/esim/plans",
+   "referralUrl": "https://mayamobile.pxf.io/m4qaO1",
+   "coupon": null,
+   "couponNote": null,
+   "note": null,
+   "referralDeepLink": "https://mayamobile.pxf.io/m4qaO1?u={urlEncoded}"
   }
  }
 }

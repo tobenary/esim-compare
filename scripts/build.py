@@ -67,6 +67,7 @@ def main():
                 "url": (r.get("url") or "").strip(),
                 # True when the shop isn't refreshed automatically (or its last refresh failed).
                 "stale": prov["status"] != "ok",
+                **({"countries": r["countries"]} if r.get("countries") else {}),  # exact coverage, when the shop lists it
             })
 
     out = {
