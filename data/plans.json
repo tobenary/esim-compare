@@ -9,7 +9,7 @@
  "providers": {
   "World8": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -16815,7 +16815,7 @@
      "gb": 1.0,
      "price": 6.33,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -16865,7 +16865,7 @@
      "gb": 1.0,
      "price": 8.1,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -16955,7 +16955,7 @@
      "gb": 1.0,
      "price": 12.64,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -16995,7 +16995,7 @@
      "gb": 1.0,
      "price": 14.2,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -17005,7 +17005,7 @@
      "gb": 1.0,
      "price": 14.66,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17015,7 +17015,7 @@
      "gb": 3.0,
      "price": 15.94,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -17075,7 +17075,7 @@
      "gb": 1.0,
      "price": 18.76,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17105,7 +17105,7 @@
      "gb": 3.0,
      "price": 20.4,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -17145,7 +17145,7 @@
      "gb": 5.0,
      "price": 24.78,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -17185,7 +17185,7 @@
      "gb": 5.0,
      "price": 31.71,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -17245,7 +17245,7 @@
      "gb": 3.0,
      "price": 35.68,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -17265,7 +17265,7 @@
      "gb": 3.0,
      "price": 37.94,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17285,7 +17285,7 @@
      "gb": 3.0,
      "price": 41.32,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -17305,7 +17305,7 @@
      "gb": 10.0,
      "price": 43.76,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -17335,7 +17335,7 @@
      "gb": 3.0,
      "price": 48.56,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17345,7 +17345,7 @@
      "gb": 5.0,
      "price": 55.85,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -17355,7 +17355,7 @@
      "gb": 10.0,
      "price": 56.0,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -17365,7 +17365,7 @@
      "gb": 5.0,
      "price": 58.17,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17435,7 +17435,7 @@
      "gb": 5.0,
      "price": 66.74,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -17465,7 +17465,7 @@
      "gb": 5.0,
      "price": 74.45,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17475,7 +17475,7 @@
      "gb": 20.0,
      "price": 75.61,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -17495,7 +17495,7 @@
      "gb": 20.0,
      "price": 96.78,
      "currency": "EUR",
-     "perks": "Mini Global (69 מדינות)",
+     "perks": "Mini Global (63 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/mini-global/"
     },
@@ -17505,7 +17505,7 @@
      "gb": 10.0,
      "price": 101.92,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17515,7 +17515,7 @@
      "gb": 10.0,
      "price": 102.39,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -17535,7 +17535,7 @@
      "gb": 10.0,
      "price": 127.8,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -17545,7 +17545,7 @@
      "gb": 10.0,
      "price": 130.45,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17565,7 +17565,7 @@
      "gb": 20.0,
      "price": 174.49,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17575,7 +17575,7 @@
      "gb": 20.0,
      "price": 191.36,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     },
@@ -17585,7 +17585,7 @@
      "gb": 20.0,
      "price": 223.35,
      "currency": "EUR",
-     "perks": "Global (123 מדינות)",
+     "perks": "Global (110 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/global/"
     },
@@ -17595,7 +17595,7 @@
      "gb": 20.0,
      "price": 247.08,
      "currency": "EUR",
-     "perks": "Africa (19 מדינות)",
+     "perks": "Africa (13 מדינות)",
      "notes": "",
      "url": "https://shop.bnesim.com/plans/africa/"
     }
@@ -17603,9 +17603,129 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
+    {
+     "days": "3",
+     "region": "europe",
+     "gb": 999,
+     "price": 11.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "5",
+     "region": "europe",
+     "gb": 999,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 999,
+     "price": 27.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "10",
+     "region": "europe",
+     "gb": 999,
+     "price": 35.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 999,
+     "price": 49.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 999,
+     "price": 71.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "3",
+     "region": "europe",
+     "gb": 1.0,
+     "price": 5.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "7",
+     "region": "europe",
+     "gb": 3.0,
+     "price": 11.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "15",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 19.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 5.0,
+     "price": 19.5,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "90",
+     "region": "europe",
+     "gb": 50.0,
+     "price": 100.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
+    {
+     "days": "180",
+     "region": "europe",
+     "gb": 100.0,
+     "price": 185.0,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airalo.com/europe-esim"
+    },
     {
      "days": "3",
      "region": "asia",
@@ -24870,7 +24990,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -34287,7 +34407,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -34404,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -34482,6 +34602,16 @@
      "region": "europe",
      "gb": 100.0,
      "price": 39.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 150.0,
+     "price": 43.99,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -44541,7 +44671,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -58378,7 +58508,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -68235,7 +68365,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -76432,7 +76562,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T10:44Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -99499,7 +99629,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T18:09Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -101018,7 +101148,7 @@
   },
   "Global YO": {
    "status": "ok",
-   "fetchedAt": "2026-10-28T18:21Z",
+   "fetchedAt": "2026-10-29T11:01Z",
    "error": null,
    "plans": [
     {
@@ -113594,5 +113724,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-28T18:21Z"
+ "updatedAt": "2026-10-29T11:01Z"
 }
