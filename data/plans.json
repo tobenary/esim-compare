@@ -9,7 +9,7 @@
  "providers": {
   "World8": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -17603,7 +17603,7 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -24990,7 +24990,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -34407,7 +34407,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -44671,7 +44671,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -58508,7 +58508,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -68365,7 +68365,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -76562,7 +76562,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -99629,7 +99629,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
@@ -101148,77 +101148,77 @@
   },
   "Global YO": {
    "status": "ok",
-   "fetchedAt": "2026-10-31T10:31Z",
+   "fetchedAt": "2026-11-01T11:26Z",
    "error": null,
    "plans": [
     {
      "days": "3",
      "region": "OM",
      "gb": 1.0,
-     "price": 5.64,
+     "price": 5.89,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 5.89$)",
+     "notes": "",
      "url": "https://www.globalyo.com/esim/esim-oman/"
     },
     {
      "days": "15",
      "region": "OM",
      "gb": 3.0,
-     "price": 9.74,
+     "price": 9.99,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 9.99$)",
+     "notes": "",
      "url": "https://www.globalyo.com/esim/esim-oman/"
     },
     {
      "days": "15",
      "region": "OM",
      "gb": 5.0,
-     "price": 13.74,
+     "price": 13.99,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 13.99$)",
+     "notes": "",
      "url": "https://www.globalyo.com/esim/esim-oman/"
     },
     {
      "days": "30",
      "region": "OM",
      "gb": 10.0,
-     "price": 19.74,
+     "price": 19.99,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 19.99$)",
+     "notes": "",
      "url": "https://www.globalyo.com/esim/esim-oman/"
     },
     {
      "days": "30",
      "region": "OM",
      "gb": 20.0,
-     "price": 29.74,
+     "price": 29.99,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 29.99$)",
+     "notes": "",
      "url": "https://www.globalyo.com/esim/esim-oman/"
     },
     {
      "days": "45",
      "region": "OM",
      "gb": 50.0,
-     "price": 48.74,
+     "price": 48.99,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 48.99$)",
+     "notes": "",
      "url": "https://www.globalyo.com/esim/esim-oman/"
     },
     {
      "days": "60",
      "region": "OM",
      "gb": 100.0,
-     "price": 70.74,
+     "price": 70.99,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 70.99$)",
+     "notes": "",
      "url": "https://www.globalyo.com/esim/esim-oman/"
     },
     {
@@ -113724,5 +113724,5 @@
    ]
   }
  },
- "updatedAt": "2026-10-31T10:31Z"
+ "updatedAt": "2026-11-01T11:26Z"
 }
