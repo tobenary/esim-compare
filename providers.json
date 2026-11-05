@@ -10,6 +10,7 @@
   "BNESIM": {
    "url": "https://shop.bnesim.com/",
    "referralUrl": "https://bnes.im/BBN6",
+   "referralDeepLink": "{url}?a=BBN6",
    "coupon": "8GXV4D9Q",
    "couponNote": "3€ הנחה על כל מוצרי BNESIM",
    "note": "מומלצת לאירופה",
