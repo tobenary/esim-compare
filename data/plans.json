@@ -9,7 +9,7 @@
  "providers": {
   "World8": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -17603,7 +17603,7 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -24990,7 +24990,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -34407,7 +34407,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -44631,7 +44631,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -58488,7 +58488,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -68345,7 +68345,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -76542,7 +76542,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -99609,7 +99609,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -102640,7 +102640,7 @@
   },
   "Global YO": {
    "status": "ok",
-   "fetchedAt": "2026-11-07T11:15Z",
+   "fetchedAt": "2026-11-08T11:26Z",
    "error": null,
    "plans": [
     {
@@ -103897,40 +103897,40 @@
      "days": "3",
      "region": "NA",
      "gb": 1.0,
-     "price": 31.74,
+     "price": 16.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 39.99$)",
+     "notes": "מחיר מבצע (במקור 16.99$)",
      "url": "https://www.globalyo.com/esim/namibia-esim/"
     },
     {
      "days": "15",
      "region": "NA",
      "gb": 3.0,
-     "price": 79.74,
+     "price": 31.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 79.99$)",
+     "notes": "מחיר מבצע (במקור 31.99$)",
      "url": "https://www.globalyo.com/esim/namibia-esim/"
     },
     {
      "days": "15",
      "region": "NA",
      "gb": 5.0,
-     "price": 119.74,
+     "price": 59.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 119.99$)",
+     "notes": "מחיר מבצע (במקור 59.99$)",
      "url": "https://www.globalyo.com/esim/namibia-esim/"
     },
     {
      "days": "30",
      "region": "NA",
      "gb": 10.0,
-     "price": 199.74,
+     "price": 89.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
-     "notes": "מחיר מבצע (במקור 199.99$)",
+     "notes": "מחיר מבצע (במקור 89.99$)",
      "url": "https://www.globalyo.com/esim/namibia-esim/"
     },
     {
@@ -112307,7 +112307,7 @@
      "days": "3",
      "region": "SG",
      "gb": 1.0,
-     "price": 2.47,
+     "price": 3.64,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 3.89$)",
@@ -112317,7 +112317,7 @@
      "days": "15",
      "region": "SG",
      "gb": 3.0,
-     "price": 3.34,
+     "price": 5.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 5.99$)",
@@ -112327,7 +112327,7 @@
      "days": "15",
      "region": "SG",
      "gb": 5.0,
-     "price": 4.24,
+     "price": 8.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 8.99$)",
@@ -112337,7 +112337,7 @@
      "days": "30",
      "region": "SG",
      "gb": 10.0,
-     "price": 6.94,
+     "price": 11.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 11.99$)",
@@ -112347,7 +112347,7 @@
      "days": "30",
      "region": "SG",
      "gb": 20.0,
-     "price": 14.14,
+     "price": 17.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 17.99$)",
@@ -113147,7 +113147,7 @@
      "days": "3",
      "region": "PA",
      "gb": 1.0,
-     "price": 3.74,
+     "price": 4.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 4.99$)",
@@ -114337,7 +114337,7 @@
      "days": "3",
      "region": "CA",
      "gb": 1.0,
-     "price": 3.17,
+     "price": 4.64,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 4.89$)",
@@ -114347,7 +114347,7 @@
      "days": "15",
      "region": "CA",
      "gb": 3.0,
-     "price": 7.84,
+     "price": 8.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 8.99$)",
@@ -114357,7 +114357,7 @@
      "days": "15",
      "region": "CA",
      "gb": 5.0,
-     "price": 10.94,
+     "price": 13.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 13.99$)",
@@ -114527,7 +114527,7 @@
      "days": "60",
      "region": "TR",
      "gb": 100.0,
-     "price": 31.94,
+     "price": 45.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 45.99$)",
@@ -114997,7 +114997,7 @@
      "days": "365",
      "region": "global",
      "gb": 50.0,
-     "price": 54.74,
+     "price": 65.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 109.99$)",
@@ -115007,7 +115007,7 @@
      "days": "365",
      "region": "global",
      "gb": 100.0,
-     "price": 89.74,
+     "price": 125.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 179.99$)",
@@ -115047,7 +115047,7 @@
      "days": "180",
      "region": "global",
      "gb": 10.0,
-     "price": 12.74,
+     "price": 15.34,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 25.99$)",
@@ -115057,7 +115057,7 @@
      "days": "365",
      "region": "global",
      "gb": 20.0,
-     "price": 23.74,
+     "price": 27.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 39.99$)",
@@ -115067,7 +115067,7 @@
      "days": "365",
      "region": "global",
      "gb": 50.0,
-     "price": 48.74,
+     "price": 62.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 69.99$)",
@@ -115077,7 +115077,7 @@
      "days": "365",
      "region": "global",
      "gb": 100.0,
-     "price": 76.74,
+     "price": 109.74,
      "currency": "USD",
      "perks": "דאטה בלבד",
      "notes": "מחיר מבצע (במקור 109.99$)",
@@ -115156,5 +115156,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-07T11:15Z"
+ "updatedAt": "2026-11-08T11:26Z"
 }
