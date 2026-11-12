@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-12T01:29Z",
+   "fetchedAt": "2026-11-12T09:44Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-12T01:29Z",
+   "fetchedAt": "2026-11-12T09:44Z",
    "error": null,
    "plans": [
     {
@@ -34736,76 +34736,6 @@
      "perks": "",
      "notes": "",
      "url": "https://www.airhubapp.com/esim/usa"
-    },
-    {
-     "days": "7",
-     "region": "north-america",
-     "gb": 1.0,
-     "price": 4.5,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "1",
-     "region": "north-america",
-     "gb": 999,
-     "price": 6.0,
-     "currency": "USD",
-     "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 5.0,
-     "price": 12.9,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 10.0,
-     "price": 20.36,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 15.0,
-     "price": 26.65,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 20.0,
-     "price": 30.89,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 100.0,
-     "price": 65.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
     },
     {
      "days": "7",
@@ -35066,46 +34996,6 @@
      "perks": "",
      "notes": "",
      "url": "https://www.airhubapp.com/esim/spain"
-    },
-    {
-     "days": "30",
-     "region": "SX",
-     "gb": 3.0,
-     "price": 11.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/sint-maarten"
-    },
-    {
-     "days": "30",
-     "region": "SX",
-     "gb": 5.0,
-     "price": 17.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/sint-maarten"
-    },
-    {
-     "days": "30",
-     "region": "SX",
-     "gb": 10.0,
-     "price": 34.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/sint-maarten"
-    },
-    {
-     "days": "30",
-     "region": "SX",
-     "gb": 15.0,
-     "price": 51.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/sint-maarten"
     },
     {
      "days": "1",
@@ -36268,96 +36158,6 @@
      "url": "https://www.airhubapp.com/esim/uk"
     },
     {
-     "days": "7",
-     "region": "middle-east",
-     "gb": 1.0,
-     "price": 4.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
-     "days": "30",
-     "region": "middle-east",
-     "gb": 4.0,
-     "price": 8.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
-     "days": "30",
-     "region": "middle-east",
-     "gb": 7.0,
-     "price": 11.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
-     "days": "30",
-     "region": "middle-east",
-     "gb": 12.0,
-     "price": 21.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
-     "days": "30",
-     "region": "middle-east",
-     "gb": 17.0,
-     "price": 31.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
-     "days": "30",
-     "region": "middle-east",
-     "gb": 23.0,
-     "price": 41.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
-     "days": "10",
-     "region": "middle-east",
-     "gb": 300.0,
-     "price": 54.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
-     "days": "30",
-     "region": "middle-east",
-     "gb": 50.0,
-     "price": 55.9,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
-     "days": "30",
-     "region": "middle-east",
-     "gb": 100.0,
-     "price": 65.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/middle-east"
-    },
-    {
      "days": "1",
      "region": "AT",
      "gb": 999,
@@ -36390,7 +36190,7 @@
     {
      "days": "30",
      "region": "AT",
-     "gb": 7.0,
+     "gb": 12.0,
      "price": 16.5,
      "currency": "USD",
      "perks": "",
@@ -36400,7 +36200,7 @@
     {
      "days": "30",
      "region": "AT",
-     "gb": 12.0,
+     "gb": 7.0,
      "price": 16.5,
      "currency": "USD",
      "perks": "",
@@ -44111,7 +43911,7 @@
      "days": "30",
      "region": "JP",
      "gb": 7.0,
-     "price": 9.49,
+     "price": 7.49,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -44196,86 +43996,6 @@
      "perks": "",
      "notes": "",
      "url": "https://www.airhubapp.com/esim/japan"
-    },
-    {
-     "days": "7",
-     "region": "south-america",
-     "gb": 1.0,
-     "price": 6.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/south-latin-america"
-    },
-    {
-     "days": "30",
-     "region": "south-america",
-     "gb": 3.0,
-     "price": 14.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/south-latin-america"
-    },
-    {
-     "days": "30",
-     "region": "south-america",
-     "gb": 5.0,
-     "price": 25.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/south-latin-america"
-    },
-    {
-     "days": "30",
-     "region": "south-america",
-     "gb": 10.0,
-     "price": 40.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/south-latin-america"
-    },
-    {
-     "days": "30",
-     "region": "south-america",
-     "gb": 15.0,
-     "price": 44.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/south-latin-america"
-    },
-    {
-     "days": "30",
-     "region": "south-america",
-     "gb": 20.0,
-     "price": 49.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/south-latin-america"
-    },
-    {
-     "days": "30",
-     "region": "south-america",
-     "gb": 50.0,
-     "price": 60.9,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/south-latin-america"
-    },
-    {
-     "days": "30",
-     "region": "south-america",
-     "gb": 100.0,
-     "price": 67.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/south-latin-america"
     },
     {
      "days": "3",
@@ -58488,7 +58208,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-11-12T01:29Z",
+   "fetchedAt": "2026-11-12T09:44Z",
    "error": null,
    "plans": [
     {
@@ -99459,7 +99179,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-12T01:29Z",
+   "fetchedAt": "2026-11-12T09:44Z",
    "error": null,
    "plans": [
     {
@@ -99644,7 +99364,6 @@
       "VG",
       "VI",
       "VN",
-      "VU",
       "XK",
       "YT",
       "ZA",
@@ -99833,7 +99552,6 @@
       "VG",
       "VI",
       "VN",
-      "VU",
       "XK",
       "YT",
       "ZA",
@@ -100022,7 +99740,6 @@
       "VG",
       "VI",
       "VN",
-      "VU",
       "XK",
       "YT",
       "ZA",
@@ -100211,7 +99928,6 @@
       "VG",
       "VI",
       "VN",
-      "VU",
       "XK",
       "YT",
       "ZA",
@@ -100400,7 +100116,6 @@
       "VG",
       "VI",
       "VN",
-      "VU",
       "XK",
       "YT",
       "ZA",
@@ -100589,7 +100304,6 @@
       "VG",
       "VI",
       "VN",
-      "VU",
       "XK",
       "YT",
       "ZA",
@@ -100778,7 +100492,6 @@
       "VG",
       "VI",
       "VN",
-      "VU",
       "XK",
       "YT",
       "ZA",
@@ -100967,7 +100680,6 @@
       "VG",
       "VI",
       "VN",
-      "VU",
       "XK",
       "YT",
       "ZA",
@@ -113494,5 +113206,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-12T01:29Z"
+ "updatedAt": "2026-11-12T09:44Z"
 }
