@@ -1,11 +1,11 @@
 {
  "rates": {
   "EUR": 1.0,
-  "USD": 0.8917,
-  "ILS": 0.2816,
+  "USD": 0.8987,
+  "ILS": 0.2834,
   "CHF": 1.0804
  },
- "ratesAsOf": "2026-11-10",
+ "ratesAsOf": "2026-11-11",
  "providers": {
   "World8": {
    "status": "ok",
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-11T12:02Z",
+   "fetchedAt": "2026-11-12T01:29Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-11T12:02Z",
+   "fetchedAt": "2026-11-12T01:29Z",
    "error": null,
    "plans": [
     {
@@ -58488,7 +58488,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-11-11T12:02Z",
+   "fetchedAt": "2026-11-12T01:29Z",
    "error": null,
    "plans": [
     {
@@ -60905,7 +60905,7 @@
      "days": "7",
      "region": "BS",
      "gb": 1.0,
-     "price": 8.49,
+     "price": 5.99,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -60915,7 +60915,7 @@
      "days": "15",
      "region": "BS",
      "gb": 3.0,
-     "price": 18.52,
+     "price": 14.72,
      "currency": "USD",
      "perks": "",
      "notes": "כולל מבצע 5%",
@@ -60925,7 +60925,7 @@
      "days": "30",
      "region": "BS",
      "gb": 5.0,
-     "price": 27.83,
+     "price": 23.74,
      "currency": "USD",
      "perks": "",
      "notes": "כולל מבצע 5%",
@@ -60935,7 +60935,17 @@
      "days": "30",
      "region": "BS",
      "gb": 10.0,
-     "price": 32.1,
+     "price": 33.24,
+     "currency": "USD",
+     "perks": "",
+     "notes": "כולל מבצע 5%",
+     "url": "https://www.gigsky.com/country/esim-in-bahamas"
+    },
+    {
+     "days": "30",
+     "region": "BS",
+     "gb": 10.234,
+     "price": 56.99,
      "currency": "USD",
      "perks": "",
      "notes": "כולל מבצע 5%",
@@ -99449,7 +99459,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-11T12:02Z",
+   "fetchedAt": "2026-11-12T01:29Z",
    "error": null,
    "plans": [
     {
@@ -113484,5 +113494,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-11T12:02Z"
+ "updatedAt": "2026-11-12T01:29Z"
 }
