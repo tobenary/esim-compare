@@ -1,11 +1,11 @@
 {
  "rates": {
   "EUR": 1.0,
-  "USD": 0.9024,
-  "ILS": 0.2817,
+  "USD": 0.9048,
+  "ILS": 0.2818,
   "CHF": 1.0804
  },
- "ratesAsOf": "2026-11-12",
+ "ratesAsOf": "2026-11-13",
  "providers": {
   "World8": {
    "status": "ok",
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-13T12:29Z",
+   "fetchedAt": "2026-11-13T15:20Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-13T12:29Z",
+   "fetchedAt": "2026-11-13T15:20Z",
    "error": null,
    "plans": [
     {
@@ -37965,7 +37965,7 @@
      "currency": "USD",
      "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/slovenia"
     },
     {
      "days": "7",
@@ -37975,7 +37975,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/slovenia"
     },
     {
      "days": "30",
@@ -37985,7 +37985,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/slovenia"
     },
     {
      "days": "30",
@@ -37995,7 +37995,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/slovenia"
     },
     {
      "days": "30",
@@ -38005,7 +38005,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/slovenia"
     },
     {
      "days": "30",
@@ -38015,7 +38015,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/slovenia"
     },
     {
      "days": "30",
@@ -38025,7 +38025,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/slovenia"
     },
     {
      "days": "30",
@@ -38035,7 +38035,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/jersey"
     },
     {
      "days": "30",
@@ -38045,7 +38045,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/jersey"
     },
     {
      "days": "1",
@@ -38095,7 +38095,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/moldova"
     },
     {
      "days": "30",
@@ -38105,7 +38105,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/moldova"
     },
     {
      "days": "30",
@@ -38115,7 +38115,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/moldova"
     },
     {
      "days": "30",
@@ -38125,7 +38125,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/moldova"
     },
     {
      "days": "30",
@@ -38135,7 +38135,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/moldova"
     },
     {
      "days": "30",
@@ -38145,7 +38145,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/moldova"
     },
     {
      "days": "1",
@@ -38155,7 +38155,7 @@
      "currency": "USD",
      "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cayman-islands"
     },
     {
      "days": "30",
@@ -38165,7 +38165,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cayman-islands"
     },
     {
      "days": "30",
@@ -38175,7 +38175,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cayman-islands"
     },
     {
      "days": "30",
@@ -38185,7 +38185,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cayman-islands"
     },
     {
      "days": "30",
@@ -38195,7 +38195,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cayman-islands"
     },
     {
      "days": "1",
@@ -38205,7 +38205,7 @@
      "currency": "USD",
      "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/bolivia"
     },
     {
      "days": "30",
@@ -38215,7 +38215,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/bolivia"
     },
     {
      "days": "30",
@@ -38225,7 +38225,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/bolivia"
     },
     {
      "days": "30",
@@ -38235,7 +38235,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/bolivia"
     },
     {
      "days": "30",
@@ -38245,7 +38245,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/sri-lanka"
     },
     {
      "days": "7",
@@ -38255,7 +38255,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/ukraine"
     },
     {
      "days": "30",
@@ -38265,7 +38265,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/ukraine"
     },
     {
      "days": "30",
@@ -38275,7 +38275,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/ukraine"
     },
     {
      "days": "30",
@@ -38285,7 +38285,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/ukraine"
     },
     {
      "days": "30",
@@ -38295,7 +38295,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/ukraine"
     },
     {
      "days": "30",
@@ -38305,7 +38305,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/ukraine"
     },
     {
      "days": "30",
@@ -38315,7 +38315,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/martinique"
     },
     {
      "days": "30",
@@ -38325,7 +38325,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/martinique"
     },
     {
      "days": "30",
@@ -38335,7 +38335,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/peru"
     },
     {
      "days": "30",
@@ -38345,7 +38345,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/peru"
     },
     {
      "days": "30",
@@ -38355,7 +38355,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/peru"
     },
     {
      "days": "30",
@@ -38365,7 +38365,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/peru"
     },
     {
      "days": "30",
@@ -38375,7 +38375,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/peru"
     },
     {
      "days": "7",
@@ -38385,7 +38385,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/nepal"
     },
     {
      "days": "30",
@@ -38395,7 +38395,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/nepal"
     },
     {
      "days": "30",
@@ -38405,7 +38405,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/nepal"
     },
     {
      "days": "30",
@@ -38415,7 +38415,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/nepal"
     },
     {
      "days": "30",
@@ -38425,7 +38425,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/botswana"
     },
     {
      "days": "30",
@@ -38435,7 +38435,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/botswana"
     },
     {
      "days": "30",
@@ -38445,7 +38445,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/botswana"
     },
     {
      "days": "30",
@@ -38455,7 +38455,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/botswana"
     },
     {
      "days": "30",
@@ -38465,7 +38465,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/botswana"
     },
     {
      "days": "30",
@@ -38475,7 +38475,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/botswana"
     },
     {
      "days": "7",
@@ -38485,7 +38485,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "1",
@@ -38495,7 +38495,7 @@
      "currency": "USD",
      "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "30",
@@ -38505,7 +38505,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "30",
@@ -38515,7 +38515,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "30",
@@ -38525,7 +38525,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "30",
@@ -38535,7 +38535,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "30",
@@ -38545,7 +38545,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "30",
@@ -38555,7 +38555,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "30",
@@ -38565,7 +38565,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/cyprus"
     },
     {
      "days": "1",
@@ -38575,7 +38575,7 @@
      "currency": "USD",
      "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/barbados"
     },
     {
      "days": "30",
@@ -38585,7 +38585,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/barbados"
     },
     {
      "days": "30",
@@ -38595,7 +38595,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/barbados"
     },
     {
      "days": "30",
@@ -38605,7 +38605,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/barbados"
     },
     {
      "days": "30",
@@ -38615,7 +38615,7 @@
      "currency": "USD",
      "perks": "",
      "notes": "",
-     "url": "https://www.airhubapp.com/"
+     "url": "https://www.airhubapp.com/esim/barbados"
     },
     {
      "days": "30",
@@ -58468,7 +58468,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-11-13T12:29Z",
+   "fetchedAt": "2026-11-13T15:20Z",
    "error": null,
    "plans": [
     {
@@ -99439,7 +99439,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-13T12:29Z",
+   "fetchedAt": "2026-11-13T15:20Z",
    "error": null,
    "plans": [
     {
@@ -113466,5 +113466,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-13T12:29Z"
+ "updatedAt": "2026-11-13T15:20Z"
 }
