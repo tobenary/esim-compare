@@ -1,11 +1,11 @@
 {
  "rates": {
   "EUR": 1.0,
-  "USD": 0.9048,
-  "ILS": 0.2818,
+  "USD": 0.9079,
+  "ILS": 0.2816,
   "CHF": 1.0804
  },
- "ratesAsOf": "2026-11-13",
+ "ratesAsOf": "2026-11-16",
  "providers": {
   "World8": {
    "status": "ok",
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-16T13:02Z",
+   "fetchedAt": "2026-11-17T13:15Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-16T13:02Z",
+   "fetchedAt": "2026-11-17T13:15Z",
    "error": null,
    "plans": [
     {
@@ -34602,6 +34602,16 @@
      "region": "europe",
      "gb": 100.0,
      "price": 39.99,
+     "currency": "USD",
+     "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/europe"
+    },
+    {
+     "days": "30",
+     "region": "europe",
+     "gb": 150.0,
+     "price": 43.99,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -36190,16 +36200,6 @@
     {
      "days": "30",
      "region": "GB",
-     "gb": 14.0,
-     "price": 36.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/uk"
-    },
-    {
-     "days": "30",
-     "region": "GB",
      "gb": 100.0,
      "price": 40.0,
      "currency": "USD",
@@ -36340,7 +36340,7 @@
     {
      "days": "30",
      "region": "AT",
-     "gb": 12.0,
+     "gb": 7.0,
      "price": 16.5,
      "currency": "USD",
      "perks": "",
@@ -36350,7 +36350,7 @@
     {
      "days": "30",
      "region": "AT",
-     "gb": 7.0,
+     "gb": 12.0,
      "price": 16.5,
      "currency": "USD",
      "perks": "",
@@ -42248,22 +42248,22 @@
      "url": "https://www.airhubapp.com/esim/uganda"
     },
     {
-     "days": "1",
-     "region": "DZ",
-     "gb": 999,
-     "price": 5.0,
-     "currency": "USD",
-     "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/algeria"
-    },
-    {
      "days": "7",
      "region": "DZ",
      "gb": 3.0,
      "price": 5.0,
      "currency": "USD",
      "perks": "",
+     "notes": "",
+     "url": "https://www.airhubapp.com/esim/algeria"
+    },
+    {
+     "days": "1",
+     "region": "DZ",
+     "gb": 999,
+     "price": 5.0,
+     "currency": "USD",
+     "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
      "notes": "",
      "url": "https://www.airhubapp.com/esim/algeria"
     },
@@ -58458,7 +58458,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-11-16T13:02Z",
+   "fetchedAt": "2026-11-17T13:15Z",
    "error": null,
    "plans": [
     {
@@ -99429,7 +99429,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-16T13:02Z",
+   "fetchedAt": "2026-11-17T13:15Z",
    "error": null,
    "plans": [
     {
@@ -113456,5 +113456,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-16T13:02Z"
+ "updatedAt": "2026-11-17T13:15Z"
 }
