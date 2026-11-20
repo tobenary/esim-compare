@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-20T03:06Z",
+   "fetchedAt": "2026-11-20T11:27Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-20T03:06Z",
+   "fetchedAt": "2026-11-20T11:27Z",
    "error": null,
    "plans": [
     {
@@ -34942,16 +34942,6 @@
      "region": "BR",
      "gb": 20.0,
      "price": 40.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/brazil"
-    },
-    {
-     "days": "30",
-     "region": "BR",
-     "gb": 50.0,
-     "price": 45.0,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -58458,7 +58448,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-11-20T03:06Z",
+   "fetchedAt": "2026-11-20T11:27Z",
    "error": null,
    "plans": [
     {
@@ -99379,7 +99369,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-20T03:06Z",
+   "fetchedAt": "2026-11-20T11:27Z",
    "error": null,
    "plans": [
     {
@@ -113236,5 +113226,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-20T03:06Z"
+ "updatedAt": "2026-11-20T11:27Z"
 }
