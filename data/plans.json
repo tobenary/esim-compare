@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T01:27Z",
+   "fetchedAt": "2026-11-21T09:41Z",
    "error": null,
    "plans": [
     {
@@ -34404,7 +34404,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T01:27Z",
+   "fetchedAt": "2026-11-21T09:41Z",
    "error": null,
    "plans": [
     {
@@ -34482,16 +34482,6 @@
      "region": "europe",
      "gb": 100.0,
      "price": 39.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/europe"
-    },
-    {
-     "days": "30",
-     "region": "europe",
-     "gb": 150.0,
-     "price": 43.99,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -44242,26 +44232,6 @@
      "region": "IT",
      "gb": 22.0,
      "price": 26.99,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/italy"
-    },
-    {
-     "days": "30",
-     "region": "IT",
-     "gb": 50.0,
-     "price": 45.49,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/italy"
-    },
-    {
-     "days": "30",
-     "region": "IT",
-     "gb": 150.0,
-     "price": 56.9,
      "currency": "USD",
      "perks": "",
      "notes": "",
@@ -58328,7 +58298,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T01:27Z",
+   "fetchedAt": "2026-11-21T09:41Z",
    "error": null,
    "plans": [
     {
@@ -99249,7 +99219,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T01:27Z",
+   "fetchedAt": "2026-11-21T09:41Z",
    "error": null,
    "plans": [
     {
@@ -113106,5 +113076,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-21T01:27Z"
+ "updatedAt": "2026-11-21T09:41Z"
 }
