@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-22T03:04Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -17603,7 +17603,7 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T12:54Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -24990,7 +24990,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T12:54Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -34407,7 +34407,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T12:54Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-22T03:04Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -44541,7 +44541,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T12:54Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -58418,7 +58418,7 @@
   },
   "GigSky": {
    "status": "ok",
-   "fetchedAt": "2026-11-22T03:04Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -68285,7 +68285,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T12:54Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -76482,7 +76482,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T12:54Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -99339,7 +99339,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-22T03:04Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -100850,7 +100850,7 @@
   },
   "Global YO": {
    "status": "ok",
-   "fetchedAt": "2026-11-21T12:54Z",
+   "fetchedAt": "2026-11-22T12:46Z",
    "error": null,
    "plans": [
     {
@@ -113196,5 +113196,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-22T03:04Z"
+ "updatedAt": "2026-11-22T12:46Z"
 }
