@@ -1,11 +1,11 @@
 {
  "rates": {
   "EUR": 1.0,
-  "USD": 0.9122,
-  "ILS": 0.2731,
+  "USD": 0.9145,
+  "ILS": 0.2707,
   "CHF": 1.0804
  },
- "ratesAsOf": "2026-11-24",
+ "ratesAsOf": "2026-11-25",
  "providers": {
   "World8": {
    "status": "stale",
@@ -26,7 +26,7 @@
   },
   "BNESIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-25T09:47Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -17603,7 +17603,7 @@
   },
   "Airalo": {
    "status": "ok",
-   "fetchedAt": "2026-11-24T15:07Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -24990,7 +24990,7 @@
   },
   "WeSIM": {
    "status": "ok",
-   "fetchedAt": "2026-11-24T15:07Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -34407,7 +34407,7 @@
   },
   "Harel Multi-Travel": {
    "status": "ok",
-   "fetchedAt": "2026-11-24T15:07Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -34524,7 +34524,7 @@
   },
   "AirHub": {
    "status": "ok",
-   "fetchedAt": "2026-11-25T09:47Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -34726,66 +34726,6 @@
      "perks": "",
      "notes": "",
      "url": "https://www.airhubapp.com/esim/usa"
-    },
-    {
-     "days": "7",
-     "region": "north-america",
-     "gb": 1.0,
-     "price": 4.5,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "1",
-     "region": "north-america",
-     "gb": 999,
-     "price": 5.59,
-     "currency": "USD",
-     "perks": "ללא הגבלה (מהירות 5G, בכפוף לשימוש הוגן)",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 5.0,
-     "price": 12.9,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 10.0,
-     "price": 20.36,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 15.0,
-     "price": 26.65,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
-    },
-    {
-     "days": "30",
-     "region": "north-america",
-     "gb": 100.0,
-     "price": 65.0,
-     "currency": "USD",
-     "perks": "",
-     "notes": "",
-     "url": "https://www.airhubapp.com/esim/north-america"
     },
     {
      "days": "1",
@@ -44531,7 +44471,7 @@
   },
   "Voye Global": {
    "status": "ok",
-   "fetchedAt": "2026-11-24T15:07Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -58407,9 +58347,9 @@
    ]
   },
   "GigSky": {
-   "status": "ok",
+   "status": "stale",
    "fetchedAt": "2026-11-25T09:47Z",
-   "error": null,
+   "error": "GET https://services.gigsky.com/cams/api/v4/planBundles/52703?startIndex=0&count=100&includeFreePlan=false&currency=USD failed (curl 28, HTTP 000) curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received\n",
    "plans": [
     {
      "days": "7",
@@ -68275,7 +68215,7 @@
   },
   "Yesim": {
    "status": "ok",
-   "fetchedAt": "2026-11-24T15:07Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -76462,7 +76402,7 @@
   },
   "eSIM.io": {
    "status": "ok",
-   "fetchedAt": "2026-11-24T15:07Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -99319,7 +99259,7 @@
   },
   "Maya": {
    "status": "ok",
-   "fetchedAt": "2026-11-25T09:47Z",
+   "fetchedAt": "2026-11-25T14:47Z",
    "error": null,
    "plans": [
     {
@@ -113176,5 +113116,5 @@
    ]
   }
  },
- "updatedAt": "2026-11-25T09:47Z"
+ "updatedAt": "2026-11-25T14:47Z"
 }
